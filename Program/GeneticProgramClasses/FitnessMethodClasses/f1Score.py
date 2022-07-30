@@ -1,7 +1,7 @@
 from Program.GeneticProgramClasses.FitnessMethod import FitnessMethod
 
 class f1Score(FitnessMethod):
-    def __init__(self, ) -> None:
+    def __init__(self) -> None:
         self.confusionMatrix = []
 
     def getIndexFromTerminalSet(self, pop, option) -> int:
@@ -25,7 +25,13 @@ class f1Score(FitnessMethod):
 
         # populate the matrix with the correct values
         for i in range(len(pop.output)):
-            self.confusionMatrix[self.getIndexFromTerminalSet(pop, pop.output[i])][self.getIndexFromTerminalSet(pop, pop.output[i])] += 1
+            self.confusionMatrix[self.getIndexFromTerminalSet(pop, pop.output[i])][self.getIndexFromTerminalSet(pop, output[i])] += 1
+
+    def countForWeightedF1Score(self, output):
+        """
+        Counts the number of times each option is in the input
+        """
+        
 
     def createF1ScoreArray(self, f1Score, recallSum) -> list:
         """
@@ -69,6 +75,7 @@ class f1Score(FitnessMethod):
         print(fitnessCalculationMethod["f1Score"])
 
         # check which fitness is being asked for and do the calculation
+        fitness = 0
         if(fitnessCalculationMethod["f1Score"] == "normal"):
             pass
         elif(fitnessCalculationMethod["f1Score"] == "accuracy"):
@@ -79,7 +86,9 @@ class f1Score(FitnessMethod):
                 fp += sum(self.confusionMatrix[i]) - self.confusionMatrix[i][i]
             fitness = tp/(tp+fp)
         elif(fitnessCalculationMethod["f1Score"] == "weightedF1Score"):
-            pass
+            self.createF1ScoreArray(f1Score, recallSum)
+            for i in range(len(f1Score)):
+                fitness += f1Score[i]
 
         # clear the confusion matrix
         self.confusionMatrix = []

@@ -80,6 +80,15 @@ class GeneticProgram:
         self.testingInputs = self.inputs[int(len(self.inputs) * 0.8):]
         self.testingOutputs = self.outputs[int(len(self.outputs) * 0.8):]
 
+        # remove rows with unknown values
+        storeIndex = []
+        for i in range(len(self.trainingInputs)):
+            if("?" in self.trainingInputs[i]):
+                storeIndex.append(i)
+        for i in storeIndex:
+            del self.trainingInputs[i]
+            del self.trainingOutputs[i]
+
     def createPopulation(self, popSize, maxDepth, functionSet, terminalSet, arity, functionSetChoices, method) -> list:
         """
         Creates a population of trees 
@@ -152,7 +161,10 @@ class GeneticProgram:
         """
         Selects the fitness method to be used
         """
-        self.fitnessMethod = f1Score()
+        if(list(self.parameters["fitnessMethod"].keys())[0] == "raw"):
+            pass
+        elif(list(self.parameters["fitnessMethod"].keys())[0] == "f1Score"):  
+            self.fitnessMethod = f1Score()  
 
     def SelectionMethodSelection(self):
         """
@@ -202,7 +214,6 @@ class GeneticProgram:
             for i in range(len(currentNode.getChildren())):
                 self.changeTreeAndPrint(currentNode.getChildAtIndex(i), id, False, tree)
 
-
     def createTree(self, pop) -> None:
         """ 
         Creates a tree using the given population
@@ -216,7 +227,7 @@ class GeneticProgram:
         The main function of the genetic program
         """
         # store the parameters of the gp in a text file 
-        with open("Storage\parameterStorage.txt", 'a') as f: 
+        with open("Storage/parameterStorage.txt", 'a') as f: 
             for key, value in self.parameters.items(): 
                 f.write('%s: %s\n' % (key, value))
             f.write("\n")
