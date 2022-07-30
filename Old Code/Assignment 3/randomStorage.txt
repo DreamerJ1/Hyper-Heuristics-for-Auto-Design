@@ -1,0 +1,3489 @@
+Number of Divisions:2
+PopulationSeed: 4816
+Pop Size: 100
+Max Tree Depth: 5
+Population Generation Method: Grow
+Mutation chance: 0.5
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7197
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3077
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4292
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7885
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3745
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6690
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2227
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2853
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6308
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4727
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3164
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1595
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8089
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5290
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7329
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9618
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 933
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2725
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4806
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2261
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1070
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1631
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 454
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1299
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5356
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6697
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8527
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5740
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7597
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3700
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9009
+Pop Size: 100
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3604
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2407
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4646
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6052
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3024
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1659
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1744
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7558
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7837
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 949
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6366
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7503
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1022
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7825
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9978
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3422
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7960
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6366
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1640
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7153
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3911
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3494
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5559
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2953
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6039
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3522
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2558
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4136
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1494
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5717
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 409
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8656
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7177
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7314
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8728
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2586
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2989
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1360
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3273
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5453
+Pop Size: 4
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2855
+Pop Size: 4
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1448
+Pop Size: 4
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6140
+Pop Size: 4
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7949
+Pop Size: 4
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6895
+Pop Size: 4
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8521
+Pop Size: 4
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9586
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 3
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4636
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 10
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8228
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 6
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 132
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 7
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2662
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 521
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7180
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7961
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2261
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3650
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5260
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7335
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5629
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5393
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3689
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6680
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1846
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 791
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6190
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1115
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 759
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4236
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6046
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7309
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8897
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4802
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4047
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6957
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 737
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1747
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4583
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8067
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1842
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1060
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1888
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9773
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 136
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1139
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8067
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3105
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 57
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7875
+Pop Size: 3
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1264
+Pop Size: 3
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2604
+Pop Size: 3
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2932
+Pop Size: 3
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1243
+Pop Size: 3
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6115
+Pop Size: 3
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 1
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1339
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9465
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8051
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8013
+Pop Size: 10
+Chromosome Size: 10
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7750
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3761
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3627
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3937
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4324
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 893
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2492
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1412
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5562
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8175
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7452
+Pop Size: 10
+Chromosome Size: 10
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3764
+Pop Size: 10
+Chromosome Size: 20
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2604
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5707
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 32
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5057
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1376
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9058
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6706
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4127
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5241
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2889
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5553
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2188
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 943
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7989
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4742
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5760
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 934
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3381
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1245
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7671
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4116
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5897
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4741
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3428
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6942
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 231
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3365
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5005
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2889
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9587
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8719
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6053
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6629
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6086
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3860
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7992
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 882
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3271
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 104
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3750
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7079
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8990
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6715
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2140
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5963
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4070
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4320
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2901
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2900
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 374
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1066
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8085
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9402
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1570
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6152
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1342
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1490
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1775
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3110
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8051
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9618
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4581
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7240
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7771
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 581
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9707
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2301
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9562
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1095
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6345
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7164
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3685
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7026
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1034
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9765
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6769
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6749
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2223
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1608
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4811
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5408
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3739
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3203
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3314
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 495
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9774
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7637
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4087
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4234
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 648
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6095
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8928
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8211
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6076
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1195
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1729
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9562
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7239
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3281
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1709
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4463
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1982
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7279
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1965
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8963
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8811
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8894
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3611
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7022
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 124
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8169
+Pop Size: 10
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 4
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2833
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4012
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6389
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7777
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5324
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7223
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6476
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8856
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4669
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1824
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 498
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4112
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7160
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3084
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1171
+Pop Size: 500
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 200
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9041
+Pop Size: 500
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 200
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9583
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 142
+Pop Size: 100
+Chromosome Size: 10
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9168
+Pop Size: 100
+Chromosome Size: 3
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 540
+Pop Size: 100
+Chromosome Size: 3
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4682
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9326
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7481
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9290
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1015
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3576
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1923
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9201
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7254
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2048
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8249
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2256
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8694
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5796
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9216
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8397
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9037
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4565
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 803
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5384
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7390
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3860
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4907
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8622
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1600
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9579
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6844
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6660
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3005
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5987
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8641
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1834
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9808
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8052
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2965
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9884
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1334
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6276
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3941
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4852
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1660
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3543
+Pop Size: 100
+Chromosome Size: 20
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9113
+Pop Size: 100
+Chromosome Size: 20
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7505
+Pop Size: 500
+Chromosome Size: 20
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 200
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4460
+Pop Size: 500
+Chromosome Size: 20
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 200
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 3862
+Pop Size: 500
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 200
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 68
+Pop Size: 500
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 200
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7449
+Pop Size: 500
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 200
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5245
+Pop Size: 500
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 200
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7259
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2721
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2580
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4221
+Pop Size: 100
+Chromosome Size: 50
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5975
+Pop Size: 100
+Chromosome Size: 50
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7984
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 6
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5419
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 6
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5425
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 6
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6860
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 6
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2503
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 6
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 138
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 6
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5445
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7125
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6657
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 74
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1028
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6480
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 9476
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2958
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1527
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2150
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 1336
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 6069
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 8617
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 573
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2926
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 7235
+Pop Size: 100
+Chromosome Size: 5
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2348
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2089
+Pop Size: 100
+Chromosome Size: 50
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 4095
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 2916
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 5264
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+Number of Divisions: 2
+PopulationSeed: 94
+Pop Size: 100
+Chromosome Size: 30
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
+
+FINAL RUN 
+
+Number of Divisions: 2
+PopulationSeed: 7892
+Pop Size: 100
+Chromosome Size: 10
+Max Depth: 5
+Mutation chance: 0.1
+Crossover chance: 0.8
+Number of Crossovers to be preformed: 40
+The Tournament Size: 4
