@@ -20,6 +20,11 @@ def createRandomGP(generationOptions, data, dataType) -> GeneticProgram:
                 operator = random.choice(list(generationOptions[i]))
                 operatorDict.update({operator: round(random.uniform(generationOptions[i][operator][0], generationOptions[i][operator][1]), 0)})
                 programDict.update({i: operatorDict})
+            elif(i == "fitnessMethod"):
+                fitnessMethodDict = {}
+                fitnessMethod = random.choice(list(generationOptions[i]))
+                fitnessMethodDict.update({fitnessMethod: random.choice(generationOptions[i][fitnessMethod])})
+                programDict.update({i: fitnessMethodDict})
             elif(i == "operators"):
                 operatorDict = {}
                 for j in range(programDict["numberOfOperators"]):
@@ -54,14 +59,14 @@ random.seed(random.randint(0, 10000))
 # random.seed(9834)
 
 # the design decisions for inisial genetic program
-inisialGenerationOptions = {
+initialGenerationOptions = {
     "populationSize": [10, 50],
     "generations": [10, 50],
     "maxDepth": [2, 5],
     "generationMethod": ["G", "F", "H"],
-    "fitnessFunction": ["raw", "f1"],
     "numberOfOperators": [2, 5],
     "numberOfTerminationCriterion": [1, 2],
+    "fitnessMethod": {"raw": ["holder"], "f1Score": ["accuracy", "weightedF1Score", "normal"]},
     "selectionMethod": {"tournament": [2, 5]},
     "operators": {"crossover": [0.5, 0.9], "mutation": [0.01, 0.2]},
     "terminationCondition": {"maxFitness": [0.5, 0.9]},
@@ -72,5 +77,5 @@ data = readData("Datasets/UCI/breast-cancer.arff", 94)
 dataType = "c"
 
 # create the genetic program and then run its inisial solution
-program = createRandomGP(inisialGenerationOptions, data, dataType)
+program = createRandomGP(initialGenerationOptions, data, dataType)
 program.runGeneticProgram()

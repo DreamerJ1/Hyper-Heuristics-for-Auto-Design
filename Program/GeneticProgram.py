@@ -1,9 +1,13 @@
 import random
 import uuid
 from treelib import Tree as TreeLib
+from Program.GeneticProgramClasses.FitnessMethodClasses.f1Score import f1Score
 
 from Program.GeneticProgramClasses.Tree import Tree 
 from Program.GeneticProgramClasses.TreeClasses.DecisionTree import DecisionTree
+from Program.GeneticProgramClasses.FitnessMethod import FitnessMethod
+from Program.GeneticProgramClasses.SelectionMethod import SelectionMethod
+from Program.GeneticProgramClasses.Operator import Operator
 
 class GeneticProgram:
     def __init__(self, inisialGenerationOptions: dict, data, dataType) -> None:
@@ -13,8 +17,11 @@ class GeneticProgram:
         self.functionSetChoices = []
         self.arity = []
         self.inputHandling(data, dataType)
+        self.fitnessMethodSelection()
+        self.SelectionMethodSelection()
+        self.operatorSelection()
 
-    def inputHandling(self, data, dataType):
+    def inputHandling(self, data, dataType) -> None:
         """
         Handles the data used for genetic program
         """
@@ -73,7 +80,7 @@ class GeneticProgram:
         self.testingInputs = self.inputs[int(len(self.inputs) * 0.8):]
         self.testingOutputs = self.outputs[int(len(self.outputs) * 0.8):]
 
-    def createPopulation(self, popSize, maxDepth, functionSet, terminalSet, arity, functionSetChoices, method):
+    def createPopulation(self, popSize, maxDepth, functionSet, terminalSet, arity, functionSetChoices, method) -> list:
         """
         Creates a population of trees 
         """
@@ -145,7 +152,7 @@ class GeneticProgram:
         """
         Selects the fitness method to be used
         """
-        pass
+        self.fitnessMethod = f1Score()
 
     def SelectionMethodSelection(self):
         """
@@ -159,16 +166,19 @@ class GeneticProgram:
         """
         pass
 
-    def preformGeneticOperators(self, population, output):
+    def preformGeneticOperators(self, population, output) -> list:
         """
         Preform the genetic operators for the genetic program
         """
         # create new population 
         newPopulation = []
 
+        
+        self.fitnessMethod.calculateFitness(population[0], output, self.parameters["fitnessMethod"])
+        
         return population
 
-    def changeTreeAndPrint(self, currentNode, id, isRoot, tree):
+    def changeTreeAndPrint(self, currentNode, id, isRoot, tree) -> None:
         """
         Changes the tree to a treelib tree and print it
         """
@@ -193,7 +203,7 @@ class GeneticProgram:
                 self.changeTreeAndPrint(currentNode.getChildAtIndex(i), id, False, tree)
 
 
-    def createTree(self, pop):
+    def createTree(self, pop) -> None:
         """ 
         Creates a tree using the given population
         """
@@ -201,7 +211,7 @@ class GeneticProgram:
         self.changeTreeAndPrint(pop.rootNode, str(uuid.uuid4()), True, tree)
         tree.show()
 
-    def runGeneticProgram(self):
+    def runGeneticProgram(self) -> None:
         """
         The main function of the genetic program
         """
@@ -228,4 +238,33 @@ class GeneticProgram:
 
         self.createTree(population[0])
 
-        return self
+    # GETTERS AND SETTERS
+    def getParameters(self):
+        return self.parameters
+    
+    def setParameters(self, parameters):
+        self.parameters = parameters
+
+    def getFunctionSet(self):
+        return self.functionSet
+
+    def setFunctionSet(self, functionSet):
+        self.functionSet = functionSet
+
+    def getTerminalSet(self):
+        return self.terminalSet
+
+    def setTerminalSet(self, terminalSet):
+        self.terminalSet = terminalSet
+
+    def getArity(self):
+        return self.arity
+
+    def setArity(self, arity):
+        self.arity = arity
+
+    def getFunctionSetChoices(self):
+        return self.functionSetChoices
+
+    def setFunctionSetChoices(self, functionSetChoices):
+        self.functionSetChoices = functionSetChoices

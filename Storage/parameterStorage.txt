@@ -174,3 +174,388 @@ selectionMethod: {'tournament': 3.0}
 operators: {'mutation0': 0.1, 'crossover1': 0.7, 'mutation2': 0.1}
 terminationCondition: {'maxFitness': 0.8}
 
+populationSize: 35
+generations: 18
+maxDepth: 2
+generationMethod: H
+fitnessFunction: f1
+numberOfOperators: 2
+numberOfTerminationCriterion: 1
+selectionMethod: {'tournament': 3.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.7}
+terminationCondition: {'maxFitness': 0.7}
+
+populationSize: 35
+generations: 38
+maxDepth: 5
+generationMethod: F
+numberOfOperators: 5
+numberOfTerminationCriterion: 1
+fitnessFunction: f1
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.2, 'crossover1': 0.8, 'mutation2': 0.1, 'mutation3': 0.1, 'crossover4': 0.6}
+terminationCondition: {'maxFitness': 0.5}
+
+populationSize: 34
+generations: 35
+maxDepth: 5
+generationMethod: F
+numberOfOperators: 4
+numberOfTerminationCriterion: 2
+fitnessFunction: raw
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.1, 'mutation1': 0.0, 'crossover2': 0.5, 'mutation3': 0.2}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 30
+generations: 32
+maxDepth: 2
+generationMethod: F
+numberOfOperators: 2
+numberOfTerminationCriterion: 1
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 2.0}
+operators: {'crossover0': 0.5, 'crossover1': 0.6}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 22
+generations: 24
+maxDepth: 2
+generationMethod: F
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1': 'weightedF1'}
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.1, 'mutation1': 0.2, 'mutation2': 0.1}
+terminationCondition: {'maxFitness': 0.9}
+
+populationSize: 48
+generations: 21
+maxDepth: 2
+generationMethod: G
+numberOfOperators: 2
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1': 'weightedF1'}
+selectionMethod: {'tournament': 3.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.7}
+terminationCondition: {'maxFitness': 0.6}
+
+populationSize: 23
+generations: 34
+maxDepth: 2
+generationMethod: G
+numberOfOperators: 4
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1': 'weightedF1'}
+selectionMethod: {'tournament': 3.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.7, 'crossover2': 0.6, 'crossover3': 0.6}
+terminationCondition: {'maxFitness': 0.7}
+
+populationSize: 27
+generations: 12
+maxDepth: 2
+generationMethod: F
+numberOfOperators: 4
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1': 'accuracy'}
+selectionMethod: {'tournament': 3.0}
+operators: {'crossover0': 0.8, 'crossover1': 0.7, 'crossover2': 0.7, 'crossover3': 0.7}
+terminationCondition: {'maxFitness': 0.5}
+
+populationSize: 40
+generations: 23
+maxDepth: 2
+generationMethod: G
+numberOfOperators: 5
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1': 'accuracy'}
+selectionMethod: {'tournament': 3.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.7, 'mutation2': 0.1, 'mutation3': 0.2, 'mutation4': 0.1}
+terminationCondition: {'maxFitness': 0.6}
+
+populationSize: 43
+generations: 27
+maxDepth: 4
+generationMethod: G
+numberOfOperators: 5
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1': 'weightedF1'}
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.7, 'crossover2': 0.6, 'crossover3': 0.7, 'crossover4': 0.7}
+terminationCondition: {'maxFitness': 0.6}
+
+populationSize: 23
+generations: 32
+maxDepth: 5
+generationMethod: F
+numberOfOperators: 5
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1': 'weightedF1'}
+selectionMethod: {'tournament': 4.0}
+operators: {'crossover0': 0.6, 'mutation1': 0.1, 'crossover2': 0.8, 'mutation3': 0.1, 'mutation4': 0.2}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 49
+generations: 40
+maxDepth: 4
+generationMethod: F
+numberOfOperators: 5
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1': 'weightedF1'}
+selectionMethod: {'tournament': 2.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.5, 'mutation2': 0.2, 'crossover3': 0.7, 'crossover4': 0.8}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 44
+generations: 49
+maxDepth: 2
+generationMethod: G
+numberOfOperators: 5
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1': 'accuracy'}
+selectionMethod: {'tournament': 3.0}
+operators: {'crossover0': 0.8, 'crossover1': 0.7, 'mutation2': 0.2, 'crossover3': 0.9, 'crossover4': 0.9}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 26
+generations: 12
+maxDepth: 5
+generationMethod: H
+numberOfOperators: 4
+numberOfTerminationCriterion: 1
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.1, 'mutation1': 0.0, 'crossover2': 0.6, 'mutation3': 0.1}
+terminationCondition: {'maxFitness': 0.6}
+
+populationSize: 35
+generations: 36
+maxDepth: 3
+generationMethod: H
+numberOfOperators: 2
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1': 'accuracy'}
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.9}
+terminationCondition: {'maxFitness': 0.9}
+
+populationSize: 34
+generations: 35
+maxDepth: 4
+generationMethod: G
+numberOfOperators: 4
+numberOfTerminationCriterion: 1
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 4.0}
+operators: {'crossover0': 0.8, 'mutation1': 0.0, 'mutation2': 0.1, 'crossover3': 0.8}
+terminationCondition: {'maxFitness': 0.7}
+
+populationSize: 42
+generations: 48
+maxDepth: 2
+generationMethod: G
+numberOfOperators: 4
+numberOfTerminationCriterion: 1
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 2.0}
+operators: {'crossover0': 0.8, 'crossover1': 0.8, 'crossover2': 0.7, 'mutation3': 0.0}
+terminationCondition: {'maxFitness': 0.7}
+
+populationSize: 31
+generations: 41
+maxDepth: 4
+generationMethod: H
+numberOfOperators: 4
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1': 'weightedF1'}
+selectionMethod: {'tournament': 2.0}
+operators: {'crossover0': 0.6, 'crossover1': 0.9, 'mutation2': 0.0, 'crossover3': 0.9}
+terminationCondition: {'maxFitness': 0.5}
+
+populationSize: 48
+generations: 37
+maxDepth: 4
+generationMethod: G
+numberOfOperators: 5
+numberOfTerminationCriterion: 2
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 3.0}
+operators: {'crossover0': 0.6, 'crossover1': 0.9, 'mutation2': 0.1, 'crossover3': 0.6, 'mutation4': 0.1}
+terminationCondition: {'maxFitness': 0.9}
+
+populationSize: 11
+generations: 43
+maxDepth: 4
+generationMethod: G
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1': 'accuracy'}
+selectionMethod: {'tournament': 4.0}
+operators: {'crossover0': 0.9, 'mutation1': 0.1, 'mutation2': 0.1}
+terminationCondition: {'maxFitness': 0.6}
+
+populationSize: 42
+generations: 10
+maxDepth: 3
+generationMethod: F
+numberOfOperators: 4
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1Score': 'accuracy'}
+selectionMethod: {'tournament': 4.0}
+operators: {'crossover0': 0.9, 'crossover1': 0.7, 'mutation2': 0.1, 'crossover3': 0.8}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 23
+generations: 14
+maxDepth: 5
+generationMethod: H
+numberOfOperators: 5
+numberOfTerminationCriterion: 1
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 4.0}
+operators: {'crossover0': 0.8, 'mutation1': 0.1, 'mutation2': 0.1, 'mutation3': 0.1, 'mutation4': 0.0}
+terminationCondition: {'maxFitness': 0.5}
+
+populationSize: 39
+generations: 44
+maxDepth: 2
+generationMethod: G
+numberOfOperators: 3
+numberOfTerminationCriterion: 2
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 3.0}
+operators: {'mutation0': 0.1, 'mutation1': 0.1, 'crossover2': 0.7}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 29
+generations: 48
+maxDepth: 5
+generationMethod: F
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 3.0}
+operators: {'mutation0': 0.2, 'crossover1': 0.7, 'mutation2': 0.2}
+terminationCondition: {'maxFitness': 0.7}
+
+populationSize: 42
+generations: 16
+maxDepth: 3
+generationMethod: F
+numberOfOperators: 2
+numberOfTerminationCriterion: 1
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 3.0}
+operators: {'crossover0': 0.6, 'crossover1': 0.6}
+terminationCondition: {'maxFitness': 0.7}
+
+populationSize: 19
+generations: 34
+maxDepth: 2
+generationMethod: H
+numberOfOperators: 2
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1Score': 'normal'}
+selectionMethod: {'tournament': 4.0}
+operators: {'crossover0': 0.9, 'crossover1': 0.8}
+terminationCondition: {'maxFitness': 0.9}
+
+populationSize: 50
+generations: 34
+maxDepth: 3
+generationMethod: H
+numberOfOperators: 5
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1Score': 'accuracy'}
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.8, 'mutation2': 0.2, 'mutation3': 0.0, 'mutation4': 0.1}
+terminationCondition: {'maxFitness': 0.6}
+
+populationSize: 27
+generations: 50
+maxDepth: 3
+generationMethod: G
+numberOfOperators: 3
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1Score': 'weightedF1Score'}
+selectionMethod: {'tournament': 3.0}
+operators: {'mutation0': 0.1, 'mutation1': 0.1, 'mutation2': 0.1}
+terminationCondition: {'maxFitness': 0.5}
+
+populationSize: 48
+generations: 30
+maxDepth: 3
+generationMethod: G
+numberOfOperators: 2
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'accuracy'}
+selectionMethod: {'tournament': 5.0}
+operators: {'crossover0': 0.7, 'mutation1': 0.2}
+terminationCondition: {'maxFitness': 0.7}
+
+populationSize: 17
+generations: 26
+maxDepth: 4
+generationMethod: F
+numberOfOperators: 4
+numberOfTerminationCriterion: 2
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 3.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.8, 'mutation2': 0.1, 'mutation3': 0.2}
+terminationCondition: {'maxFitness': 0.6}
+
+populationSize: 49
+generations: 26
+maxDepth: 5
+generationMethod: G
+numberOfOperators: 5
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'weightedF1Score'}
+selectionMethod: {'tournament': 3.0}
+operators: {'crossover0': 0.9, 'crossover1': 0.5, 'mutation2': 0.0, 'mutation3': 0.0, 'crossover4': 0.7}
+terminationCondition: {'maxFitness': 0.6}
+
+populationSize: 42
+generations: 24
+maxDepth: 3
+generationMethod: G
+numberOfOperators: 5
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1Score': 'accuracy'}
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.1, 'mutation1': 0.0, 'mutation2': 0.1, 'crossover3': 0.6, 'mutation4': 0.2}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 36
+generations: 34
+maxDepth: 2
+generationMethod: F
+numberOfOperators: 4
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'normal'}
+selectionMethod: {'tournament': 2.0}
+operators: {'crossover0': 0.8, 'mutation1': 0.2, 'mutation2': 0.2, 'mutation3': 0.1}
+terminationCondition: {'maxFitness': 0.8}
+
+populationSize: 10
+generations: 44
+maxDepth: 2
+generationMethod: H
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'raw': 'holder'}
+selectionMethod: {'tournament': 3.0}
+operators: {'crossover0': 0.7, 'crossover1': 0.7, 'mutation2': 0.1}
+terminationCondition: {'maxFitness': 0.9}
+
+populationSize: 21
+generations: 41
+maxDepth: 5
+generationMethod: H
+numberOfOperators: 2
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1Score': 'normal'}
+selectionMethod: {'tournament': 4.0}
+operators: {'mutation0': 0.1, 'crossover1': 0.7}
+terminationCondition: {'maxFitness': 0.8}
+

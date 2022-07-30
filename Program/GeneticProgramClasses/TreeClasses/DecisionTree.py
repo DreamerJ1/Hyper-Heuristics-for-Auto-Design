@@ -179,3 +179,16 @@ class DecisionTree(Tree):
         currentNode = self.rootNode
         self.countNodes(currentNode)
         return self.nFunctionalNodes, self.nLeaves
+
+    # GETTERS AND SETTERS
+    def getArity(self):
+        return self.arity
+
+    def setArity(self, arity):
+        self.arity = arity
+
+    def functionSetChoices(self):
+        return self.functionSetChoices
+
+    def setFunctionSetChoices(self, functionSetChoices):
+        self.functionSetChoices = functionSetChoices
