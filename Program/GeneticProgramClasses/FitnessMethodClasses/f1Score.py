@@ -27,11 +27,11 @@ class f1Score(FitnessMethod):
         for i in range(len(pop.output)):
             self.confusionMatrix[self.getIndexFromTerminalSet(pop, pop.output[i])][self.getIndexFromTerminalSet(pop, output[i])] += 1
 
-    def countForWeightedF1Score(self, pop, output) -> list:
+    def countForWeightedF1Score(self, pop, output, lenOfCount) -> list:
         """
         Counts the number of times each option is in the input
         """
-        count = []
+        count = [0 for i in range(lenOfCount)]
         for i in range(len(output)):
             count[self.getIndexFromTerminalSet(pop, output[i])] += 1
         return count
@@ -76,7 +76,8 @@ class f1Score(FitnessMethod):
         # check which fitness is being asked for and do the calculation
         fitness = 0
         if(fitnessCalculationMethod["f1Score"] == "normal"):
-            pass
+            f1Score = self.createF1ScoreArray(f1Score, recallSum)
+            fitness = sum(f1Score) / len(f1Score)
         elif(fitnessCalculationMethod["f1Score"] == "accuracy"):
             tp = 0
             fp = 0
@@ -86,7 +87,7 @@ class f1Score(FitnessMethod):
             fitness = tp/(tp+fp)
         elif(fitnessCalculationMethod["f1Score"] == "weightedF1Score"):
             f1Score = self.createF1ScoreArray(f1Score, recallSum)
-            count = self.countForWeightedF1Score(pop, output)
+            count = self.countForWeightedF1Score(pop, output, len(f1Score))
             for i in range(len(f1Score)):
                 fitness += (f1Score[i] * count[i])
 

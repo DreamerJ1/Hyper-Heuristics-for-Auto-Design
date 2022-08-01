@@ -17,7 +17,35 @@ class DecisionTree(Tree):
         for i in range(0, len(currentNode.getChildren())):
             self.printTree(currentNode.getChildAtIndex(i), currentDepth+1)
 
-        return
+    def checkTerminals(self, node):
+        """
+        Checks if the children of a node are only terminals
+        """
+        for i in range(node.getChildren().__len__()):
+            if(node.getChildren()[i].getChildren().__len__() == 0):
+                return True
+        return False
+
+    def getRandomNode(self, tree, maxDepth):
+        """
+        Gets a random node from the tree
+        """
+        currentDepth = 0
+        currentNode = tree.rootNode
+        parentNode = currentNode
+        parentsParentNode = currentNode
+        while(currentDepth <= maxDepth):
+            index = self.functionSet.index(currentNode.getVariable())
+            parentsParentNode = parentNode
+            parentNode = currentNode
+            currentNode = currentNode.getChildAtIndex(random.randint(0, self.arity[index]-1))
+            currentDepth += 1
+
+            # check if we hit a terminal node since we cant go down farther
+            if(currentNode.getChildren() == [] or self.checkTerminals(currentNode)):
+                return parentsParentNode, currentDepth-2
+
+        return currentNode, currentDepth-1
 
     def recursivelyCopyTree(self, currentNodeToCopyFrom, currentNodeToCopyTo):
         """

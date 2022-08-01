@@ -1,13 +1,20 @@
+from ast import operator
 import random
 import uuid
 from treelib import Tree as TreeLib
-from Program.GeneticProgramClasses.FitnessMethodClasses.f1Score import f1Score
 
 from Program.GeneticProgramClasses.Tree import Tree 
 from Program.GeneticProgramClasses.TreeClasses.DecisionTree import DecisionTree
+
 from Program.GeneticProgramClasses.FitnessMethod import FitnessMethod
+from Program.GeneticProgramClasses.FitnessMethodClasses.f1Score import f1Score
+
 from Program.GeneticProgramClasses.SelectionMethod import SelectionMethod
-from Program.GeneticProgramClasses.Operator import Operator
+from Program.GeneticProgramClasses.SelectionMethodClasses.Tournament import Tournament
+
+from Program.GeneticProgramClasses.Operators import Operators
+from Program.GeneticProgramClasses.OperatorClasses.Crossover import Crossover
+from Program.GeneticProgramClasses.OperatorClasses.Mutation import Mutation
 
 class GeneticProgram:
     def __init__(self, inisialGenerationOptions: dict, data, dataType) -> None:
@@ -170,13 +177,23 @@ class GeneticProgram:
         """
         Selects the selection method to be used
         """
-        pass
+        if(list(self.parameters["selectionMethod"].keys())[0] == "tournament"):
+            self.selectionMethod = Tournament(self.parameters["selectionMethod"]["tournament"])
 
     def operatorSelection(self):
         """
         Selects the operator to be used
         """
-        pass
+        # create array to store all the operator objects to be used 
+        self.operators = []
+        for i in range(len(self.parameters["operators"].keys())):
+            # add the operator to the array
+            operator = list(self.parameters["operators"].keys())[i][:-1]
+            if(operator == "crossover"):
+                self.operators.append(Crossover())
+            elif(operator == "mutation"):
+                self.operators.append(Mutation())
+        print("Operators:", self.operators)
 
     def preformGeneticOperators(self, population, output) -> list:
         """
@@ -185,8 +202,9 @@ class GeneticProgram:
         # create new population 
         newPopulation = []
 
-        
-        self.fitnessMethod.calculateFitness(population[0], output, self.parameters["fitnessMethod"])
+        self.createTree(population[0])
+        self.operators[0].performOperation(population[0], population[1])
+        self.createTree(population[0])
         
         return population
 
