@@ -5,8 +5,8 @@ class Mutation(Operators):
     """
     This class is used to mutate an individaul in the population
     """
-    def __init__(self):
-        pass
+    def __init__(self, mutationChance):
+        self.mutationChance = mutationChance
 
     def performOperation(self, pop):
         """
@@ -17,8 +17,8 @@ class Mutation(Operators):
         currentNode = pop.rootNode
 
         # get random node at depth found 
-        currentNode, depthFound = pop.getRandomNode(pop, depth)
-
+        currentNode, depthFound = pop.getRandomNodeMutation(pop, depth)
+        
         # give the current node a new variable and send it through to the recursive grow algorithm
         whichSet = random.randint(0, 1)
         if(whichSet == 0 and currentNode != pop.rootNode):
@@ -30,3 +30,6 @@ class Mutation(Operators):
             pop.recursivelyCreateGrowTree(currentNode, depthFound)
 
         return pop
+
+    def getMutationChance(self) -> float:
+        return self.mutationChance

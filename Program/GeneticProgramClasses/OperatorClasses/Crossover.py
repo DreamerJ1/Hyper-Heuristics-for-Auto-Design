@@ -3,8 +3,11 @@ import random
 from Program.GeneticProgramClasses.Operators import Operators
 
 class Crossover(Operators):
-    def __init__(self) -> None:
-        pass
+    """
+    Performs crossover on two elements of the population
+    """
+    def __init__(self, crossoverChance) -> None:
+        self.crossoverChance = crossoverChance
 
     def performOperation(self, popOne, popTwo):
         """
@@ -48,3 +51,8 @@ class Crossover(Operators):
         # insert the children back to node
         nodeOne.setChildren(popOneChildHolder)
         nodeTwo.setChildren(popTwoChildHolder)
+
+        return popOne, popTwo
+
+    def getCrossoverChance(self) -> float:
+        return self.crossoverChance

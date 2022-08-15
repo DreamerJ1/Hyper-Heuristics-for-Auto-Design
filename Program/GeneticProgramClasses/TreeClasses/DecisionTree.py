@@ -47,6 +47,27 @@ class DecisionTree(Tree):
 
         return currentNode, currentDepth-1
 
+    def getRandomNodeMutation(self, tree, maxDepth):
+        """
+        Gets a random node from the tree
+        """
+        currentDepth = 0
+        currentNode = tree.rootNode
+        parentNode = currentNode
+        parentsParentNode = currentNode
+        while(currentDepth <= maxDepth):
+            index = self.functionSet.index(currentNode.getVariable())
+            parentsParentNode = parentNode
+            parentNode = currentNode
+            currentNode = currentNode.getChildAtIndex(random.randint(0, self.arity[index]-1))
+            currentDepth += 1
+
+            # check if we hit a terminal node since we cant go down farther
+            if(currentNode.getChildren() == [] or self.checkTerminals(currentNode)):
+                return currentNode, currentDepth
+
+        return currentNode, currentDepth
+
     def recursivelyCopyTree(self, currentNodeToCopyFrom, currentNodeToCopyTo):
         """
         Recursively copies the node from the currentNodeToCopyFrom to the currentNodeToCopyTo

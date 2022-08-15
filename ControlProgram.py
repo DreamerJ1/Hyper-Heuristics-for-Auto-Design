@@ -1,5 +1,6 @@
 import random
 import copy
+
 from Program.GeneticProgram import GeneticProgram
 
 def createRandomGP(generationOptions, data, dataType) -> GeneticProgram:
@@ -30,7 +31,7 @@ def createRandomGP(generationOptions, data, dataType) -> GeneticProgram:
                 for j in range(programDict["numberOfOperators"]):
                     operator = random.choice(list(generationOptions[i]))
                     operatorName = operator + str(j)
-                    operatorDict.update({operatorName: round(random.uniform(generationOptions[i][operator][0], generationOptions[i][operator][1]), 1)})
+                    operatorDict.update({operatorName: round(random.uniform(generationOptions[i][operator][0], generationOptions[i][operator][1]), 2)})
                 programDict.update({i: operatorDict})
             elif(i == "terminationCondition"):
                 operatorDict = {}   
@@ -66,7 +67,7 @@ initialGenerationOptions = {
     "generationMethod": ["G", "F", "H"],
     "numberOfOperators": [2, 5],
     "numberOfTerminationCriterion": [1, 2],
-    "fitnessMethod": {"raw": ["holder"], "f1Score": ["accuracy", "weightedF1Score", "normal"]},
+    "fitnessMethod": {"raw": ["holder min"], "f1Score": ["accuracy max", "weightedF1Score max", "normal max"]},
     "selectionMethod": {"tournament": [2, 5]},
     "operators": {"crossover": [0.5, 0.9], "mutation": [0.01, 0.2]},
     "terminationCondition": {"maxFitness": [0.5, 0.9]},

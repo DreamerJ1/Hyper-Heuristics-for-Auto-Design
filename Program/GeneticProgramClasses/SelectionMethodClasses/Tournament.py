@@ -14,3 +14,6 @@ class Tournament(SelectionMethod):
         for i in range(self.tournamentSize):
             selected.append(random.choice(population))
         return selected
+
+    def getTournamentSize(self) -> int:
+        return self.tournamentSize

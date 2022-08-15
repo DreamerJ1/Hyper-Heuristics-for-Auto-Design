@@ -7,6 +7,7 @@ from Program.GeneticProgramClasses.Tree import Tree
 from Program.GeneticProgramClasses.TreeClasses.DecisionTree import DecisionTree
 
 from Program.GeneticProgramClasses.FitnessMethod import FitnessMethod
+from Program.GeneticProgramClasses.FitnessMethodClasses.Raw import Raw
 from Program.GeneticProgramClasses.FitnessMethodClasses.f1Score import f1Score
 
 from Program.GeneticProgramClasses.SelectionMethod import SelectionMethod
@@ -168,10 +169,21 @@ class GeneticProgram:
         """
         Selects the fitness method to be used
         """
+        # select which fitness method 
         if(list(self.parameters["fitnessMethod"].keys())[0] == "raw"):
-            pass
+            # set the fitness direction to either min or max
+            fitnessMethod = self.parameters["fitnessMethod"]["raw"]
+            fitnessMethod = fitnessMethod.split(" ")
+            self.parameters["fitnessMethodDirection"] = fitnessMethod[1]
+
+            self.fitnessMethod = Raw(fitnessMethod[0])
         elif(list(self.parameters["fitnessMethod"].keys())[0] == "f1Score"):  
-            self.fitnessMethod = f1Score()  
+            # set the fitness direction to either min or max
+            fitnessMethod = self.parameters["fitnessMethod"]["f1Score"]
+            fitnessMethod = fitnessMethod.split(" ")
+            self.parameters["fitnessMethodDirection"] = fitnessMethod[1]
+
+            self.fitnessMethod = f1Score(fitnessMethod[0])  
 
     def SelectionMethodSelection(self):
         """
@@ -186,25 +198,65 @@ class GeneticProgram:
         """
         # create array to store all the operator objects to be used 
         self.operators = []
-        for i in range(len(self.parameters["operators"].keys())):
-            # add the operator to the array
-            operator = list(self.parameters["operators"].keys())[i][:-1]
+        for operatorDic in self.parameters["operators"]:
+            operator = operatorDic[:-1]
+            chance = self.parameters["operators"][operatorDic]
             if(operator == "crossover"):
-                self.operators.append(Crossover())
+                self.operators.append(Crossover(chance))
             elif(operator == "mutation"):
-                self.operators.append(Mutation())
-        print("Operators:", self.operators)
+                self.operators.append(Mutation(chance))
 
     def preformGeneticOperators(self, population, output) -> list:
         """
         Preform the genetic operators for the genetic program
+        Note: The operators all perform reproduction on the remaining population they did not interact with as to
+        maintain the population size
         """
         # create new population 
         newPopulation = []
+        # loop through the possible operators and preform each as needed 
+        for i in range(len(self.operators)):
+            # perform crossover 
+            if(type(self.operators[i]) == Mutation):
+                # loop entire population, check if mutation happens and perform it
+                for j in range(len(population)):
+                    if(random.random() < self.operators[i].getMutationChance()):
+                        newPopulation.append(self.operators[i].performOperation(population[j]))
+                    else:
+                        newPopulation.append(population[j])
 
-        self.createTree(population[0])
-        self.operators[0].performOperation(population[0], population[1])
-        self.createTree(population[0])
+            elif(type(self.operators[i]) == Crossover):
+                # perform selection 
+                crossoverPopulation = []
+                numCrossover = int(self.operators[i].getCrossoverChance() * len(population))
+                for j in range((numCrossover)):
+                    # select individuals for possible crossover
+                    selected = self.selectionMethod.select(population)
+
+                    # get the fitness of each selected and select best fitness
+                    selectedFitness = []
+                    for pop in selected:
+                        fitness = self.fitnessMethod.calculateFitness(pop, output)
+                        pop.fitness = fitness
+                        selectedFitness.append(fitness)
+
+                    # get the best fitness and add it to the list to be crossovered
+                    selected, selectedFitness = self.sortPopulation(selected, selectedFitness, self.parameters["fitnessMethodDirection"])
+                    crossoverPopulation.append(selected[0].deepCopy())
+
+                # perform crossover on the selected individuals
+                for j in range(0, len(crossoverPopulation), 2):
+                    child1, child2 = self.operators[i].performOperation(crossoverPopulation[i], crossoverPopulation[i+1])
+                    newPopulation.append(child1)
+                    newPopulation.append(child2)
+
+                # perform reproduction on the rest of the population
+                for j in range(0, len(population) - len(crossoverPopulation)):
+                    newPopulation.append(population[j].deepCopy())
+
+            # add the new population to the old population
+            population = newPopulation
+            newPopulation = []
         
         return population
 
@@ -240,6 +292,23 @@ class GeneticProgram:
         self.changeTreeAndPrint(pop.rootNode, str(uuid.uuid4()), True, tree)
         tree.show()
 
+    def keyForSorting(self, zipped):
+        """
+        key for sorting
+        """
+        return zipped[1]
+
+    def sortPopulation(self, population, fitnessList, fitnessDirection):
+        """
+        Sort two lists and return the population
+        """
+        if(fitnessDirection == "max"):
+            population, fitnessList = zip(*sorted(zip(population, fitnessList), key=self.keyForSorting, reverse=True))
+        else:
+            population, fitnessList = zip(*sorted(zip(population, fitnessList), key=self.keyForSorting))
+
+        return list(population), list(fitnessList)
+
     def runGeneticProgram(self) -> None:
         """
         The main function of the genetic program
@@ -265,6 +334,13 @@ class GeneticProgram:
             # preform genetic operations
             population = self.preformGeneticOperators(population, self.trainingOutputs)
 
+            population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.trainingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
+            print(fitnessList   )
+
+        # sort the population by their fitness
+        population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.trainingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
+        print("Best fitness: " + str(fitnessList[0]))
+        print("Best program: ")
         self.createTree(population[0])
 
     # GETTERS AND SETTERS
