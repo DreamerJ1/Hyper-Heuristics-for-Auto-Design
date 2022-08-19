@@ -1,6 +1,8 @@
 from ast import operator
+import copy
 import random
 import uuid
+
 from treelib import Tree as TreeLib
 
 from Program.GeneticProgramClasses.Tree import Tree 
@@ -19,7 +21,7 @@ from Program.GeneticProgramClasses.OperatorClasses.Mutation import Mutation
 
 class GeneticProgram:
     def __init__(self, inisialGenerationOptions: dict, data, dataType) -> None:
-        self.parameters = inisialGenerationOptions
+        self.parameters = self.createRandomGP(inisialGenerationOptions, data, dataType)
         self.terminalSet = []
         self.functionSet = []
         self.functionSetChoices = []
@@ -28,6 +30,47 @@ class GeneticProgram:
         self.fitnessMethodSelection()
         self.SelectionMethodSelection()
         self.operatorSelection()
+
+    def createRandomGP(self, generationOptions, data, dataType):
+        """
+        Creates random parameters for the genetic program
+        """
+        # create a deep copy of the dictonary and update each of the options with the random value
+        programDict = copy.deepcopy(generationOptions)
+        for i in generationOptions:
+            if(type(generationOptions[i]) == list):
+                if(type(generationOptions[i][0]) == int):
+                    programDict.update({i: (random.randint(generationOptions[i][0], generationOptions[i][1]))})
+                else:
+                    programDict.update({i: (random.choice(generationOptions[i]))})
+            elif(type(generationOptions[i]) == dict):
+                if(i == "selectionMethod"):
+                    operatorDict = {}
+                    operator = random.choice(list(generationOptions[i]))
+                    operatorDict.update({operator: round(random.uniform(generationOptions[i][operator][0], generationOptions[i][operator][1]), 0)})
+                    programDict.update({i: operatorDict})
+                elif(i == "fitnessMethod"):
+                    fitnessMethodDict = {}
+                    fitnessMethod = random.choice(list(generationOptions[i]))
+                    fitnessMethodDict.update({fitnessMethod: random.choice(generationOptions[i][fitnessMethod])})
+                    programDict.update({i: fitnessMethodDict})
+                elif(i == "operators"):
+                    operatorDict = {}
+                    for j in range(programDict["numberOfOperators"]):
+                        operator = random.choice(list(generationOptions[i]))
+                        operatorName = operator + str(j)
+                        operatorDict.update({operatorName: round(random.uniform(generationOptions[i][operator][0], generationOptions[i][operator][1]), 2)})
+                    programDict.update({i: operatorDict})
+                elif(i == "terminationCondition"):
+                    operatorDict = {}   
+                    for j in range(programDict["numberOfTerminationCriterion"]):
+                        operator = random.choice(list(generationOptions[i]))
+                        operatorDict.update({operator: round(random.uniform(generationOptions[i][operator][0], generationOptions[i][operator][1]), 1)})
+                    programDict.update({i: operatorDict})
+
+        # create a new genetic program
+        return programDict
+        
 
     def inputHandling(self, data, dataType) -> None:
         """
@@ -309,6 +352,26 @@ class GeneticProgram:
 
         return list(population), list(fitnessList)
 
+    def correctnessWithOutput(self, output, outputResults):
+        """
+        Check how accurate the output is
+        """
+        outputList = []
+        ammountCorrect = 0
+        for i in range(len(output)):
+            outputPrint = "[" + str(output[i]) + ", " + str(outputResults[i]) + "]"
+            if(output[i] == outputResults[i]):
+                ammountCorrect += 1
+                outputPrint += "x"
+            outputList.append(outputPrint)
+
+        print(ammountCorrect, len(output))
+        print(outputList)
+        print(ammountCorrect/len(output)*100)
+
+        ans = ammountCorrect / len(output) * 100
+        return ans
+
     def runGeneticProgram(self) -> None:
         """
         The main function of the genetic program
@@ -338,10 +401,13 @@ class GeneticProgram:
             print(fitnessList   )
 
         # sort the population by their fitness
-        population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.trainingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
-        print("Best fitness: " + str(fitnessList[0]))
+        population1, fitnessList1 = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.trainingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
+        print("Best fitness: " + str(fitnessList1[0]))
         print("Best program: ")
-        self.createTree(population[0])
+        self.createTree(population1[0])
+
+        print("Total accuracy:")
+        self.correctnessWithOutput(population1[0].output, self.trainingOutputs)
 
     # GETTERS AND SETTERS
     def getParameters(self):
