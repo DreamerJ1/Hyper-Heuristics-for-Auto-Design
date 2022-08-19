@@ -78,4 +78,4 @@ program.runGeneticProgram()
 
 # create the hyperheuristic and then run it
 hyperHeuristic = HyperHeuristic(hyperHeuristicOptions, "random", "acceptAll")
-
+hyperHeuristic.performSelectionAndMoveAcceptance()
