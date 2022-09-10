@@ -17,13 +17,21 @@ class RandomSelection(SelectionTechniques):
 
             # total reconstruction
             if(choice == True):
-                lowLevelHeuristic = random.choice(list(self.hyperHeuristic["completelyChangeGenerationOptions"].keys()))
-                toBeChanged.update({lowLevelHeuristic: self.hyperHeuristic["completelyChangeGenerationOptions"][lowLevelHeuristic]})
-                print(toBeChanged)
+                while(True):
+                    lowLevelHeuristic = random.choice(list(self.hyperHeuristic["completelyChangeGenerationOptions"].keys()))
+                    if(lowLevelHeuristic != "numberOfOperators" and lowLevelHeuristic != "numberOfTerminationCriterion"):
+                        break
+
+                return self.getHeuristic(lowLevelHeuristic, "completelyChangeGenerationOptions"), "total"
+
             # shift
             else:
-                lowLevelHeuristic = random.choice(list(self.hyperHeuristic["shiftGenerationOptions"].keys()))
-                toBeChanged.update({lowLevelHeuristic: self.hyperHeuristic["shiftGenerationOptions"][lowLevelHeuristic]})
-                print(toBeChanged)
+                while(True):
+                    lowLevelHeuristic = random.choice(list(self.hyperHeuristic["shiftGenerationOptions"].keys()))
+                    if(lowLevelHeuristic != "numberOfOperators" and lowLevelHeuristic != "numberOfTerminationCriterion"):
+                        break
+
+                return self.getHeuristic(lowLevelHeuristic, "shiftGenerationOptions"), "shift"
+
 
     

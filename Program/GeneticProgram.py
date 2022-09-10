@@ -20,15 +20,21 @@ from Program.GeneticProgramClasses.OperatorClasses.Mutation import Mutation
 
 class GeneticProgram:
     def __init__(self, inisialGenerationOptions: dict, data, dataType) -> None:
+        # variables 
         self.parameters = self.createRandomGP(inisialGenerationOptions, data, dataType)
         self.terminalSet = []
         self.functionSet = []
         self.functionSetChoices = []
         self.arity = []
+
+        # functions to make variables 
         self.inputHandling(data, dataType)
         self.fitnessMethodSelection()
         self.SelectionMethodSelection()
         self.operatorSelection()
+
+        # multi-Objective variables
+        self.bestAccuracy = 0
 
     def createRandomGP(self, generationOptions, data, dataType):
         """
@@ -46,7 +52,7 @@ class GeneticProgram:
                 if(i == "selectionMethod"):
                     operatorDict = {}
                     operator = random.choice(list(generationOptions[i]))
-                    operatorDict.update({operator: round(random.uniform(generationOptions[i][operator][0], generationOptions[i][operator][1]), 0)})
+                    operatorDict.update({operator: random.choice(generationOptions[i][operator])})
                     programDict.update({i: operatorDict})
                 elif(i == "fitnessMethod"):
                     fitnessMethodDict = {}
@@ -91,6 +97,7 @@ class GeneticProgram:
                     startOfChoices = data[i].find("{")
                     endOfChoices = data[i].find("}")
                     choices = data[i][startOfChoices + 1:endOfChoices].split(",")
+                    choices = [x.strip(" ") for x in choices]
 
                     # check if the attribute is in the terminal or functionSetChoices
                     if(attributeName == 'Class' or "@data" in data[i+1]):
@@ -369,18 +376,13 @@ class GeneticProgram:
         print(ammountCorrect/len(output)*100)
 
         ans = ammountCorrect / len(output) * 100
+        self.bestAccuracy = ans
         return ans
 
-    def runGeneticProgram(self) -> None:
+    def runGeneticProgramTraining(self) -> None:
         """
         The main function of the genetic program
         """
-        # store the parameters of the gp in a text file 
-        with open("Storage/parameterStorage.txt", 'a') as f: 
-            for key, value in self.parameters.items(): 
-                f.write('%s: %s\n' % (key, value))
-            f.write("\n")
-
         # create the initial population
         population = self.createPopulation(self.parameters["populationSize"], self.parameters["maxDepth"], self.functionSet, 
         self.terminalSet, self.arity, self.functionSetChoices, self.parameters["generationMethod"])
@@ -396,6 +398,7 @@ class GeneticProgram:
             # preform genetic operations
             population = self.preformGeneticOperators(population, self.trainingOutputs)
 
+            # print the best fitness
             population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.trainingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
             print(fitnessList   )
 
@@ -407,6 +410,38 @@ class GeneticProgram:
 
         print("Total accuracy:")
         self.correctnessWithOutput(population1[0].output, self.trainingOutputs)
+
+    def runGeneticProgramTesting(self) -> None:
+            """
+            The main function of the genetic program
+            """
+            # create the initial population
+            population = self.createPopulation(self.parameters["populationSize"], self.parameters["maxDepth"], self.functionSet, 
+            self.terminalSet, self.arity, self.functionSetChoices, self.parameters["generationMethod"])
+            
+            # loop generation amount of times
+            for i in range(self.parameters["generations"]):
+                print("Generation: " + str(i+1))
+
+                # calculate output
+                for j in range(len(population)):
+                    population[j].calculateOutput(self.testingInputs)
+                    
+                # preform genetic operations
+                population = self.preformGeneticOperators(population, self.testingOutputs)
+
+                # print the best fitness
+                population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.testingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
+                print(fitnessList)
+
+            # sort the population by their fitness
+            population1, fitnessList1 = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.testingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
+            print("Best fitness: " + str(fitnessList1[0]))
+            print("Best program: ")
+            self.createTree(population1[0])
+
+            print("Total accuracy:")
+            self.correctnessWithOutput(population1[0].output, self.testingOutputs)
 
     # GETTERS AND SETTERS
     def getParameters(self):
@@ -438,3 +473,9 @@ class GeneticProgram:
 
     def setFunctionSetChoices(self, functionSetChoices):
         self.functionSetChoices = functionSetChoices
+
+    def getBestAccuracy(self):
+        return self.bestAccuracy
+    
+    def setBestAccuracy(self, bestAccuracy):
+        self.bestAccuracy = bestAccuracy
