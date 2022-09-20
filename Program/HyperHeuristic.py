@@ -1,12 +1,13 @@
 import copy
 import random
 
+from Program.HyperHeuristicClasses.SelectionTechniques.SelectionTechniques import SelectionTechniques
+from Program.HyperHeuristicClasses.SelectionTechniques.SelectionTechniqueClasses.RandomSelection import RandomSelection
+from Program.HyperHeuristicClasses.SelectionTechniques.SelectionTechniqueClasses.ChoiceFunctionSelection import ChoiceFunctionSelection
+
 from Program.HyperHeuristicClasses.MoveAcceptance.MoveAcceptance import MoveAcceptance
 from Program.HyperHeuristicClasses.MoveAcceptance.MoveAcceptanceClasses.AILTA import AILTA
 from Program.HyperHeuristicClasses.MoveAcceptance.MoveAcceptanceClasses.AcceptAll import AcceptAll
-
-from Program.HyperHeuristicClasses.SelectionTechniques.SelectionTechniques import SelectionTechniques
-from Program.HyperHeuristicClasses.SelectionTechniques.SelectionTechniqueClasses.randomSelection import RandomSelection
 
 
 class HyperHeuristic:
@@ -20,8 +21,8 @@ class HyperHeuristic:
     def createSelectionTechnique(self, selectionTechnique):
         if selectionTechnique == "random":
             return RandomSelection(self.hyperHeuristic, self.numLowLevelHeuristicsToApply)
-        # elif selectionTechnique == "choiceFunction":
-        #     return ChoiceFunctionSelection()
+        elif selectionTechnique == "choiceFunction":
+            return ChoiceFunctionSelection()
         else:
             raise ValueError("Invalid selection technique")
 

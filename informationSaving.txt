@@ -1,0 +1,10 @@
+multi-objective link
+https://nottingham-repository.worktribe.com/index.php/preview/995359/HH_CF_AM.pdf
+
+multi-objective function Pareto dominance
+Def inition 1: A vector u = (u1, ..., uk) is said to dominate another vector
+v = (v1, ..., vk) (denoted by u ≼ v) according to k objectives, if and only if,
+u is partially less than v, i.e., ∀ i ∈ {1, ..., k}, ui ≤ vi ∧ ∃ i ∈ {1, ..., k}: ui < vi
+
+Or in english, vector P is dominated by vector V if and only if all the objectives of P are less than or equal
+to the objectives of V and at least one objective of P is less than the corresponding objective of V.

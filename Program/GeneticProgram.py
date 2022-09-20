@@ -1,6 +1,10 @@
 import copy
+import math
 import random
+import time
 import uuid
+
+from Program.Utilities import Utilities                                 
 
 from treelib import Tree as TreeLib
 
@@ -20,6 +24,9 @@ from Program.GeneticProgramClasses.OperatorClasses.Mutation import Mutation
 
 class GeneticProgram:
     def __init__(self, inisialGenerationOptions: dict, data, dataType) -> None:
+        # utility variable 
+        self.utilities = Utilities()
+
         # variables 
         self.parameters = self.createRandomGP(inisialGenerationOptions, data, dataType)
         self.terminalSet = []
@@ -35,6 +42,8 @@ class GeneticProgram:
 
         # multi-Objective variables
         self.bestAccuracy = 0
+        self.bestTime = 0
+        self.bestComplexity = 0
 
     def createRandomGP(self, generationOptions, data, dataType):
         """
@@ -84,9 +93,14 @@ class GeneticProgram:
         if(dataType == "r"):
             pass
         elif(dataType == "c"):
+            # set all data to lowercase 
+            for i in range(len(data)):
+                data[i] = data[i].lower()
+
             dataFound = False
             dataList = []
             for i in range(len(data)):
+                # split the data into a list
                 if("@attribute" in data[i]):
                     # get the functional sets variables
                     startOfAttrabuteName = data[i].find(" ")
@@ -113,6 +127,36 @@ class GeneticProgram:
                 # if data has been found next values in the data file are the data
                 elif(dataFound):
                     dataList.append(data[i].split(","))
+                    
+            # handle real or integer data
+            for i in range(len(self.functionSet)):
+                if(len(self.functionSetChoices[i]) == 1):
+                    # loop through data and calculate the mean and standard deviation
+                    mean = 0
+                    for j in range(len(dataList)):
+                        if(dataList[j][i] != "?"):
+                            mean += float(dataList[j][i])
+                    mean = mean / len(dataList)
+
+                    standardDeviation = 0
+                    for j in range(len(dataList)):
+                        if(dataList[j][i] != "?"):
+                            standardDeviation += (float(dataList[j][i]) - mean) ** 2
+                    standardDeviation = math.sqrt(standardDeviation / len(dataList))
+
+                    # convert to int 
+                    mean = int(mean)
+                    standardDeviation = int(standardDeviation)
+
+                    # create range for the real values using 3 sigma rule
+                    options = []
+                    for j in range(7):
+                        options.append((mean + (j - 3) * standardDeviation))
+                    self.functionSetChoices[i] = options
+
+                    # reset functionSet and arity
+                    self.functionSet[i] = self.functionSet[i].split(" ")[0].strip(" ").strip("'").strip("\"")
+                    self.arity[i] = len(self.functionSetChoices[i])
 
             print("Terminal set:", self.terminalSet)
             print("Function set:", self.functionSet)
@@ -123,6 +167,11 @@ class GeneticProgram:
         for line in dataList: 
             for i in range(len(line)):
                 line[i] = line[i].strip("\n")
+
+        # convert strings to int
+        for i in range(len(dataList)):
+            for j in range(len(dataList[i])):
+                dataList[i][j] = self.utilities.checkIfNumber(dataList[i][j])
 
         # split data into input and output lists
         self.inputs = []
@@ -136,15 +185,6 @@ class GeneticProgram:
         self.trainingOutputs = self.outputs[:int(len(self.outputs) * 0.8)]
         self.testingInputs = self.inputs[int(len(self.inputs) * 0.8):]
         self.testingOutputs = self.outputs[int(len(self.outputs) * 0.8):]
-
-        # remove rows with unknown values
-        storeIndex = []
-        for i in range(len(self.trainingInputs)):
-            if("?" in self.trainingInputs[i]):
-                storeIndex.append(i)
-        for i in storeIndex:
-            del self.trainingInputs[i]
-            del self.trainingOutputs[i]
 
     def createPopulation(self, popSize, maxDepth, functionSet, terminalSet, arity, functionSetChoices, method) -> list:
         """
@@ -383,6 +423,9 @@ class GeneticProgram:
         """
         The main function of the genetic program
         """
+        # start timer
+        start = time.time()
+        
         # create the initial population
         population = self.createPopulation(self.parameters["populationSize"], self.parameters["maxDepth"], self.functionSet, 
         self.terminalSet, self.arity, self.functionSetChoices, self.parameters["generationMethod"])
@@ -407,9 +450,15 @@ class GeneticProgram:
         print("Best fitness: " + str(fitnessList1[0]))
         print("Best program: ")
         self.createTree(population1[0])
-
         print("Total accuracy:")
         self.correctnessWithOutput(population1[0].output, self.trainingOutputs)
+
+        # end timer
+        end = time.time()
+        self.setBestTime(end - start)
+
+        # calculate complexity of best tree
+        self.setBestComplexity(population1[0].calculateComplexity())
 
     def runGeneticProgramTesting(self) -> None:
             """
@@ -479,3 +528,15 @@ class GeneticProgram:
     
     def setBestAccuracy(self, bestAccuracy):
         self.bestAccuracy = bestAccuracy
+
+    def getBestTime(self):
+        return self.bestTime
+
+    def setBestTime(self, bestTime):
+        self.bestTime = bestTime
+    
+    def getBestComplexity(self):
+        return self.bestComplexity
+        
+    def setBestComplexity(self, bestComplexity):
+        self.bestComplexity = bestComplexity

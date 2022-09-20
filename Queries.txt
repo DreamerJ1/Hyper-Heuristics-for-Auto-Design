@@ -1,5 +1,5 @@
 Multi-Objectives:
-Accuracy 
-Time-to-solution
-Complexity of Trees
+Accuracy max
+Time-to-solution min
+Complexity of Trees min
 

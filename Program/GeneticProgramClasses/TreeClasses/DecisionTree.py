@@ -193,12 +193,21 @@ class DecisionTree(Tree):
                 inputValue = i[functionIndex]
 
                 # if the value is "?" then traverse down the edges 
-                if(inputValue == "?"):
-                    currentNode = currentNode.getChildAtIndex(0)
-                else:
-                    # loop through the functionSetChoices and determin which range to pick
-                    index = self.functionSetChoices[functionIndex].index(inputValue)
+                if(type(inputValue) != str):
+                    index = 0
+                    for x in range(len(self.functionSetChoices[functionIndex])):
+                        if(inputValue <= self.functionSetChoices[functionIndex][x]):
+                            index = x
+                            break
+                        index = x
                     currentNode = currentNode.getChildAtIndex(index)
+                else:
+                    if(inputValue == "?"):
+                        currentNode = currentNode.getChildAtIndex(0)    
+                    else:
+                        # loop through the functionSetChoices and determin which range to pick
+                        index = self.functionSetChoices[functionIndex].index(inputValue)
+                        currentNode = currentNode.getChildAtIndex(index)
 
             # once terminal has been found save it to outputs and repeat for next input
             outputs.append(currentNode.getVariable())

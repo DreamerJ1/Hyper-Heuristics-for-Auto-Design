@@ -77,12 +77,11 @@ hyperHeuristicOptions = {
         "operators": {"crossover": [0.1, 0.2], "mutation": [0.05, 0.1]},
         "terminationCondition": {"maxFitness": [0.1, 0.2]},
     }
-
 }
 
 # read in the data from a specific file and input the line number where @relation is located
-data = readData("Datasets/UCI/breast-cancer.arff", 94)
-# data = readData("Datasets/UCI/primary-tumor.arff", 94)
+# data = readData("Datasets/UCI/breast-cancer.arff", 94)
+data = readData("Datasets/UCI/heart-c.arff", 0)
 dataType = "c"
 
 # create the genetic program and then run its inisial solution
@@ -96,6 +95,7 @@ with open("Storage/parameterStorage.txt", 'a') as f:
         f.write('%s: %s\n' % (key, value))
     f.write("\n")
 
+# perform first run of GP to get the initial fitness
 program.runGeneticProgramTraining()
 
 """
@@ -105,7 +105,7 @@ Options for selection:
 Options for move acceptance:
     acceptAll
     AILTA
-Simply swap out the below constructor with the one you want to use
+Simply swap out the below constructor with the one you want to use, copy and paste as case sensitive
 """
 hyperHeuristic = HyperHeuristic(hyperHeuristicOptions, "random", "AILTA")
 for i in range(10):
@@ -117,22 +117,24 @@ for i in range(10):
     # stop program to view what is happening 
     input("\nPress Enter to continue...")
 
-    # save the multi-objective variables from the GP to compare to new solution
-    oldBestAccuracy = program.getBestAccuracy()
+    # save the multi-objective variables from the GP to compare to old solution
+    # the pareto dominance is a minimization equation so turn each max to a min 
+    oldParetoVector = [(100 - program.getBestAccuracy()), program.getBestTime(), program.getBestComplexity()]
 
     # run GP again 
     program.setParameters(newSolution)
     program.runGeneticProgramTraining()
 
-    # testing print
-    print("old best accuracy: %s" % oldBestAccuracy)
-    print("new best accuracy: %s" % program.getBestAccuracy())
+    # save the multi-objective variables from the GP to compare to new solution
+    newParetoVector = [(100 - program.getBestAccuracy()), program.getBestTime(), program.getBestComplexity()]
 
     # perform move acceptance
-    accept = hyperHeuristic.performMoveAcceptance(oldBestAccuracy, program.getBestAccuracy())
+    accept = hyperHeuristic.performMoveAcceptance(oldParetoVector, newParetoVector)
     if(not accept):
         program.setParameters(oldSolution)
-        program.setBestAccuracy(oldBestAccuracy)
+        program.setBestAccuracy((100 - oldParetoVector[0]))
+        program.setBestTime(oldParetoVector[1])
+        program.setBestComplexity(oldParetoVector[2])
 
     # stop program to view what is happening
     input("\nPress Enter to continue...")
