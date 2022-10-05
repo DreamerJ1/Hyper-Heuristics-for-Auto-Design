@@ -13,8 +13,9 @@ from Program.HyperHeuristicClasses.MoveAcceptance.MoveAcceptanceClasses.AcceptAl
 class HyperHeuristic:
     def __init__(self, hyperHeuristic, selectionTechnique, moveAcceptance) -> None:
         self.hyperHeuristic = hyperHeuristic
-        # self.numLowLevelHeuristicsToApply = hyperHeuristic.numLowLevelHeuristicsToApply
         self.numLowLevelHeuristicsToApply = 1
+
+        # creation of the selection technique and move acceptance
         self.selectionTechnique = self.createSelectionTechnique(selectionTechnique)
         self.moveAcceptance = self.createMoveAcceptance(moveAcceptance)
 
@@ -22,7 +23,7 @@ class HyperHeuristic:
         if selectionTechnique == "random":
             return RandomSelection(self.hyperHeuristic, self.numLowLevelHeuristicsToApply)
         elif selectionTechnique == "choiceFunction":
-            return ChoiceFunctionSelection()
+            return ChoiceFunctionSelection(self.hyperHeuristic, self.numLowLevelHeuristicsToApply)
         else:
             raise ValueError("Invalid selection technique")
 
@@ -34,9 +35,12 @@ class HyperHeuristic:
         else:
             raise ValueError("Invalid move acceptance")
 
-    def performSelection(self, currentSolution: dict):
-        # save heuristic information and print new line for easy understanding
-        heuristicToChange, typeOfChange = self.selectionTechnique.selection()
+    def performSelection(self, currentSolution, currentObjectiveValues, currentTime, currentCPUTime):
+        if(type(self.selectionTechnique) == RandomSelection):
+            # save heuristic information and print new line for easy understanding
+            heuristicToChange, typeOfChange = self.selectionTechnique.selection()
+        elif(type(self.selectionTechnique) == ChoiceFunctionSelection):
+            heuristicToChange, typeOfChange = self.selectionTechnique.selection(currentObjectiveValues, currentTime, currentCPUTime)
         print("\n")
 
         newSolution = copy.deepcopy(currentSolution)
@@ -64,7 +68,10 @@ class HyperHeuristic:
                             newSolution[i] += heuristicToChange[i]
                         else:
                             print("Negative shift")
-                            newSolution[i] -= heuristicToChange[i]
+                            if(newSolution[i] - heuristicToChange[i] <= 1):
+                                newSolution[i] = 2
+                            else:
+                                newSolution[i] -= heuristicToChange[i]
                 elif(i == "selectionMethod"):
                     # get heuristic options based on current selection method and randomly choose one 
                     location = list(currentSolution[i].keys())[0]
@@ -132,12 +139,22 @@ class HyperHeuristic:
         return newSolution
 
     def performMoveAcceptance(self, oldBestAccuracy, newBestAccuracy):
-        if(self.moveAcceptance.accept(oldBestAccuracy, newBestAccuracy)):
+        """
+        Performs move acceptence for the hyper hbheuristic
+        """
+        accept, term = self.moveAcceptance.accept(oldBestAccuracy, newBestAccuracy)
+        if(accept):
             print("Move accepted")
-            return True
+            return True, term
         else: 
             print("Move rejected")
-            return False
+            return False, term
+
+    def updateChoiceFunction(self, currentObjectiveValues, currentTime, currentCPUTime):
+        """
+        A helper function to envocate the update function of the choice function
+        """
+        self.selectionTechnique.update(currentObjectiveValues, currentTime, currentCPUTime)
 
     # Getters and Setters
 

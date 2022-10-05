@@ -9,10 +9,10 @@ class AILTA(MoveAcceptance):
         self.itteration = 0
         self.itterationLimit = 5
         self.threshhold = [1, 0.1, 50]
-        self.threshholdIncreaseRate = [1, 0.1, 10]
+        self.threshholdIncreaseRate = [0.2, 0.1, 10]
         self.threshholdIncreaseItteration = 0
         self.threshholdIncreaseItterationLimit = 5
-        self.thresholdUpperBound = [10, 1, 100]
+        self.thresholdUpperBound = [3, 1, 150]
         return self
 
     def accept(self, oldParetoVector, newParetoVector):
@@ -29,9 +29,9 @@ class AILTA(MoveAcceptance):
             self.itteration = 0
             self.threshholdIncreaseItteration = 0
             self.threshhold = [1, 0.1, 50]
-            return True
+            return True, "nonTerm"
         elif(paretoDominance == True and paretoDominanceType == "similar"):
-            return True
+            return True, "nonTerm"
         else:
             self.itteration += 1
             if(self.itteration >= self.itterationLimit):
@@ -39,7 +39,8 @@ class AILTA(MoveAcceptance):
                 if(self.threshholdIncreaseItteration >= self.threshholdIncreaseItterationLimit and self.threshhold[0] <= self.thresholdUpperBound[0]):
                     for i in range(len(self.threshhold)):
                         self.threshhold[i] += self.threshholdIncreaseRate[i]
-                return False   
+                if(self.threshhold[0] >= self.thresholdUpperBound[0]):
+                    return False, "term"
+                return False, "nonTerm"
             else:
-                return False
-        return True
+                return False, "nonTerm"

@@ -1,5 +1,6 @@
 import time
 import random
+import numpy as np
 
 from Program.GeneticProgram import GeneticProgram
 
@@ -30,10 +31,10 @@ initialGenerationOptions = {
     "generationMethod": ["G", "F", "H"],
     "numberOfOperators": [2, 5],
     "numberOfTerminationCriterion": [1, 2],
-    "fitnessMethod": {"raw": ["holder min"], "f1Score": ["accuracy max", "weightedF1Score max", "normal max"]},
+    "fitnessMethod": {"f1Score": ["accuracy max", "weightedF1Score max", "normal max"]},
     "selectionMethod": {"tournament": [2, 5]},
     "operators": {"crossover": [0.5, 0.9], "mutation": [0.01, 0.2]},
-    "terminationCondition": {"maxFitness": [0.5, 0.9]},
+    "terminationCondition": {"maxFitness": {"raw": [0, 100], "f1Score": [0.5, 1]}}
 }
 
 # # the design decisions for inisial genetic program
@@ -47,7 +48,7 @@ initialGenerationOptions = {
 #     "fitnessMethod": {"raw": ["holder min"], "f1Score": ["accuracy max", "weightedF1Score max", "normal max"]},
 #     "selectionMethod": {"tournament": [2, 5]},
 #     "operators": {"crossover": [0.5, 0.9], "mutation": [0.01, 0.2]},
-#     "terminationCondition": {"maxFitness": [0.5, 0.9]},
+#     "terminationCondition": {"maxFitness": {"raw": [0, 100], "f1Score": [0.5, 1]}}
 # }
 
 # the hyperheuristic options 
@@ -80,8 +81,8 @@ hyperHeuristicOptions = {
 }
 
 # read in the data from a specific file and input the line number where @relation is located
-# data = readData("Datasets/UCI/breast-cancer.arff", 94)
-data = readData("Datasets/UCI/heart-c.arff", 0)
+data = readData("Datasets/UCI/breast-cancer.arff", 94)
+# data = readData("Datasets/UCI/heart-c.arff", 0)
 dataType = "c"
 
 # create the genetic program and then run its inisial solution
@@ -102,24 +103,29 @@ program.runGeneticProgramTraining()
 The Hyper-Heuristic makes use of selection and move acceptance for its runs, as well as the genetic program for its initial and subsiquint solutions
 Options for selection: 
     random
+    choiceFunction
 Options for move acceptance:
     acceptAll
     AILTA
 Simply swap out the below constructor with the one you want to use, copy and paste as case sensitive
 """
-hyperHeuristic = HyperHeuristic(hyperHeuristicOptions, "random", "AILTA")
-for i in range(10):
-    # create the hyperheuristic and run selection techniques on it
-    oldSolution = program.getParameters()
-    newSolution = hyperHeuristic.performSelection(oldSolution) 
-    print(newSolution)
+hyperHeuristic = HyperHeuristic(hyperHeuristicOptions, "choiceFunction", "AILTA")
 
-    # stop program to view what is happening 
-    input("\nPress Enter to continue...")
-
+# run the hyperheuristic
+for i in range(100):
     # save the multi-objective variables from the GP to compare to old solution
     # the pareto dominance is a minimization equation so turn each max to a min 
     oldParetoVector = [(100 - program.getBestAccuracy()), program.getBestTime(), program.getBestComplexity()]
+
+    # create the hyperheuristic and run selection techniques on it
+    oldSolution = program.getParameters()
+    currentTime = time.time()
+    currentCPUTime = time.process_time()
+    newSolution = hyperHeuristic.performSelection(oldSolution, oldParetoVector, currentTime, currentCPUTime) 
+    print(newSolution)
+
+    # stop program to view what is happening 
+    # input("\nPress Enter to continue...")
 
     # run GP again 
     program.setParameters(newSolution)
@@ -129,15 +135,22 @@ for i in range(10):
     newParetoVector = [(100 - program.getBestAccuracy()), program.getBestTime(), program.getBestComplexity()]
 
     # perform move acceptance
-    accept = hyperHeuristic.performMoveAcceptance(oldParetoVector, newParetoVector)
+    accept, term = hyperHeuristic.performMoveAcceptance(oldParetoVector, newParetoVector)
     if(not accept):
         program.setParameters(oldSolution)
         program.setBestAccuracy((100 - oldParetoVector[0]))
         program.setBestTime(oldParetoVector[1])
         program.setBestComplexity(oldParetoVector[2])
+    else:
+        hyperHeuristic.updateChoiceFunction(oldParetoVector, currentTime, currentCPUTime)
+
+    # terminate if the termination condition is met
+    if(term == "term"):
+        print("Terminating")
+        break
 
     # stop program to view what is happening
-    input("\nPress Enter to continue...")
+    # input("\nPress Enter to continue...")
 
 # print the best accuracy and parameters of the final solution
 print()

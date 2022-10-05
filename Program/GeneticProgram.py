@@ -22,6 +22,9 @@ from Program.GeneticProgramClasses.Operators import Operators
 from Program.GeneticProgramClasses.OperatorClasses.Crossover import Crossover
 from Program.GeneticProgramClasses.OperatorClasses.Mutation import Mutation
 
+from Program.GeneticProgramClasses.Termination import Termination
+from Program.GeneticProgramClasses.TerminationClasses.MaxFitness import MaxFitness
+
 class GeneticProgram:
     def __init__(self, inisialGenerationOptions: dict, data, dataType) -> None:
         # utility variable 
@@ -34,11 +37,8 @@ class GeneticProgram:
         self.functionSetChoices = []
         self.arity = []
 
-        # functions to make variables 
+        # handle input 
         self.inputHandling(data, dataType)
-        self.fitnessMethodSelection()
-        self.SelectionMethodSelection()
-        self.operatorSelection()
 
         # multi-Objective variables
         self.bestAccuracy = 0
@@ -79,7 +79,7 @@ class GeneticProgram:
                     operatorDict = {}   
                     for j in range(programDict["numberOfTerminationCriterion"]):
                         operator = random.choice(list(generationOptions[i]))
-                        operatorDict.update({operator: round(random.uniform(generationOptions[i][operator][0], generationOptions[i][operator][1]), 1)})
+                        operatorDict.update({operator: round(random.uniform(generationOptions[i][operator][list(programDict["fitnessMethod"].keys())[0]][0], generationOptions[i][operator][list(programDict["fitnessMethod"].keys())[0]][1]), 1)})
                     programDict.update({i: operatorDict})
 
         # create a new genetic program
@@ -204,13 +204,6 @@ class GeneticProgram:
             if(method == "G"):
                 tree = DecisionTree(maxDepth, functionSetHolder, terminalSet, arity, functionSetChoices)
                 tree.growGeneration()
-
-                # # check that the tree is valid 
-                # while(tree.fitness == 0):
-                #     tree = DecisionTree(maxDepth, functionSetHolder, terminalSet, arity, functionSetChoices)
-                #     tree.growGeneration()
-                #     tree.calculateOutput(trainingInputs)
-                #     calculateFitness(tree, trainingOutputs)
             elif(method == "F"):
                 tree = DecisionTree(maxDepth, functionSetHolder,
                             terminalSet, arity, functionSetChoices)
@@ -266,6 +259,7 @@ class GeneticProgram:
             self.parameters["fitnessMethodDirection"] = fitnessMethod[1]
 
             self.fitnessMethod = Raw(fitnessMethod[0])
+
         elif(list(self.parameters["fitnessMethod"].keys())[0] == "f1Score"):  
             # set the fitness direction to either min or max
             fitnessMethod = self.parameters["fitnessMethod"]["f1Score"]
@@ -294,6 +288,13 @@ class GeneticProgram:
                 self.operators.append(Crossover(chance))
             elif(operator == "mutation"):
                 self.operators.append(Mutation(chance))
+
+    def terminationSelection(self):
+        """
+        Selects the termination method to be used
+        """
+        if(list(self.parameters["terminationCondition"].keys())[0] == "maxFitness"):
+            self.terminationMethod = MaxFitness(self.parameters["terminationCondition"]["maxFitness"], self.parameters["fitnessMethodDirection"])
 
     def preformGeneticOperators(self, population, output) -> list:
         """
@@ -425,6 +426,12 @@ class GeneticProgram:
         """
         # start timer
         start = time.time()
+
+        # functions to make variables 
+        self.fitnessMethodSelection()
+        self.SelectionMethodSelection()
+        self.operatorSelection()
+        self.terminationSelection()
         
         # create the initial population
         population = self.createPopulation(self.parameters["populationSize"], self.parameters["maxDepth"], self.functionSet, 
@@ -461,36 +468,42 @@ class GeneticProgram:
         self.setBestComplexity(population1[0].calculateComplexity())
 
     def runGeneticProgramTesting(self) -> None:
-            """
-            The main function of the genetic program
-            """
-            # create the initial population
-            population = self.createPopulation(self.parameters["populationSize"], self.parameters["maxDepth"], self.functionSet, 
-            self.terminalSet, self.arity, self.functionSetChoices, self.parameters["generationMethod"])
-            
-            # loop generation amount of times
-            for i in range(self.parameters["generations"]):
-                print("Generation: " + str(i+1))
+        """
+        The main function of the genetic program
+        """
+        # functions to make variables 
+        self.fitnessMethodSelection()
+        self.SelectionMethodSelection()
+        self.operatorSelection()
+        self.terminationSelection()
 
-                # calculate output
-                for j in range(len(population)):
-                    population[j].calculateOutput(self.testingInputs)
-                    
-                # preform genetic operations
-                population = self.preformGeneticOperators(population, self.testingOutputs)
+        # create the initial population
+        population = self.createPopulation(self.parameters["populationSize"], self.parameters["maxDepth"], self.functionSet, 
+        self.terminalSet, self.arity, self.functionSetChoices, self.parameters["generationMethod"])
 
-                # print the best fitness
-                population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.testingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
-                print(fitnessList)
+        # loop generation amount of times
+        for i in range(self.parameters["generations"]):
+            print("Generation: " + str(i+1))
 
-            # sort the population by their fitness
-            population1, fitnessList1 = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.testingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
-            print("Best fitness: " + str(fitnessList1[0]))
-            print("Best program: ")
-            self.createTree(population1[0])
+            # calculate output
+            for j in range(len(population)):
+                population[j].calculateOutput(self.testingInputs)
+                
+            # preform genetic operations
+            population = self.preformGeneticOperators(population, self.testingOutputs)
 
-            print("Total accuracy:")
-            self.correctnessWithOutput(population1[0].output, self.testingOutputs)
+            # print the best fitness
+            population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.testingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
+            print(fitnessList)
+
+        # sort the population by their fitness
+        population1, fitnessList1 = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.testingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
+        print("Best fitness: " + str(fitnessList1[0]))
+        print("Best program: ")
+        self.createTree(population1[0])
+
+        print("Total accuracy:")
+        self.correctnessWithOutput(population1[0].output, self.testingOutputs)
 
     # GETTERS AND SETTERS
     def getParameters(self):

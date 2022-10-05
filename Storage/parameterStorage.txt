@@ -1,39 +1,24 @@
-seed: 1914
-populationSize: 10
-generations: 11
+seed: 1732
+populationSize: 25
+generations: 10
+maxDepth: 4
+generationMethod: F
+numberOfOperators: 5
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1Score': 'weightedF1Score max'}
+selectionMethod: {'tournament': 5}
+operators: {'mutation0': 0.09, 'crossover1': 0.53, 'crossover2': 0.61, 'crossover3': 0.56, 'mutation4': 0.09}
+terminationCondition: {'maxFitness': 0.7}
+
+seed: 4508
+populationSize: 28
+generations: 12
 maxDepth: 4
 generationMethod: H
 numberOfOperators: 3
-numberOfTerminationCriterion: 2
-fitnessMethod: {'f1Score': 'normal max'}
-selectionMethod: {'tournament': 2}
-operators: {'mutation0': 0.11, 'mutation1': 0.17, 'crossover2': 0.68}
-terminationCondition: {'maxFitness': 0.9}
-fitnessMethodDirection: max
-
-seed: 6102
-populationSize: 27
-generations: 10
-maxDepth: 5
-generationMethod: H
-numberOfOperators: 3
-numberOfTerminationCriterion: 2
-fitnessMethod: {'f1Score': 'normal max'}
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'weightedF1Score max'}
 selectionMethod: {'tournament': 5}
-operators: {'mutation0': 0.06, 'crossover1': 0.53, 'mutation2': 0.08}
-terminationCondition: {'maxFitness': 0.6}
-fitnessMethodDirection: max
-
-seed: 7282
-populationSize: 369
-generations: 69
-maxDepth: 10
-generationMethod: H
-numberOfOperators: 3
-numberOfTerminationCriterion: 2
-fitnessMethod: {'raw': 'holder min'}
-selectionMethod: {'tournament': 2}
-operators: {'mutation0': 0.13, 'crossover1': 0.77, 'mutation2': 0.17}
+operators: {'crossover0': 0.53, 'crossover1': 0.74, 'mutation2': 0.16}
 terminationCondition: {'maxFitness': 0.7}
-fitnessMethodDirection: min
 
