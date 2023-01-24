@@ -1,0 +1,1017 @@
+Run: : 1
+value-mean
+├── brickface
+├── cement
+├── cement
+├── foliage
+├── foliage
+├── grass
+└── sky
+
+Run: : 2
+exgreen-mean
+├── cement
+├── exgreen-mean
+│   ├── brickface
+│   ├── brickface
+│   ├── cement
+│   ├── foliage
+│   ├── foliage
+│   ├── path
+│   └── path
+├── exgreen-mean
+│   ├── brickface
+│   ├── brickface
+│   ├── cement
+│   ├── foliage
+│   ├── foliage
+│   ├── path
+│   └── path
+├── exgreen-mean
+│   ├── brickface
+│   ├── brickface
+│   ├── cement
+│   ├── foliage
+│   ├── foliage
+│   ├── path
+│   └── path
+├── path
+├── rawblue-mean
+│   ├── cement
+│   ├── foliage
+│   ├── foliage
+│   ├── grass
+│   ├── path
+│   ├── sky
+│   └── window
+└── window
+
+Run: : 3
+exblue-mean
+├── cement
+├── intensity-mean
+│   ├── cement
+│   ├── exgreen-mean
+│   │   ├── cement
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── foliage
+│   │   ├── sky
+│   │   ├── window
+│   │   └── window
+│   ├── foliage
+│   ├── region-pixel-count
+│   │   ├── brickface
+│   │   ├── brickface
+│   │   ├── grass
+│   │   ├── grass
+│   │   ├── grass
+│   │   ├── path
+│   │   └── window
+│   ├── short-line-density-2
+│   │   ├── brickface
+│   │   ├── brickface
+│   │   ├── foliage
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── grass
+│   │   └── grass
+│   ├── vegde-sd
+│   │   ├── brickface
+│   │   ├── brickface
+│   │   ├── brickface
+│   │   ├── sky
+│   │   ├── sky
+│   │   ├── window
+│   │   └── window
+│   └── window
+├── path
+├── path
+├── sky
+├── value-mean
+│   ├── brickface
+│   ├── brickface
+│   ├── brickface
+│   ├── exred-mean
+│   │   ├── grass
+│   │   ├── grass
+│   │   ├── sky
+│   │   ├── sky
+│   │   ├── sky
+│   │   ├── window
+│   │   └── window
+│   ├── grass
+│   ├── rawred-mean
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── cement
+│   │   ├── grass
+│   │   ├── path
+│   │   ├── sky
+│   │   └── sky
+│   └── window
+└── value-mean
+    ├── brickface
+    ├── brickface
+    ├── brickface
+    ├── exred-mean
+    │   ├── grass
+    │   ├── grass
+    │   ├── sky
+    │   ├── sky
+    │   ├── sky
+    │   ├── window
+    │   └── window
+    ├── grass
+    ├── rawred-mean
+    │   ├── brickface
+    │   ├── cement
+    │   ├── cement
+    │   ├── grass
+    │   ├── path
+    │   ├── sky
+    │   └── sky
+    └── window
+
+Run: : 4
+intensity-mean
+├── brickface
+├── brickface
+├── cement
+├── cement
+├── cement
+├── path
+└── path
+
+Run: : 5
+region-centroid-col
+├── cement
+├── cement
+├── cement
+├── cement
+├── cement
+├── window
+└── window
+
+Run: : 6
+exblue-mean
+├── brickface
+├── foliage
+├── grass
+├── grass
+├── grass
+├── path
+└── sky
+
+Run: : 7
+saturation-mean
+├── exgreen-mean
+│   ├── cement
+│   ├── exgreen-mean
+│   │   ├── brickface
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── intensity-mean
+│   │   │   ├── cement
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   ├── window
+│   │   │   └── window
+│   │   ├── rawblue-mean
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── saturation-mean
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   └── window
+│   │   └── window
+│   ├── grass
+│   ├── path
+│   ├── rawblue-mean
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── path
+│   │   ├── path
+│   │   ├── sky
+│   │   └── window
+│   ├── region-pixel-count
+│   │   ├── cement
+│   │   ├── exgreen-mean
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   └── sky
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── intensity-mean
+│   │   │   ├── brickface
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── short-line-density-2
+│   │   │   ├── cement
+│   │   │   ├── cement
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   └── window
+│   │   └── short-line-density-5
+│   │       ├── cement
+│   │       ├── cement
+│   │       ├── cement
+│   │       ├── path
+│   │       ├── sky
+│   │       ├── window
+│   │       └── window
+│   └── short-line-density-5
+│       ├── cement
+│       ├── foliage
+│       ├── grass
+│       ├── hedge-sd
+│       │   ├── cement
+│       │   ├── foliage
+│       │   ├── foliage
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── path
+│       │   └── sky
+│       ├── path
+│       ├── region-centroid-row
+│       │   ├── brickface
+│       │   ├── cement
+│       │   ├── cement
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── sky
+│       │   └── sky
+│       └── window
+├── exgreen-mean
+│   ├── cement
+│   ├── exgreen-mean
+│   │   ├── brickface
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── intensity-mean
+│   │   │   ├── cement
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   ├── window
+│   │   │   └── window
+│   │   ├── rawblue-mean
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── saturation-mean
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   └── window
+│   │   └── window
+│   ├── grass
+│   ├── path
+│   ├── rawblue-mean
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── path
+│   │   ├── path
+│   │   ├── sky
+│   │   └── window
+│   ├── region-pixel-count
+│   │   ├── cement
+│   │   ├── exgreen-mean
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   └── sky
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── intensity-mean
+│   │   │   ├── brickface
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── short-line-density-2
+│   │   │   ├── cement
+│   │   │   ├── cement
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   └── window
+│   │   └── short-line-density-5
+│   │       ├── cement
+│   │       ├── cement
+│   │       ├── cement
+│   │       ├── path
+│   │       ├── sky
+│   │       ├── window
+│   │       └── window
+│   └── short-line-density-5
+│       ├── cement
+│       ├── foliage
+│       ├── grass
+│       ├── hedge-sd
+│       │   ├── cement
+│       │   ├── foliage
+│       │   ├── foliage
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── path
+│       │   └── sky
+│       ├── path
+│       ├── region-centroid-row
+│       │   ├── brickface
+│       │   ├── cement
+│       │   ├── cement
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── sky
+│       │   └── sky
+│       └── window
+├── exgreen-mean
+│   ├── cement
+│   ├── exgreen-mean
+│   │   ├── brickface
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── intensity-mean
+│   │   │   ├── cement
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   ├── window
+│   │   │   └── window
+│   │   ├── rawblue-mean
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── saturation-mean
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   └── window
+│   │   └── window
+│   ├── grass
+│   ├── path
+│   ├── rawblue-mean
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── path
+│   │   ├── path
+│   │   ├── sky
+│   │   └── window
+│   ├── region-pixel-count
+│   │   ├── cement
+│   │   ├── exgreen-mean
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   └── sky
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── intensity-mean
+│   │   │   ├── brickface
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── short-line-density-2
+│   │   │   ├── cement
+│   │   │   ├── cement
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   └── window
+│   │   └── short-line-density-5
+│   │       ├── cement
+│   │       ├── cement
+│   │       ├── cement
+│   │       ├── path
+│   │       ├── sky
+│   │       ├── window
+│   │       └── window
+│   └── short-line-density-5
+│       ├── cement
+│       ├── foliage
+│       ├── grass
+│       ├── hedge-sd
+│       │   ├── cement
+│       │   ├── foliage
+│       │   ├── foliage
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── path
+│       │   └── sky
+│       ├── path
+│       ├── region-centroid-row
+│       │   ├── brickface
+│       │   ├── cement
+│       │   ├── cement
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── sky
+│       │   └── sky
+│       └── window
+├── exgreen-mean
+│   ├── cement
+│   ├── exgreen-mean
+│   │   ├── brickface
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── intensity-mean
+│   │   │   ├── cement
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   ├── window
+│   │   │   └── window
+│   │   ├── rawblue-mean
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── saturation-mean
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   └── window
+│   │   └── window
+│   ├── grass
+│   ├── path
+│   ├── rawblue-mean
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── path
+│   │   ├── path
+│   │   ├── sky
+│   │   └── window
+│   ├── region-pixel-count
+│   │   ├── cement
+│   │   ├── exgreen-mean
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   └── sky
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── intensity-mean
+│   │   │   ├── brickface
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── short-line-density-2
+│   │   │   ├── cement
+│   │   │   ├── cement
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   └── window
+│   │   └── short-line-density-5
+│   │       ├── cement
+│   │       ├── cement
+│   │       ├── cement
+│   │       ├── path
+│   │       ├── sky
+│   │       ├── window
+│   │       └── window
+│   └── short-line-density-5
+│       ├── cement
+│       ├── foliage
+│       ├── grass
+│       ├── hedge-sd
+│       │   ├── cement
+│       │   ├── foliage
+│       │   ├── foliage
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── path
+│       │   └── sky
+│       ├── path
+│       ├── region-centroid-row
+│       │   ├── brickface
+│       │   ├── cement
+│       │   ├── cement
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── sky
+│       │   └── sky
+│       └── window
+├── sky
+├── value-mean
+│   ├── cement
+│   ├── exred-mean
+│   │   ├── exred-mean
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── hedge-sd
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── cement
+│   │   │   ├── cement
+│   │   │   ├── foliage
+│   │   │   ├── sky
+│   │   │   └── sky
+│   │   ├── intensity-mean
+│   │   │   ├── cement
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── window
+│   │   │   └── window
+│   │   ├── region-pixel-count
+│   │   │   ├── cement
+│   │   │   ├── foliage
+│   │   │   ├── foliage
+│   │   │   ├── path
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── saturation-mean
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   └── window
+│   │   ├── vegde-sd
+│   │   │   ├── cement
+│   │   │   ├── cement
+│   │   │   ├── foliage
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   ├── window
+│   │   │   └── window
+│   │   └── window
+│   ├── foliage
+│   ├── grass
+│   ├── intensity-mean
+│   │   ├── cement
+│   │   ├── exgreen-mean
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── grass
+│   │   ├── rawgreen-mean
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── sky
+│   │   │   └── window
+│   │   ├── sky
+│   │   ├── value-mean
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── foliage
+│   │   │   ├── foliage
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   └── window
+│   │   └── window
+│   ├── region-pixel-count
+│   │   ├── brickface
+│   │   ├── exgreen-mean
+│   │   │   ├── brickface
+│   │   │   ├── brickface
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   └── window
+│   │   ├── foliage
+│   │   ├── rawred-mean
+│   │   │   ├── cement
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── path
+│   │   │   ├── sky
+│   │   │   ├── window
+│   │   │   └── window
+│   │   ├── sky
+│   │   ├── vedge-mean
+│   │   │   ├── brickface
+│   │   │   ├── grass
+│   │   │   ├── grass
+│   │   │   ├── window
+│   │   │   ├── window
+│   │   │   ├── window
+│   │   │   └── window
+│   │   └── window
+│   └── vedge-mean
+│       ├── brickface
+│       ├── brickface
+│       ├── cement
+│       ├── grass
+│       ├── hue-mean
+│       │   ├── cement
+│       │   ├── foliage
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── grass
+│       │   ├── path
+│       │   └── window
+│       ├── sky
+│       └── window
+└── value-mean
+    ├── cement
+    ├── exred-mean
+    │   ├── exred-mean
+    │   │   ├── brickface
+    │   │   ├── foliage
+    │   │   ├── grass
+    │   │   ├── grass
+    │   │   ├── sky
+    │   │   ├── sky
+    │   │   └── window
+    │   ├── hedge-sd
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── cement
+    │   │   ├── cement
+    │   │   ├── foliage
+    │   │   ├── sky
+    │   │   └── sky
+    │   ├── intensity-mean
+    │   │   ├── cement
+    │   │   ├── foliage
+    │   │   ├── grass
+    │   │   ├── path
+    │   │   ├── path
+    │   │   ├── window
+    │   │   └── window
+    │   ├── region-pixel-count
+    │   │   ├── cement
+    │   │   ├── foliage
+    │   │   ├── foliage
+    │   │   ├── path
+    │   │   ├── path
+    │   │   ├── sky
+    │   │   └── window
+    │   ├── saturation-mean
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── foliage
+    │   │   └── window
+    │   ├── vegde-sd
+    │   │   ├── cement
+    │   │   ├── cement
+    │   │   ├── foliage
+    │   │   ├── sky
+    │   │   ├── window
+    │   │   ├── window
+    │   │   └── window
+    │   └── window
+    ├── foliage
+    ├── grass
+    ├── intensity-mean
+    │   ├── cement
+    │   ├── exgreen-mean
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── grass
+    │   │   ├── path
+    │   │   ├── sky
+    │   │   └── window
+    │   ├── grass
+    │   ├── rawgreen-mean
+    │   │   ├── brickface
+    │   │   ├── foliage
+    │   │   ├── foliage
+    │   │   ├── grass
+    │   │   ├── grass
+    │   │   ├── sky
+    │   │   └── window
+    │   ├── sky
+    │   ├── value-mean
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── foliage
+    │   │   ├── foliage
+    │   │   ├── grass
+    │   │   ├── grass
+    │   │   └── window
+    │   └── window
+    ├── region-pixel-count
+    │   ├── brickface
+    │   ├── exgreen-mean
+    │   │   ├── brickface
+    │   │   ├── brickface
+    │   │   ├── grass
+    │   │   ├── path
+    │   │   ├── sky
+    │   │   ├── window
+    │   │   └── window
+    │   ├── foliage
+    │   ├── rawred-mean
+    │   │   ├── cement
+    │   │   ├── grass
+    │   │   ├── grass
+    │   │   ├── path
+    │   │   ├── sky
+    │   │   ├── window
+    │   │   └── window
+    │   ├── sky
+    │   ├── vedge-mean
+    │   │   ├── brickface
+    │   │   ├── grass
+    │   │   ├── grass
+    │   │   ├── window
+    │   │   ├── window
+    │   │   ├── window
+    │   │   └── window
+    │   └── window
+    └── vedge-mean
+        ├── brickface
+        ├── brickface
+        ├── cement
+        ├── grass
+        ├── hue-mean
+        │   ├── cement
+        │   ├── foliage
+        │   ├── grass
+        │   ├── grass
+        │   ├── grass
+        │   ├── path
+        │   └── window
+        ├── sky
+        └── window
+
+Run: : 8
+short-line-density-2
+├── brickface
+├── brickface
+├── exblue-mean
+│   ├── brickface
+│   ├── foliage
+│   ├── grass
+│   ├── grass
+│   ├── path
+│   ├── window
+│   └── window
+├── exgreen-mean
+│   ├── brickface
+│   ├── cement
+│   ├── foliage
+│   ├── grass
+│   ├── grass
+│   ├── path
+│   └── sky
+├── foliage
+├── saturation-mean
+│   ├── cement
+│   ├── foliage
+│   ├── foliage
+│   ├── sky
+│   ├── sky
+│   ├── window
+│   └── window
+└── vegde-sd
+    ├── brickface
+    ├── brickface
+    ├── path
+    ├── sky
+    ├── sky
+    ├── sky
+    └── sky
+
+Run: : 9
+rawgreen-mean
+├── brickface
+├── cement
+├── exred-mean
+│   ├── grass
+│   ├── grass
+│   ├── hedge-mean
+│   │   ├── cement
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── sky
+│   │   ├── sky
+│   │   ├── window
+│   │   └── window
+│   ├── rawgreen-mean
+│   │   ├── grass
+│   │   ├── path
+│   │   ├── path
+│   │   ├── path
+│   │   ├── sky
+│   │   ├── window
+│   │   └── window
+│   ├── region-centroid-col
+│   │   ├── brickface
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── grass
+│   │   ├── grass
+│   │   ├── path
+│   │   └── sky
+│   ├── vedge-mean
+│   │   ├── brickface
+│   │   ├── brickface
+│   │   ├── brickface
+│   │   ├── grass
+│   │   ├── path
+│   │   ├── window
+│   │   └── window
+│   └── window
+├── region-pixel-count
+│   ├── cement
+│   ├── exblue-mean
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── path
+│   │   ├── path
+│   │   ├── sky
+│   │   ├── window
+│   │   └── window
+│   ├── exgreen-mean
+│   │   ├── brickface
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── path
+│   │   ├── sky
+│   │   └── window
+│   ├── hedge-sd
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── grass
+│   │   ├── grass
+│   │   ├── sky
+│   │   ├── sky
+│   │   └── window
+│   ├── path
+│   ├── vedge-mean
+│   │   ├── cement
+│   │   ├── cement
+│   │   ├── grass
+│   │   ├── path
+│   │   ├── path
+│   │   ├── window
+│   │   └── window
+│   └── vedge-mean
+│       ├── brickface
+│       ├── brickface
+│       ├── cement
+│       ├── foliage
+│       ├── foliage
+│       ├── sky
+│       └── window
+├── region-pixel-count
+│   ├── brickface
+│   ├── cement
+│   ├── rawblue-mean
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── grass
+│   │   ├── path
+│   │   └── sky
+│   ├── region-centroid-col
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── grass
+│   │   ├── grass
+│   │   └── path
+│   ├── region-centroid-row
+│   │   ├── brickface
+│   │   ├── cement
+│   │   ├── cement
+│   │   ├── cement
+│   │   ├── foliage
+│   │   ├── grass
+│   │   └── grass
+│   ├── sky
+│   └── window
+├── short-line-density-2
+│   ├── brickface
+│   ├── cement
+│   ├── cement
+│   ├── foliage
+│   ├── path
+│   ├── path
+│   └── sky
+└── sky
+
+Run: : 10
+region-centroid-row
+├── brickface
+├── hue-mean
+│   ├── cement
+│   ├── cement
+│   ├── path
+│   ├── path
+│   ├── path
+│   ├── window
+│   └── window
+├── path
+├── saturation-mean
+│   ├── brickface
+│   ├── cement
+│   ├── path
+│   ├── path
+│   ├── sky
+│   ├── sky
+│   └── window
+├── saturation-mean
+│   ├── brickface
+│   ├── cement
+│   ├── path
+│   ├── path
+│   ├── sky
+│   ├── sky
+│   └── window
+├── short-line-density-2
+│   ├── cement
+│   ├── cement
+│   ├── cement
+│   ├── path
+│   ├── path
+│   ├── path
+│   └── sky
+└── window
+

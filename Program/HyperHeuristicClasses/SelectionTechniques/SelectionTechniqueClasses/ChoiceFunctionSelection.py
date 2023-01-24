@@ -1,3 +1,4 @@
+from json.encoder import INFINITY
 import random
 import numpy as np
 import math
@@ -68,8 +69,9 @@ class ChoiceFunctionSelection(SelectionTechniques):
         """
         Gets the heuristic with the max rank
         """
-        max = 0
+        max = -INFINITY
         countSimilar = 0
+        similarHolding = []
         for highLvlKey in self.rankDictionary.keys():
             for lowLvlKey in self.rankDictionary[highLvlKey].keys():
                 if(self.rankDictionary[highLvlKey][lowLvlKey] > max):
@@ -77,21 +79,29 @@ class ChoiceFunctionSelection(SelectionTechniques):
                     heuristic = lowLvlKey
                     type = highLvlKey
 
+                    countSimilar = 0
+                    similarHolding = []
+
                 if(max == self.rankDictionary[highLvlKey][lowLvlKey]):
                     countSimilar += 1
+                    similarHolding.append([lowLvlKey, highLvlKey])
 
-        # if all the max values are the same then return a random one
-        if(countSimilar >= (len(self.rankDictionary[highLvlKey].keys())*2)):
-            if(random.random() > 0.5):
-                heuristic = random.choice(list(self.rankDictionary["completelyChangeGenerationOptions"].keys()))
-                type = "completelyChangeGenerationOptions"
-                self.currentHeuristic = [heuristic, type]
-                return heuristic, type
-            else:
-                heuristic = random.choice(list(self.rankDictionary["shiftGenerationOptions"].keys()))
-                type = "shiftGenerationOptions"
-                self.currentHeuristic = [heuristic, type]
-                return heuristic, type
+        if(countSimilar > 1):
+            heuristic = similarHolding[random.randint(0, countSimilar-1)][0]
+            type = similarHolding[random.randint(0, countSimilar-1)][1]
+
+        # # if all the max values are the same then return a random one
+        # if(countSimilar >= (len(self.rankDictionary[highLvlKey].keys())*2)):
+        #     if(random.random() > 0.5):
+        #         heuristic = random.choice(list(self.rankDictionary["completelyChangeGenerationOptions"].keys()))
+        #         type = "completelyChangeGenerationOptions"
+        #         self.currentHeuristic = [heuristic, type]
+        #         return heuristic, type
+        #     else:
+        #         heuristic = random.choice(list(self.rankDictionary["shiftGenerationOptions"].keys()))
+        #         type = "shiftGenerationOptions"
+        #         self.currentHeuristic = [heuristic, type]
+        #         return heuristic, type
 
         # return proper heuristic
         self.currentHeuristic = [heuristic, type]
@@ -134,7 +144,7 @@ class ChoiceFunctionSelection(SelectionTechniques):
         """
         The choice function
         """
-        return (self.alpha * self.f1(heuristic, highLvlKey)) + (self.beta * self.f2(heuristic, highLvlKey)) + (self.delta * self.f3(heuristic, highLvlKey))
+        return -(self.alpha * self.f1(heuristic, highLvlKey)) - (self.beta * self.f2(heuristic, highLvlKey)) + (self.delta * self.f3(heuristic, highLvlKey))
 
     def selection(self, currentObjective, currentTime, currentCpuTime):
         """

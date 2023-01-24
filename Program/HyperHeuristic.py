@@ -72,6 +72,8 @@ class HyperHeuristic:
                                 newSolution[i] = 2
                             else:
                                 newSolution[i] -= heuristicToChange[i]
+                elif(i == "generationMethod"):
+                    newSolution[i] = heuristicToChange[i]
                 elif(i == "selectionMethod"):
                     # get heuristic options based on current selection method and randomly choose one 
                     location = list(currentSolution[i].keys())[0]
@@ -84,7 +86,10 @@ class HyperHeuristic:
                         newSolution[i][location] += option
                     else:
                         print("Negative shift")
-                        newSolution[i][location] -= option
+                        if(newSolution[i][location] - option < 1):
+                            newSolution[i][location] = 1
+                        else:
+                            newSolution[i][location] -= option
                     # newSolution.update({i: round(random.randint(heuristicToChange[list(currentSolution[i].keys())[0]], heuristicToChange[list(currentSolution[i].keys())[0]]), 0)})
                 elif(i == "fitnessMethod"):
                     print("Fitness method shift")
@@ -98,6 +103,10 @@ class HyperHeuristic:
                     for j in range(len(currentSolution[i])):
                         if(list(currentSolution[i].keys())[j][:-1] == list(heuristicToChange[i].keys())[0]):
                             indexOfSimilarOperators.append(j)
+
+                    print(currentSolution[i])
+                    print(heuristicToChange[i])
+                    print(indexOfSimilarOperators)
 
                     # randomly pick one of the similar operators and change it
                     indexOfSimilarOperators = random.choice(indexOfSimilarOperators)

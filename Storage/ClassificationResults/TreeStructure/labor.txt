@@ -1,0 +1,437 @@
+Run: : 1
+statutory-holidays
+├── 'bad'
+├── 'good'
+├── 'good'
+├── contribution-to-health-plan
+│   ├── 'good'
+│   ├── 'good'
+│   └── duration
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       └── 'good'
+├── cost-of-living-adjustment
+│   ├── contribution-to-dental-plan
+│   │   ├── 'bad'
+│   │   ├── 'good'
+│   │   └── 'good'
+│   ├── vacation
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   └── 'good'
+│   └── wage-increase-third-year
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       └── 'good'
+├── pension
+│   ├── 'good'
+│   ├── statutory-holidays
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'good'
+│   │   └── 'good'
+│   └── wage-increase-third-year
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       └── 'good'
+└── standby-pay
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'good'
+    ├── 'good'
+    ├── duration
+    │   ├── 'bad'
+    │   ├── 'bad'
+    │   ├── 'bad'
+    │   ├── 'bad'
+    │   ├── 'bad'
+    │   ├── 'bad'
+    │   └── 'good'
+    └── wage-increase-second-year
+        ├── 'bad'
+        ├── 'bad'
+        ├── 'good'
+        ├── 'good'
+        ├── 'good'
+        ├── 'good'
+        └── 'good'
+
+Run: : 2
+education-allowance
+├── 'good'
+└── wage-increase-first-year
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'good'
+    ├── cost-of-living-adjustment
+    │   ├── 'bad'
+    │   ├── duration
+    │   │   ├── 'bad'
+    │   │   ├── 'bad'
+    │   │   ├── 'bad'
+    │   │   ├── 'good'
+    │   │   ├── 'good'
+    │   │   ├── 'good'
+    │   │   └── 'good'
+    │   └── pension
+    │       ├── 'good'
+    │       ├── 'good'
+    │       └── 'good'
+    ├── shift-differential
+    │   ├── 'good'
+    │   ├── 'good'
+    │   ├── 'good'
+    │   ├── bereavement-assistance
+    │   │   ├── 'good'
+    │   │   └── 'good'
+    │   ├── standby-pay
+    │   │   ├── 'bad'
+    │   │   ├── 'bad'
+    │   │   ├── 'good'
+    │   │   ├── 'good'
+    │   │   ├── 'good'
+    │   │   ├── 'good'
+    │   │   └── 'good'
+    │   ├── vacation
+    │   │   ├── 'good'
+    │   │   ├── 'good'
+    │   │   └── 'good'
+    │   └── wage-increase-third-year
+    │       ├── 'bad'
+    │       ├── 'good'
+    │       ├── 'good'
+    │       ├── 'good'
+    │       ├── 'good'
+    │       ├── 'good'
+    │       └── 'good'
+    ├── vacation
+    │   ├── 'good'
+    │   ├── 'good'
+    │   └── working-hours
+    │       ├── 'bad'
+    │       ├── 'bad'
+    │       ├── 'good'
+    │       ├── 'good'
+    │       ├── 'good'
+    │       ├── 'good'
+    │       └── 'good'
+    └── wage-increase-first-year
+        ├── 'bad'
+        ├── 'good'
+        ├── 'good'
+        ├── 'good'
+        ├── longterm-disability-assistance
+        │   ├── 'bad'
+        │   └── 'bad'
+        ├── statutory-holidays
+        │   ├── 'bad'
+        │   ├── 'good'
+        │   ├── 'good'
+        │   ├── 'good'
+        │   ├── 'good'
+        │   ├── 'good'
+        │   └── 'good'
+        └── working-hours
+            ├── 'bad'
+            ├── 'bad'
+            ├── 'bad'
+            ├── 'bad'
+            ├── 'bad'
+            ├── 'good'
+            └── 'good'
+
+Run: : 3
+bereavement-assistance
+├── 'bad'
+└── 'good'
+
+Run: : 4
+longterm-disability-assistance
+├── 'bad'
+└── 'good'
+
+Run: : 5
+wage-increase-third-year
+├── 'good'
+├── 'good'
+├── 'good'
+├── 'good'
+├── 'good'
+├── 'good'
+└── 'good'
+
+Run: : 6
+duration
+├── 'bad'
+├── 'bad'
+├── 'bad'
+├── contribution-to-health-plan
+│   ├── 'good'
+│   ├── education-allowance
+│   │   ├── 'bad'
+│   │   └── 'good'
+│   └── wage-increase-second-year
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       └── 'good'
+├── contribution-to-health-plan
+│   ├── 'bad'
+│   ├── 'good'
+│   └── longterm-disability-assistance
+│       ├── 'good'
+│       └── 'good'
+├── education-allowance
+│   ├── 'good'
+│   └── statutory-holidays
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       └── 'good'
+└── pension
+    ├── bereavement-assistance
+    │   ├── 'bad'
+    │   └── 'good'
+    ├── standby-pay
+    │   ├── 'bad'
+    │   ├── 'bad'
+    │   ├── 'bad'
+    │   ├── 'bad'
+    │   ├── 'good'
+    │   ├── 'good'
+    │   └── 'good'
+    └── vacation
+        ├── 'bad'
+        ├── 'good'
+        └── 'good'
+
+Run: : 7
+longterm-disability-assistance
+├── 'good'
+└── 'good'
+
+Run: : 8
+statutory-holidays
+├── 'bad'
+├── 'good'
+├── contribution-to-health-plan
+│   ├── 'bad'
+│   ├── 'good'
+│   └── working-hours
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       └── 'good'
+├── contribution-to-health-plan
+│   ├── 'bad'
+│   ├── 'good'
+│   └── working-hours
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       └── 'good'
+├── contribution-to-health-plan
+│   ├── 'bad'
+│   ├── 'good'
+│   └── working-hours
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       ├── 'good'
+│       └── 'good'
+├── duration
+│   ├── bereavement-assistance
+│   │   ├── 'bad'
+│   │   └── 'good'
+│   ├── bereavement-assistance
+│   │   ├── 'good'
+│   │   └── 'good'
+│   ├── duration
+│   │   ├── bereavement-assistance
+│   │   │   ├── 'bad'
+│   │   │   └── 'good'
+│   │   ├── bereavement-assistance
+│   │   │   ├── 'good'
+│   │   │   └── 'good'
+│   │   ├── education-allowance
+│   │   │   ├── 'bad'
+│   │   │   └── 'good'
+│   │   ├── statutory-holidays
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   └── 'good'
+│   │   ├── wage-increase-third-year
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'good'
+│   │   │   ├── 'good'
+│   │   │   └── 'good'
+│   │   ├── wage-increase-third-year
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'bad'
+│   │   │   ├── 'good'
+│   │   │   ├── 'good'
+│   │   │   ├── 'good'
+│   │   │   └── 'good'
+│   │   └── working-hours
+│   │       ├── 'bad'
+│   │       ├── 'bad'
+│   │       ├── 'bad'
+│   │       ├── 'bad'
+│   │       ├── 'good'
+│   │       ├── 'good'
+│   │       └── 'good'
+│   ├── statutory-holidays
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   └── 'good'
+│   ├── wage-increase-third-year
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'good'
+│   │   ├── 'good'
+│   │   └── 'good'
+│   ├── wage-increase-third-year
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'bad'
+│   │   ├── 'good'
+│   │   ├── 'good'
+│   │   ├── 'good'
+│   │   └── 'good'
+│   └── working-hours
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'bad'
+│       ├── 'good'
+│       ├── 'good'
+│       └── 'good'
+└── wage-increase-third-year
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'good'
+    ├── 'good'
+    ├── 'good'
+    └── 'good'
+
+Run: : 9
+standby-pay
+├── 'bad'
+├── 'bad'
+├── 'bad'
+├── 'bad'
+├── 'bad'
+├── 'good'
+└── 'good'
+
+Run: : 1
+bereavement-assistance
+├── 'good'
+└── 'good'
+
+Run: : 2
+longterm-disability-assistance
+├── 'good'
+└── working-hours
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'good'
+    ├── 'good'
+    └── 'good'
+
+Run: : 3
+standby-pay
+├── 'bad'
+├── 'good'
+├── 'good'
+├── longterm-disability-assistance
+│   ├── 'bad'
+│   └── 'bad'
+├── pension
+│   ├── 'bad'
+│   ├── 'bad'
+│   └── 'good'
+├── statutory-holidays
+│   ├── 'bad'
+│   ├── 'bad'
+│   ├── 'bad'
+│   ├── 'good'
+│   ├── 'good'
+│   ├── 'good'
+│   └── 'good'
+└── wage-increase-first-year
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'bad'
+    ├── 'good'
+    └── 'good'
+
+Run: : 4
+shift-differential
+├── 'bad'
+├── 'good'
+├── 'good'
+├── 'good'
+├── 'good'
+├── 'good'
+└── 'good'
+
+Run: : 5
+duration
+├── 'bad'
+├── 'good'
+├── 'good'
+├── 'good'
+├── 'good'
+├── 'good'
+└── 'good'
+

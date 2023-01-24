@@ -1,0 +1,135 @@
+Run: : 1
+special_forms
+├── changes_in_lym
+│   ├── malign_lymph
+│   ├── malign_lymph
+│   └── metastases
+├── dislocation_of
+│   ├── metastases
+│   └── normal
+└── metastases
+
+Run: : 2
+lymphatics
+├── malign_lymph
+├── malign_lymph
+├── metastases
+└── normal
+
+Run: : 3
+lym_nodes_dimin
+├── fibrosis
+├── fibrosis
+├── malign_lymph
+├── malign_lymph
+├── metastases
+├── metastases
+└── metastases
+
+Run: : 4
+bl_of_lymph_s
+├── changes_in_node
+│   ├── fibrosis
+│   ├── fibrosis
+│   ├── malign_lymph
+│   └── metastases
+└── malign_lymph
+
+Run: : 5
+extravasates
+├── early_uptake_in
+│   ├── malign_lymph
+│   └── metastases
+└── normal
+
+Run: : 6
+lymphatics
+├── changes_in_node
+│   ├── changes_in_node
+│   │   ├── fibrosis
+│   │   ├── malign_lymph
+│   │   ├── normal
+│   │   └── normal
+│   ├── malign_lymph
+│   ├── metastases
+│   └── normal
+├── changes_in_node
+│   ├── changes_in_node
+│   │   ├── fibrosis
+│   │   ├── malign_lymph
+│   │   ├── normal
+│   │   └── normal
+│   ├── malign_lymph
+│   ├── metastases
+│   └── normal
+├── early_uptake_in
+│   ├── malign_lymph
+│   └── normal
+└── fibrosis
+
+Run: : 7
+bl_of_lymph_s
+├── defect_in_node
+│   ├── fibrosis
+│   ├── malign_lymph
+│   ├── normal
+│   └── normal
+└── normal
+
+Run: : 8
+block_of_affere
+├── lym_nodes_dimin
+│   ├── exclusion_of_no
+│   │   ├── fibrosis
+│   │   └── metastases
+│   ├── exclusion_of_no
+│   │   ├── fibrosis
+│   │   └── normal
+│   ├── extravasates
+│   │   ├── metastases
+│   │   └── normal
+│   ├── fibrosis
+│   ├── lym_nodes_dimin
+│   │   ├── fibrosis
+│   │   ├── fibrosis
+│   │   ├── malign_lymph
+│   │   ├── metastases
+│   │   ├── metastases
+│   │   ├── metastases
+│   │   └── normal
+│   ├── no_of_nodes_in
+│   │   ├── fibrosis
+│   │   ├── fibrosis
+│   │   ├── fibrosis
+│   │   ├── malign_lymph
+│   │   ├── malign_lymph
+│   │   ├── normal
+│   │   └── normal
+│   └── normal
+└── malign_lymph
+
+Run: : 9
+lym_nodes_enlar
+├── fibrosis
+├── malign_lymph
+├── metastases
+├── regeneration_of
+│   ├── fibrosis
+│   └── malign_lymph
+├── regeneration_of
+│   ├── fibrosis
+│   └── malign_lymph
+├── regeneration_of
+│   ├── fibrosis
+│   └── malign_lymph
+└── regeneration_of
+    ├── fibrosis
+    └── malign_lymph
+
+Run: : 10
+changes_in_node
+├── fibrosis
+├── fibrosis
+├── fibrosis
+└── malign_lymph
+

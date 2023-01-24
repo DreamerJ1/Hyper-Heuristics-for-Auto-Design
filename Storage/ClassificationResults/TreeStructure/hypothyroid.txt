@@ -1,0 +1,163 @@
+Run: : 1
+age
+├── negative
+├── negative
+├── negative
+├── negative
+├── negative
+├── negative
+└── negative
+
+Run: : 2
+i131 treatment
+├── t3
+│   ├── negative
+│   ├── negative
+│   ├── negative
+│   ├── secondary_hypothyroid
+│   ├── secondary_hypothyroid
+│   ├── secondary_hypothyroid
+│   └── secondary_hypothyroid
+└── t3
+    ├── negative
+    ├── negative
+    ├── negative
+    ├── secondary_hypothyroid
+    ├── secondary_hypothyroid
+    ├── secondary_hypothyroid
+    └── secondary_hypothyroid
+
+Run: : 3
+t4u measured
+├── secondary_hypothyroid
+└── t4u
+    ├── compensated_hypothyroid
+    ├── negative
+    ├── primary_hypothyroid
+    ├── secondary_hypothyroid
+    ├── tbg
+    │   ├── compensated_hypothyroid
+    │   ├── compensated_hypothyroid
+    │   ├── compensated_hypothyroid
+    │   ├── negative
+    │   ├── primary_hypothyroid
+    │   ├── primary_hypothyroid
+    │   └── secondary_hypothyroid
+    ├── thyroid surgery
+    │   ├── compensated_hypothyroid
+    │   └── compensated_hypothyroid
+    └── tsh
+        ├── compensated_hypothyroid
+        ├── compensated_hypothyroid
+        ├── negative
+        ├── negative
+        ├── primary_hypothyroid
+        ├── secondary_hypothyroid
+        └── secondary_hypothyroid
+
+Run: : 4
+i131 treatment
+├── negative
+└── t3
+    ├── goitre
+    │   ├── secondary_hypothyroid
+    │   └── secondary_hypothyroid
+    ├── query hyperthyroid
+    │   ├── primary_hypothyroid
+    │   └── secondary_hypothyroid
+    ├── secondary_hypothyroid
+    ├── secondary_hypothyroid
+    ├── t3 measured
+    │   ├── secondary_hypothyroid
+    │   └── secondary_hypothyroid
+    ├── t4u
+    │   ├── compensated_hypothyroid
+    │   ├── negative
+    │   ├── primary_hypothyroid
+    │   ├── primary_hypothyroid
+    │   ├── primary_hypothyroid
+    │   ├── secondary_hypothyroid
+    │   └── secondary_hypothyroid
+    └── tumor
+        ├── primary_hypothyroid
+        └── secondary_hypothyroid
+
+Run: : 5
+tt4 measured
+├── negative
+└── t4u measured
+    ├── primary_hypothyroid
+    └── secondary_hypothyroid
+
+Run: : 6
+query on thyroxine
+├── on antithyroid medication
+│   ├── primary_hypothyroid
+│   └── query on thyroxine
+│       ├── compensated_hypothyroid
+│       └── primary_hypothyroid
+└── t3
+    ├── fti measured
+    │   ├── negative
+    │   └── secondary_hypothyroid
+    ├── primary_hypothyroid
+    ├── psych
+    │   ├── primary_hypothyroid
+    │   └── secondary_hypothyroid
+    ├── query on thyroxine
+    │   ├── negative
+    │   └── primary_hypothyroid
+    ├── secondary_hypothyroid
+    ├── secondary_hypothyroid
+    └── t3 measured
+        ├── compensated_hypothyroid
+        └── primary_hypothyroid
+
+Run: : 7
+t4u measured
+├── negative
+└── negative
+
+Run: : 8
+age
+├── negative
+├── negative
+├── negative
+├── negative
+├── negative
+├── negative
+└── primary_hypothyroid
+
+Run: : 9
+tbg
+├── negative
+├── negative
+├── negative
+├── negative
+├── primary_hypothyroid
+├── secondary_hypothyroid
+└── secondary_hypothyroid
+
+Run: : 10
+t4u measured
+├── fti
+│   ├── compensated_hypothyroid
+│   ├── i131 treatment
+│   │   ├── compensated_hypothyroid
+│   │   └── negative
+│   ├── negative
+│   ├── primary_hypothyroid
+│   ├── secondary_hypothyroid
+│   ├── t3 measured
+│   │   ├── compensated_hypothyroid
+│   │   └── compensated_hypothyroid
+│   └── tbg
+│       ├── negative
+│       ├── negative
+│       ├── negative
+│       ├── negative
+│       ├── primary_hypothyroid
+│       ├── secondary_hypothyroid
+│       └── secondary_hypothyroid
+└── primary_hypothyroid
+

@@ -62,13 +62,11 @@
 % 9. Class Distribution: 33.3% for each of 3 classes.
 
 @RELATION iris
-
 @ATTRIBUTE sepallength	REAL
 @ATTRIBUTE sepalwidth 	REAL
 @ATTRIBUTE petallength 	REAL
 @ATTRIBUTE petalwidth	REAL
 @ATTRIBUTE class 	{Iris-setosa,Iris-versicolor,Iris-virginica}
-
 @DATA
 5.1,3.5,1.4,0.2,Iris-setosa
 4.9,3.0,1.4,0.2,Iris-setosa

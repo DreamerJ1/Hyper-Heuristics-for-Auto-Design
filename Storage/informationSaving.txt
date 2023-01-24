@@ -1,0 +1,4 @@
+Observations:
+
+Sometimes the initial random generation generates a solution so far outside of the optimums that it is impossible for the hyper-heuristic to move towards that search space
+May need more fitness function options to zero in on the optimum better

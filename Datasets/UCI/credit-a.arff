@@ -63,7 +63,6 @@
 %     -: 383 (55.5%)
 
 @relation credit-rating
-
 @attribute A1		{b,a}
 @attribute A2		REAL
 @attribute A3		REAL
@@ -80,11 +79,7 @@
 @attribute A14		REAL
 @attribute A15		REAL
 @attribute class	{+, -}
-
 @data
-%
-% 690 instances
-%
 b,30.83,0,u,g,w,v,1.25,t,t,01,f,g,00202,0,+
 a,58.67,4.46,u,g,q,h,3.04,t,t,06,f,g,00043,560,+
 a,24.50,0.5,u,g,q,h,1.5,t,f,0,f,g,00280,824,+
@@ -575,11 +570,6 @@ b,28.17,0.125,y,p,k,v,0.085,f,f,0,f,g,00216,2100,-
 b,24.50,13.335,y,p,aa,v,0.04,f,f,0,t,g,00120,475,-
 b,18.83,3.54,y,p,ff,ff,0,f,f,0,t,g,00180,1,-
 ?,45.33,1,u,g,q,v,0.125,f,f,0,t,g,00263,0,-
-
-%
-%
-%
-
 a,47.25,0.75,u,g,q,h,2.75,t,t,01,f,g,00333,892,+
 b,24.17,0.875,u,g,q,v,4.625,t,t,02,t,g,00520,2000,+
 b,39.25,9.5,u,g,m,v,6.5,t,t,14,f,g,00240,4607,+

@@ -9,7 +9,10 @@ class f1Score(FitnessMethod):
         """
         Returns the index of the option in the terminal set
         """
-        return pop.getTerminalSet().index(option)
+        try:
+            return pop.getTerminalSet().index(option.strip(" "))
+        except: 
+            return pop.getTerminalSet().index(option)
 
     def buildConfusionMatrix(self, pop, output) -> list:
         """

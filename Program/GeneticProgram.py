@@ -31,7 +31,7 @@ class GeneticProgram:
         self.utilities = Utilities()
 
         # variables 
-        self.parameters = self.createRandomGP(inisialGenerationOptions, data, dataType)
+        self.parameters = inisialGenerationOptions
         self.terminalSet = []
         self.functionSet = []
         self.functionSetChoices = []
@@ -83,7 +83,7 @@ class GeneticProgram:
                     programDict.update({i: operatorDict})
 
         # create a new genetic program
-        return programDict
+        self.parameters = programDict
         
 
     def inputHandling(self, data, dataType) -> None:
@@ -105,7 +105,7 @@ class GeneticProgram:
                     # get the functional sets variables
                     startOfAttrabuteName = data[i].find(" ")
                     endOfAttrabuteName = data[i].find("{")
-                    attributeName = data[i][startOfAttrabuteName + 1:endOfAttrabuteName].strip(" ").strip("'").strip("\"")
+                    attributeName = data[i][startOfAttrabuteName + 1:endOfAttrabuteName].strip("\t").strip(" ").strip("'").strip("\"")
 
                     # safe the choices for the attribute
                     startOfChoices = data[i].find("{")
@@ -115,9 +115,15 @@ class GeneticProgram:
 
                     # check if the attribute is in the terminal or functionSetChoices
                     if(attributeName == 'Class' or "@data" in data[i+1]):
-                        self.terminalSet = choices
+                        try:
+                            self.terminalSet = [int(x) for x in choices]
+                        except:
+                            self.terminalSet = choices
                     else:
-                        self.functionSetChoices.append(choices)
+                        try:
+                            self.functionSetChoices.append([int(x) for x in choices])
+                        except:
+                            self.functionSetChoices.append(choices)
                         self.functionSet.append(attributeName)
                         self.arity.append(len(choices))
                         
@@ -134,14 +140,20 @@ class GeneticProgram:
                     # loop through data and calculate the mean and standard deviation
                     mean = 0
                     for j in range(len(dataList)):
-                        if(dataList[j][i] != "?"):
-                            mean += float(dataList[j][i])
+                        try: 
+                            if(len(dataList[j]) > 1):
+                                mean += float(dataList[j][i])
+                        except:
+                            pass
                     mean = mean / len(dataList)
 
                     standardDeviation = 0
                     for j in range(len(dataList)):
-                        if(dataList[j][i] != "?"):
-                            standardDeviation += (float(dataList[j][i]) - mean) ** 2
+                        try: 
+                            if(len(dataList[j]) > 1):
+                                standardDeviation += (float(dataList[j][i]) - mean) ** 2
+                        except:
+                            pass
                     standardDeviation = math.sqrt(standardDeviation / len(dataList))
 
                     # convert to int 
@@ -185,6 +197,10 @@ class GeneticProgram:
         self.trainingOutputs = self.outputs[:int(len(self.outputs) * 0.8)]
         self.testingInputs = self.inputs[int(len(self.inputs) * 0.8):]
         self.testingOutputs = self.outputs[int(len(self.outputs) * 0.8):]
+
+        # run through testing data and remove empty rows
+        self.testingInputs = [x for x in self.testingInputs if x != [] and x != '%']
+        self.testingOutputs = [x for x in self.testingOutputs if x != [] and x != '%']
 
     def createPopulation(self, popSize, maxDepth, functionSet, terminalSet, arity, functionSetChoices, method) -> list:
         """
@@ -310,10 +326,24 @@ class GeneticProgram:
             if(type(self.operators[i]) == Mutation):
                 # loop entire population, check if mutation happens and perform it
                 for j in range(len(population)):
+                    # select individuals from population
+                    selected = self.selectionMethod.select(population)
+                    
+                    # get the fitness of each selected and select best fitness
+                    selectedFitness = []
+                    for pop in selected:
+                        fitness = self.fitnessMethod.calculateFitness(pop, output)
+                        pop.fitness = fitness
+                        selectedFitness.append(fitness)
+
+                    # get the best fitness
+                    selected, selectedFitness = self.sortPopulation(selected, selectedFitness, self.parameters["fitnessMethodDirection"])
+
+                    # check if mutation occurs 
                     if(random.random() < self.operators[i].getMutationChance()):
-                        newPopulation.append(self.operators[i].performOperation(population[j]))
+                        newPopulation.append(self.operators[i].performOperation(selected[0]))
                     else:
-                        newPopulation.append(population[j])
+                        newPopulation.append(selected[0])
 
             elif(type(self.operators[i]) == Crossover):
                 # perform selection 
@@ -382,6 +412,15 @@ class GeneticProgram:
         self.changeTreeAndPrint(pop.rootNode, str(uuid.uuid4()), True, tree)
         tree.show()
 
+    # recrusive calling function
+    def saveTreeToFile(self, pop, fileName):
+        """ 
+        Creates a tree using the given population
+        """
+        tree = TreeLib()
+        self.changeTreeAndPrint(pop.rootNode, str(uuid.uuid4()), True, tree)
+        tree.save2file(fileName)
+
     def keyForSorting(self, zipped):
         """
         key for sorting
@@ -448,9 +487,9 @@ class GeneticProgram:
             # preform genetic operations
             population = self.preformGeneticOperators(population, self.trainingOutputs)
 
-            # print the best fitness
+            # # print the best fitness
             population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.trainingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
-            print(fitnessList   )
+            print(fitnessList[0])
 
         # sort the population by their fitness
         population1, fitnessList1 = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.trainingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
@@ -467,10 +506,13 @@ class GeneticProgram:
         # calculate complexity of best tree
         self.setBestComplexity(population1[0].calculateComplexity())
 
-    def runGeneticProgramTesting(self) -> None:
+    def runGeneticProgramTesting(self, saveFile) -> None:
         """
         The main function of the genetic program
         """
+        # start timer
+        start = time.time()
+
         # functions to make variables 
         self.fitnessMethodSelection()
         self.SelectionMethodSelection()
@@ -494,7 +536,7 @@ class GeneticProgram:
 
             # print the best fitness
             population, fitnessList = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.testingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
-            print(fitnessList)
+            print(fitnessList[0])
 
         # sort the population by their fitness
         population1, fitnessList1 = self.sortPopulation(population, [self.fitnessMethod.calculateFitness(pop, self.testingOutputs) for pop in population], self.parameters["fitnessMethodDirection"])
@@ -504,6 +546,14 @@ class GeneticProgram:
 
         print("Total accuracy:")
         self.correctnessWithOutput(population1[0].output, self.testingOutputs)
+        self.saveTreeToFile(population1[0], saveFile)
+
+        # end timer
+        end = time.time()
+        self.setBestTime(end - start)
+
+        # calculate complexity of best tree
+        self.setBestComplexity(population1[0].calculateComplexity())
 
     # GETTERS AND SETTERS
     def getParameters(self):

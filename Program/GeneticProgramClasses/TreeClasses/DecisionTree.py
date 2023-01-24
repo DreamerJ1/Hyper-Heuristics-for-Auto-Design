@@ -72,7 +72,7 @@ class DecisionTree(Tree):
         """
         Recursively copies the node from the currentNodeToCopyFrom to the currentNodeToCopyTo
         """
-        if(currentNodeToCopyFrom.getVariable().isdigit()):
+        if(type(currentNodeToCopyFrom.getVariable()) == int):
             currentNodeToCopyTo.setVariable(currentNodeToCopyFrom.getVariable())
             return
         else:
@@ -190,7 +190,17 @@ class DecisionTree(Tree):
             while(len(currentNode.getChildren()) > 0):
                 # get the index of the function in current node and save the input value at that index
                 functionIndex = self.functionSet.index(currentNode.getVariable())
-                inputValue = i[functionIndex]
+                try:
+                    inputValue = i[functionIndex]
+                except:
+                    print('%s: %s\n' % ("Inputs:", inputs))
+                    print('%s: %s\n' % ("I", i))
+                    print('%s: %s\n' % ("Function Index:", functionIndex))
+                    print('%s: %s\n' % ("Current Node:", currentNode.getVariable()))
+                    print('%s: %s\n' % ("Function Set:", self.functionSet))
+                    print('%s: %s\n' % ("Function Set Choices:", self.functionSetChoices))
+                    print('%s: %s\n' % ("Arity:", self.arity))
+                    print('%s: %s\n' % ("Function Set Index:", self.functionSet.index(currentNode.getVariable())))
 
                 # if the value is "?" then traverse down the edges 
                 if(type(inputValue) != str):
@@ -202,12 +212,12 @@ class DecisionTree(Tree):
                         index = x
                     currentNode = currentNode.getChildAtIndex(index)
                 else:
-                    if(inputValue == "?"):
-                        currentNode = currentNode.getChildAtIndex(0)    
-                    else:
-                        # loop through the functionSetChoices and determin which range to pick
+                    # try to find the index of the input value in the function set choices
+                    try:
                         index = self.functionSetChoices[functionIndex].index(inputValue)
                         currentNode = currentNode.getChildAtIndex(index)
+                    except:
+                        currentNode = currentNode.getChildAtIndex(0)  
 
             # once terminal has been found save it to outputs and repeat for next input
             outputs.append(currentNode.getVariable())

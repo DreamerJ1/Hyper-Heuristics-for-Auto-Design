@@ -8,3 +8,8 @@ u is partially less than v, i.e., ∀ i ∈ {1, ..., k}, ui ≤ vi ∧ ∃ i ∈
 
 Or in english, vector P is dominated by vector V if and only if all the objectives of P are less than or equal
 to the objectives of V and at least one objective of P is less than the corresponding objective of V.
+
+Observations:
+
+Sometimes the initial random generation generates a solution so far outside of the optimums that it is impossible for the hyper-heuristic to move towards that search space
+May need more fitness function options to zero in on the optimum better

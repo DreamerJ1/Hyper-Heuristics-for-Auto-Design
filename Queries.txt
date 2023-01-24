@@ -3,3 +3,4 @@ Accuracy max
 Time-to-solution min
 Complexity of Trees min
 
+should I explain why the design decisions, specifically population size, max depth, generations, etc are so low?

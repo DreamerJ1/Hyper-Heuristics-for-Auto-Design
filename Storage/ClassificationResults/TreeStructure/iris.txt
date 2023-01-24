@@ -1,0 +1,1542 @@
+Run: : 1
+sepallength	real
+├── iris-virginica
+├── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   └── iris-virginica
+├── sepalwidth
+│   ├── iris-setosa
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   └── iris-virginica
+├── sepalwidth
+│   ├── iris-setosa
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   └── iris-virginica
+├── sepalwidth
+│   ├── iris-setosa
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   └── iris-virginica
+└── sepalwidth
+    ├── iris-setosa
+    ├── iris-setosa
+    ├── iris-versicolor
+    ├── iris-versicolor
+    ├── iris-versicolor
+    ├── iris-virginica
+    └── iris-virginica
+
+Run: : 2
+petallength
+├── iris-setosa
+├── iris-versicolor
+├── iris-virginica
+├── iris-virginica
+├── petallength
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   └── petalwidth	real
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── sepallength	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   └── iris-versicolor
+│   │   └── sepalwidth
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   └── petalwidth	real
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       ├── petallength
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   └── iris-virginica
+│       ├── petalwidth	real
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── petalwidth	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       └── sepalwidth
+│           ├── iris-setosa
+│           ├── iris-setosa
+│           ├── iris-versicolor
+│           ├── iris-versicolor
+│           ├── iris-versicolor
+│           ├── iris-virginica
+│           └── iris-virginica
+├── petallength
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   └── petalwidth	real
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── sepallength	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   └── iris-versicolor
+│   │   └── sepalwidth
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   └── petalwidth	real
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       ├── petallength
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   └── iris-virginica
+│       ├── petalwidth	real
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── petalwidth	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       └── sepalwidth
+│           ├── iris-setosa
+│           ├── iris-setosa
+│           ├── iris-versicolor
+│           ├── iris-versicolor
+│           ├── iris-versicolor
+│           ├── iris-virginica
+│           └── iris-virginica
+└── petalwidth	real
+    ├── iris-setosa
+    ├── iris-setosa
+    ├── iris-versicolor
+    ├── iris-versicolor
+    ├── iris-virginica
+    ├── petallength
+    │   ├── iris-versicolor
+    │   ├── iris-versicolor
+    │   ├── iris-versicolor
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   └── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   └── sepallength	real
+    │       ├── iris-setosa
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-virginica
+    │       └── iris-virginica
+    └── sepallength	real
+        ├── iris-setosa
+        ├── iris-versicolor
+        ├── petallength
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   ├── iris-virginica
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        ├── petallength
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        ├── petalwidth	real
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        ├── petalwidth	real
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        └── sepallength	real
+            ├── iris-setosa
+            ├── iris-setosa
+            ├── iris-versicolor
+            ├── iris-versicolor
+            ├── iris-versicolor
+            ├── iris-virginica
+            └── iris-virginica
+
+Run: : 3
+sepalwidth
+├── iris-versicolor
+├── iris-versicolor
+├── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   └── iris-virginica
+├── petallength
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   └── iris-virginica
+├── sepalwidth
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   └── iris-virginica
+└── sepalwidth
+    ├── iris-setosa
+    ├── iris-versicolor
+    ├── iris-versicolor
+    ├── iris-versicolor
+    ├── iris-virginica
+    ├── iris-virginica
+    └── iris-virginica
+
+Run: : 4
+petallength
+├── iris-setosa
+├── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── sepallength	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   └── iris-virginica
+│   │   ├── sepallength	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── sepalwidth
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   └── iris-virginica
+│   │   └── sepalwidth
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   └── sepallength	real
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── sepallength	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   └── sepalwidth
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   └── sepallength	real
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-virginica
+│       ├── petalwidth	real
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   └── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       └── sepallength	real
+│           ├── iris-setosa
+│           ├── iris-setosa
+│           ├── iris-versicolor
+│           ├── iris-versicolor
+│           ├── iris-versicolor
+│           ├── iris-virginica
+│           └── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-setosa
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── sepalwidth
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   └── iris-virginica
+│   │   └── sepallength	real
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   └── sepalwidth
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       ├── iris-virginica
+│       ├── petalwidth	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   └── iris-virginica
+│       └── sepallength	real
+│           ├── iris-setosa
+│           ├── iris-setosa
+│           ├── iris-versicolor
+│           ├── iris-virginica
+│           ├── iris-virginica
+│           ├── iris-virginica
+│           └── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-setosa
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── sepalwidth
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   └── iris-virginica
+│   │   └── sepallength	real
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   └── sepalwidth
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       ├── iris-virginica
+│       ├── petalwidth	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   └── iris-virginica
+│       └── sepallength	real
+│           ├── iris-setosa
+│           ├── iris-setosa
+│           ├── iris-versicolor
+│           ├── iris-virginica
+│           ├── iris-virginica
+│           ├── iris-virginica
+│           └── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   └── sepallength	real
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   └── iris-virginica
+│   │   ├── sepallength	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   └── sepalwidth
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   └── sepallength	real
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       └── iris-virginica
+│   └── sepallength	real
+│       ├── iris-setosa
+│       ├── iris-versicolor
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       ├── petallength
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       ├── petallength
+│       │   ├── iris-setosa
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       └── sepallength	real
+│           ├── iris-setosa
+│           ├── iris-setosa
+│           ├── iris-versicolor
+│           ├── iris-virginica
+│           ├── iris-virginica
+│           ├── iris-virginica
+│           └── iris-virginica
+└── sepalwidth
+    ├── iris-setosa
+    ├── iris-versicolor
+    ├── petalwidth	real
+    │   ├── iris-setosa
+    │   ├── iris-versicolor
+    │   ├── iris-virginica
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   └── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── sepallength	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   └── iris-virginica
+    │   └── sepalwidth
+    │       ├── iris-setosa
+    │       ├── iris-setosa
+    │       ├── iris-setosa
+    │       ├── iris-versicolor
+    │       ├── iris-virginica
+    │       ├── iris-virginica
+    │       └── iris-virginica
+    ├── petalwidth	real
+    │   ├── iris-setosa
+    │   ├── iris-virginica
+    │   ├── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── sepallength	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── sepallength	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   └── iris-virginica
+    │   └── sepalwidth
+    │       ├── iris-setosa
+    │       ├── iris-setosa
+    │       ├── iris-setosa
+    │       ├── iris-versicolor
+    │       ├── iris-virginica
+    │       ├── iris-virginica
+    │       └── iris-virginica
+    ├── sepallength	real
+    │   ├── iris-setosa
+    │   ├── iris-virginica
+    │   ├── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── sepalwidth
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   └── sepalwidth
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-virginica
+    │       ├── iris-virginica
+    │       └── iris-virginica
+    ├── sepallength	real
+    │   ├── iris-setosa
+    │   ├── iris-virginica
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   └── iris-versicolor
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   └── sepallength	real
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-virginica
+    │       ├── iris-virginica
+    │       ├── iris-virginica
+    │       └── iris-virginica
+    └── sepalwidth
+        ├── iris-versicolor
+        ├── iris-virginica
+        ├── petallength
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        ├── petallength
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        ├── petallength
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        ├── sepallength	real
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        └── sepalwidth
+            ├── iris-setosa
+            ├── iris-versicolor
+            ├── iris-versicolor
+            ├── iris-virginica
+            ├── iris-virginica
+            ├── iris-virginica
+            └── iris-virginica
+
+Run: : 1
+petalwidth	real
+├── iris-setosa
+├── iris-versicolor
+├── iris-versicolor
+├── iris-virginica
+├── iris-virginica
+├── iris-virginica
+└── iris-virginica
+
+Run: : 2
+sepallength	real
+├── iris-setosa
+├── iris-setosa
+├── iris-setosa
+├── iris-setosa
+├── iris-setosa
+├── iris-setosa
+└── iris-setosa
+
+Run: : 3
+petalwidth	real
+├── iris-versicolor
+├── iris-virginica
+├── iris-virginica
+├── iris-virginica
+├── iris-virginica
+├── iris-virginica
+└── iris-virginica
+
+Run: : 4
+petalwidth	real
+├── iris-setosa
+├── iris-setosa
+├── iris-setosa
+├── iris-setosa
+├── iris-virginica
+├── iris-virginica
+└── iris-virginica
+
+Run: : 5
+sepalwidth
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   └── iris-virginica
+│   └── sepallength	real
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-versicolor
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       └── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   └── iris-virginica
+│   └── sepallength	real
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-versicolor
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       └── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   └── iris-virginica
+│   └── sepallength	real
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-versicolor
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       └── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   └── iris-virginica
+│   └── sepallength	real
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-versicolor
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       └── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   └── iris-virginica
+│   └── sepallength	real
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-versicolor
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       └── iris-virginica
+├── petallength
+│   ├── iris-setosa
+│   ├── iris-versicolor
+│   ├── iris-virginica
+│   ├── iris-virginica
+│   ├── petallength
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   └── iris-virginica
+│   └── sepallength	real
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-versicolor
+│       ├── iris-versicolor
+│       ├── iris-virginica
+│       └── iris-virginica
+└── petallength
+    ├── iris-setosa
+    ├── iris-versicolor
+    ├── iris-virginica
+    ├── iris-virginica
+    ├── petallength
+    │   ├── iris-setosa
+    │   ├── iris-setosa
+    │   ├── iris-setosa
+    │   ├── iris-versicolor
+    │   ├── iris-versicolor
+    │   ├── iris-versicolor
+    │   └── iris-virginica
+    ├── petalwidth	real
+    │   ├── iris-setosa
+    │   ├── iris-setosa
+    │   ├── iris-setosa
+    │   ├── iris-versicolor
+    │   ├── iris-versicolor
+    │   ├── iris-virginica
+    │   └── iris-virginica
+    └── sepallength	real
+        ├── iris-setosa
+        ├── iris-setosa
+        ├── iris-setosa
+        ├── iris-versicolor
+        ├── iris-versicolor
+        ├── iris-virginica
+        └── iris-virginica
+
+Run: : 6
+sepalwidth
+├── iris-setosa
+├── iris-setosa
+├── iris-versicolor
+├── iris-versicolor
+├── iris-virginica
+├── sepallength	real
+│   ├── iris-versicolor
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── sepallength	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   └── sepalwidth
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── iris-versicolor
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   └── iris-versicolor
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   └── iris-virginica
+│   │   └── petallength
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-setosa
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petalwidth	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   └── iris-virginica
+│   │   ├── sepalwidth
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   └── sepalwidth
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   └── petalwidth	real
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   ├── petalwidth	real
+│   │   ├── iris-versicolor
+│   │   ├── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── petallength
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── sepallength	real
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   ├── sepalwidth
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-setosa
+│   │   │   ├── iris-versicolor
+│   │   │   ├── iris-virginica
+│   │   │   ├── iris-virginica
+│   │   │   └── iris-virginica
+│   │   └── sepalwidth
+│   │       ├── iris-setosa
+│   │       ├── iris-versicolor
+│   │       ├── iris-versicolor
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       ├── iris-virginica
+│   │       └── iris-virginica
+│   └── sepalwidth
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-setosa
+│       ├── iris-virginica
+│       ├── iris-virginica
+│       ├── sepallength	real
+│       │   ├── iris-setosa
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-versicolor
+│       │   ├── iris-virginica
+│       │   ├── iris-virginica
+│       │   └── iris-virginica
+│       └── sepalwidth
+│           ├── iris-setosa
+│           ├── iris-setosa
+│           ├── iris-setosa
+│           ├── iris-versicolor
+│           ├── iris-versicolor
+│           ├── iris-virginica
+│           └── iris-virginica
+└── sepalwidth
+    ├── iris-setosa
+    ├── iris-versicolor
+    ├── iris-versicolor
+    ├── iris-virginica
+    ├── petallength
+    │   ├── iris-versicolor
+    │   ├── iris-versicolor
+    │   ├── iris-virginica
+    │   ├── iris-virginica
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   └── iris-versicolor
+    │   ├── sepallength	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   └── sepallength	real
+    │       ├── iris-setosa
+    │       ├── iris-setosa
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-virginica
+    │       ├── iris-virginica
+    │       └── iris-virginica
+    ├── petalwidth	real
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petallength
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-virginica
+    │   │   ├── iris-virginica
+    │   │   └── iris-virginica
+    │   ├── petalwidth	real
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-setosa
+    │   │   ├── iris-versicolor
+    │   │   ├── iris-versicolor
+    │   │   └── iris-virginica
+    │   └── sepallength	real
+    │       ├── iris-setosa
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-versicolor
+    │       ├── iris-virginica
+    │       ├── iris-virginica
+    │       └── iris-virginica
+    └── petalwidth	real
+        ├── iris-setosa
+        ├── iris-setosa
+        ├── sepallength	real
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        ├── sepallength	real
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-virginica
+        │   └── iris-virginica
+        ├── sepallength	real
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   ├── iris-versicolor
+        │   └── iris-virginica
+        ├── sepallength	real
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-setosa
+        │   ├── iris-versicolor
+        │   └── iris-virginica
+        └── sepalwidth
+            ├── iris-setosa
+            ├── iris-setosa
+            ├── iris-setosa
+            ├── iris-versicolor
+            ├── iris-versicolor
+            ├── iris-virginica
+            └── iris-virginica
+
