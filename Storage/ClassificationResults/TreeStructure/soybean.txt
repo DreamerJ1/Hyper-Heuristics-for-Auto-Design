@@ -1,0 +1,50 @@
+Run: : 1
+leaf-mild
+├── alternarialeaf-spot
+├── diaporthe-stem-canker
+└── diaporthe-stem-canker
+
+Run: : 2
+sclerotia
+├── alternarialeaf-spot
+└── brown-spot
+
+Run: : 3
+canker-lesion
+├── bacterial-blight
+├── brown-spot
+├── charcoal-rot
+└── herbicide-injury
+
+Run: : 1
+sclerotia
+├── brown-spot
+└── plant-stand
+    ├── downy-mildew
+    └── purple-seed-stain
+
+Run: : 2
+precip
+├── frog-eye-leaf-spot
+├── frog-eye-leaf-spot
+└── herbicide-injury
+
+Run: : 3
+date
+├── hail
+│   ├── 2-4-d-injury
+│   └── powdery-mildew
+├── hail
+│   ├── 2-4-d-injury
+│   └── powdery-mildew
+├── leaf-mild
+│   ├── alternarialeaf-spot
+│   ├── downy-mildew
+│   └── powdery-mildew
+├── phyllosticta-leaf-spot
+├── phyllosticta-leaf-spot
+├── rhizoctonia-root-rot
+└── shriveling
+    ├── 2-4-d-injury
+    └── brown-spot
+

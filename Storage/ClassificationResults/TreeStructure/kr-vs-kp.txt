@@ -1,0 +1,89 @@
+Run: : 1
+skach
+├── 'nowin'
+└── 'won'
+
+Run: : 2
+skewr
+├── 'nowin'
+└── 'won'
+
+Run: : 3
+bkona
+├── reskd
+│   ├── 'won'
+│   └── spcop
+│       ├── 'won'
+│       └── katri
+│           ├── 'nowin'
+│           ├── 'nowin'
+│           └── 'won'
+└── reskr
+    ├── 'won'
+    └── dwipd
+        ├── 'nowin'
+        └── 'won'
+
+Run: : 4
+skewr
+├── 'nowin'
+└── bxqsq
+    ├── 'nowin'
+    └── 'nowin'
+
+Run: : 5
+stlmt
+├── 'nowin'
+└── rxmsq
+    ├── 'nowin'
+    └── 'nowin'
+
+Run: : 6
+rkxwp
+├── 'nowin'
+└── reskr
+    ├── 'nowin'
+    └── skach
+        ├── skewr
+        │   ├── 'nowin'
+        │   └── 'nowin'
+        └── thrsk
+            ├── 'won'
+            └── 'won'
+
+Run: : 7
+rkxwp
+├── 'nowin'
+└── 'nowin'
+
+Run: : 8
+bknwy
+├── bkona
+│   ├── bkxwp
+│   │   ├── 'nowin'
+│   │   └── 'nowin'
+│   └── blxwp
+│       ├── 'won'
+│       └── 'won'
+└── dsopp
+    ├── 'nowin'
+    └── 'nowin'
+
+Run: : 9
+wkna8
+├── 'nowin'
+└── thrsk
+    ├── spcop
+    │   ├── 'won'
+    │   └── 'won'
+    └── spcop
+        ├── 'won'
+        └── 'won'
+
+Run: : 10
+bkxbq
+├── 'nowin'
+└── rxmsq
+    ├── 'nowin'
+    └── 'won'
+

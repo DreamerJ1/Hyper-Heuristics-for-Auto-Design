@@ -1,0 +1,3187 @@
+Run: : 1
+thal
+├── absent
+├── absent
+├── absent
+├── fasting_blood_sugar
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   └── present
+├── present
+├── present
+└── present
+
+Run: : 2
+slope
+├── absent
+├── absent
+├── absent
+├── present
+├── present
+├── present
+└── present
+
+Run: : 3
+number_of_major_vessels
+├── absent
+├── absent
+├── present
+├── present
+├── present
+├── thal
+│   ├── absent
+│   ├── absent
+│   ├── number_of_major_vessels
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── present
+│   ├── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── present
+│   ├── sex
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   └── present
+│   └── sex
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── present
+│       ├── present
+│       ├── present
+│       └── present
+└── thal
+    ├── absent
+    ├── absent
+    ├── present
+    ├── present
+    ├── resting_electrocardiographic_results
+    │   ├── absent
+    │   ├── absent
+    │   ├── absent
+    │   ├── absent
+    │   ├── present
+    │   ├── present
+    │   └── present
+    ├── serum_cholestoral
+    │   ├── absent
+    │   ├── absent
+    │   ├── absent
+    │   ├── present
+    │   ├── present
+    │   ├── present
+    │   └── present
+    └── slope
+        ├── absent
+        ├── absent
+        ├── present
+        ├── present
+        ├── present
+        ├── present
+        └── present
+
+Run: : 4
+slope
+├── absent
+├── chest
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── present
+│   ├── present
+│   └── present
+├── chest
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── present
+│   ├── present
+│   └── present
+├── chest
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── present
+│   ├── present
+│   └── present
+├── exercise_induced_angina
+│   ├── absent
+│   ├── absent
+│   ├── present
+│   ├── present
+│   ├── present
+│   ├── present
+│   └── present
+├── exercise_induced_angina
+│   ├── absent
+│   ├── absent
+│   ├── present
+│   ├── present
+│   ├── present
+│   ├── present
+│   └── present
+└── exercise_induced_angina
+    ├── absent
+    ├── absent
+    ├── present
+    ├── present
+    ├── present
+    ├── present
+    └── present
+
+Run: : 5
+resting_electrocardiographic_results
+├── absent
+├── absent
+├── absent
+├── present
+├── present
+├── present
+└── present
+
+Run: : 6
+age
+├── absent
+├── chest
+│   ├── absent
+│   ├── fasting_blood_sugar
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── sex
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── present
+│   ├── sex
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── sex
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   └── thal
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       └── present
+├── fasting_blood_sugar
+│   ├── absent
+│   ├── age
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── slope
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── exercise_induced_angina
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── resting_electrocardiographic_results
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── oldpeak
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── serum_cholestoral
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── present
+│   └── resting_electrocardiographic_results
+│       ├── absent
+│       ├── chest
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── oldpeak
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       ├── present
+│       ├── resting_electrocardiographic_results
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       └── serum_cholestoral
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           └── present
+├── fasting_blood_sugar
+│   ├── absent
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── present
+│   ├── fasting_blood_sugar
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── present
+│   └── resting_electrocardiographic_results
+│       ├── absent
+│       ├── absent
+│       ├── maximum_heart_rate_achieved
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── maximum_heart_rate_achieved
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   └── present
+│       ├── present
+│       ├── present
+│       └── present
+├── number_of_major_vessels
+│   ├── absent
+│   ├── fasting_blood_sugar
+│   │   ├── number_of_major_vessels
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── serum_cholestoral
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── serum_cholestoral
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── fasting_blood_sugar
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── number_of_major_vessels
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── present
+│   └── present
+├── present
+└── thal
+    ├── absent
+    ├── absent
+    ├── absent
+    ├── absent
+    ├── absent
+    ├── present
+    └── present
+
+Run: : 7
+number_of_major_vessels
+├── absent
+├── absent
+├── absent
+├── age
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_blood_pressure
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── resting_electrocardiographic_results
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── fasting_blood_sugar
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── present
+│   └── slope
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       ├── resting_blood_pressure
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── slope
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       └── slope
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           └── present
+├── age
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_blood_pressure
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── resting_electrocardiographic_results
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── fasting_blood_sugar
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── present
+│   └── slope
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       ├── resting_blood_pressure
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── slope
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       └── slope
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           └── present
+├── age
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_blood_pressure
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── resting_electrocardiographic_results
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── fasting_blood_sugar
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── present
+│   └── slope
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       ├── resting_blood_pressure
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── slope
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       └── slope
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           └── present
+└── present
+
+Run: : 8
+maximum_heart_rate_achieved
+├── oldpeak
+│   ├── absent
+│   ├── chest
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── thal
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── resting_blood_pressure
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   └── serum_cholestoral
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       └── present
+├── oldpeak
+│   ├── absent
+│   ├── chest
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── thal
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── resting_blood_pressure
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   └── serum_cholestoral
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       └── present
+├── oldpeak
+│   ├── absent
+│   ├── chest
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── thal
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── resting_blood_pressure
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   └── serum_cholestoral
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       └── present
+├── oldpeak
+│   ├── absent
+│   ├── chest
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── thal
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── resting_blood_pressure
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   └── serum_cholestoral
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       └── present
+├── oldpeak
+│   ├── absent
+│   ├── chest
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── thal
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── resting_blood_pressure
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   └── serum_cholestoral
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       └── present
+├── oldpeak
+│   ├── absent
+│   ├── chest
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── thal
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── resting_blood_pressure
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── serum_cholestoral
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── resting_electrocardiographic_results
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── resting_blood_pressure
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   └── serum_cholestoral
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── absent
+│       ├── age
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       └── present
+└── oldpeak
+    ├── absent
+    ├── chest
+    │   ├── absent
+    │   ├── fasting_blood_sugar
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── oldpeak
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   └── present
+    │   ├── present
+    │   ├── present
+    │   ├── present
+    │   └── sex
+    │       ├── absent
+    │       ├── absent
+    │       ├── present
+    │       ├── present
+    │       ├── present
+    │       ├── present
+    │       └── present
+    ├── maximum_heart_rate_achieved
+    │   ├── absent
+    │   ├── absent
+    │   ├── absent
+    │   ├── present
+    │   ├── present
+    │   ├── thal
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   └── thal
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── present
+    │       ├── present
+    │       ├── present
+    │       └── present
+    ├── maximum_heart_rate_achieved
+    │   ├── absent
+    │   ├── exercise_induced_angina
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── present
+    │   ├── present
+    │   ├── present
+    │   ├── resting_electrocardiographic_results
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   └── serum_cholestoral
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── present
+    │       └── present
+    ├── resting_blood_pressure
+    │   ├── absent
+    │   ├── age
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── chest
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   └── present
+    │   ├── exercise_induced_angina
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── present
+    │   ├── present
+    │   └── serum_cholestoral
+    │       ├── absent
+    │       ├── absent
+    │       ├── present
+    │       ├── present
+    │       ├── present
+    │       ├── present
+    │       └── present
+    ├── resting_electrocardiographic_results
+    │   ├── absent
+    │   ├── absent
+    │   ├── fasting_blood_sugar
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── maximum_heart_rate_achieved
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   └── present
+    │   ├── maximum_heart_rate_achieved
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── present
+    │   └── resting_blood_pressure
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── present
+    │       └── present
+    └── serum_cholestoral
+        ├── absent
+        ├── absent
+        ├── absent
+        ├── absent
+        ├── age
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── present
+        │   ├── present
+        │   ├── present
+        │   └── present
+        ├── present
+        └── present
+
+Run: : 9
+sex
+├── absent
+├── absent
+├── absent
+├── present
+├── resting_blood_pressure
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── exercise_induced_angina
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── slope
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── resting_blood_pressure
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── resting_electrocardiographic_results
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   └── thal
+│       ├── absent
+│       ├── chest
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       ├── resting_electrocardiographic_results
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   └── present
+│       ├── serum_cholestoral
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   └── present
+│       └── slope
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           ├── present
+│           ├── present
+│           ├── present
+│           └── present
+├── resting_blood_pressure
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── absent
+│   ├── exercise_induced_angina
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── resting_electrocardiographic_results
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── slope
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── resting_blood_pressure
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── resting_electrocardiographic_results
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   └── thal
+│       ├── absent
+│       ├── chest
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── present
+│       ├── resting_electrocardiographic_results
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   └── present
+│       ├── serum_cholestoral
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   └── present
+│       └── slope
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           ├── present
+│           ├── present
+│           ├── present
+│           └── present
+└── resting_blood_pressure
+    ├── absent
+    ├── absent
+    ├── absent
+    ├── absent
+    ├── exercise_induced_angina
+    │   ├── absent
+    │   ├── absent
+    │   ├── present
+    │   ├── present
+    │   ├── resting_electrocardiographic_results
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── slope
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   └── thal
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── present
+    │       ├── present
+    │       └── present
+    ├── resting_blood_pressure
+    │   ├── absent
+    │   ├── absent
+    │   ├── age
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── maximum_heart_rate_achieved
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── absent
+    │   │   ├── present
+    │   │   ├── present
+    │   │   ├── present
+    │   │   └── present
+    │   ├── present
+    │   ├── present
+    │   └── resting_electrocardiographic_results
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── absent
+    │       ├── present
+    │       ├── present
+    │       └── present
+    └── thal
+        ├── absent
+        ├── chest
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── present
+        │   └── present
+        ├── number_of_major_vessels
+        │   ├── absent
+        │   ├── absent
+        │   ├── present
+        │   ├── present
+        │   ├── present
+        │   ├── present
+        │   └── present
+        ├── present
+        ├── resting_electrocardiographic_results
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── present
+        │   └── present
+        ├── serum_cholestoral
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── absent
+        │   ├── present
+        │   └── present
+        └── slope
+            ├── absent
+            ├── absent
+            ├── present
+            ├── present
+            ├── present
+            ├── present
+            └── present
+
+Run: : 10
+exercise_induced_angina
+├── absent
+├── absent
+├── chest
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── oldpeak
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── present
+│   ├── present
+│   └── sex
+│       ├── absent
+│       ├── absent
+│       ├── maximum_heart_rate_achieved
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── resting_blood_pressure
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       └── slope
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           ├── present
+│           ├── present
+│           └── present
+├── chest
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── oldpeak
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── present
+│   ├── present
+│   └── sex
+│       ├── absent
+│       ├── absent
+│       ├── maximum_heart_rate_achieved
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── resting_blood_pressure
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       └── slope
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           ├── present
+│           ├── present
+│           └── present
+├── chest
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── fasting_blood_sugar
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── absent
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── oldpeak
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── slope
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── present
+│   ├── present
+│   ├── present
+│   └── sex
+│       ├── absent
+│       ├── absent
+│       ├── maximum_heart_rate_achieved
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── number_of_major_vessels
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       ├── resting_blood_pressure
+│       │   ├── absent
+│       │   ├── absent
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   ├── present
+│       │   └── present
+│       └── slope
+│           ├── absent
+│           ├── absent
+│           ├── absent
+│           ├── present
+│           ├── present
+│           ├── present
+│           └── present
+├── oldpeak
+│   ├── absent
+│   ├── absent
+│   ├── age
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── number_of_major_vessels
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── serum_cholestoral
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   └── sex
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── exercise_induced_angina
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── maximum_heart_rate_achieved
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── thal
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       └── present
+│   ├── exercise_induced_angina
+│   │   ├── absent
+│   │   ├── absent
+│   │   ├── age
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── oldpeak
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   └── resting_electrocardiographic_results
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── absent
+│   │       ├── present
+│   │       ├── present
+│   │       └── present
+│   ├── maximum_heart_rate_achieved
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── chest
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── exercise_induced_angina
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   └── present
+│   │   ├── number_of_major_vessels
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── absent
+│   │   │   ├── present
+│   │   │   ├── present
+│   │   │   └── present
+│   │   ├── present
+│   │   ├── present
+│   │   └── present
+│   └── present
+└── present
+

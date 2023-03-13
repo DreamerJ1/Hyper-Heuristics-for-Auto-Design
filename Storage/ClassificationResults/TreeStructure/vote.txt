@@ -1,0 +1,88 @@
+Run: : 1
+physician-fee-freeze
+├── anti-satellite-test-ban
+│   ├── 'democrat'
+│   └── 'republican'
+└── anti-satellite-test-ban
+    ├── 'democrat'
+    └── 'republican'
+
+Run: : 2
+religious-groups-in-schools
+├── 'democrat'
+└── 'democrat'
+
+Run: : 3
+adoption-of-the-budget-resolution
+├── crime
+│   ├── 'republican'
+│   └── 'republican'
+└── crime
+    ├── 'republican'
+    └── 'republican'
+
+Run: : 4
+aid-to-nicaraguan-contras
+├── anti-satellite-test-ban
+│   ├── 'democrat'
+│   └── 'republican'
+└── synfuels-corporation-cutback
+    ├── 'democrat'
+    └── 'democrat'
+
+Run: : 5
+synfuels-corporation-cutback
+├── 'democrat'
+└── adoption-of-the-budget-resolution
+    ├── 'republican'
+    └── 'republican'
+
+Run: : 6
+adoption-of-the-budget-resolution
+├── 'democrat'
+└── 'democrat'
+
+Run: : 7
+physician-fee-freeze
+├── 'democrat'
+└── religious-groups-in-schools
+    ├── 'republican'
+    └── el-salvador-aid
+        ├── 'democrat'
+        └── 'republican'
+
+Run: : 8
+mx-missile
+├── religious-groups-in-schools
+│   ├── 'democrat'
+│   └── anti-satellite-test-ban
+│       ├── 'democrat'
+│       └── duty-free-exports
+│           ├── 'democrat'
+│           └── 'democrat'
+└── religious-groups-in-schools
+    ├── 'democrat'
+    └── export-administration-act-south-africa
+        ├── 'republican'
+        └── adoption-of-the-budget-resolution
+            ├── 'democrat'
+            └── 'republican'
+
+Run: : 9
+superfund-right-to-sue
+├── 'republican'
+└── duty-free-exports
+    ├── 'republican'
+    └── education-spending
+        ├── 'republican'
+        └── export-administration-act-south-africa
+            ├── 'democrat'
+            └── 'republican'
+
+Run: : 10
+adoption-of-the-budget-resolution
+├── 'republican'
+└── synfuels-corporation-cutback
+    ├── 'democrat'
+    └── 'democrat'
+

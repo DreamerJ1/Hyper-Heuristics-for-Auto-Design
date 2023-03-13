@@ -17,13 +17,62 @@ class DecisionTree(Tree):
         for i in range(0, len(currentNode.getChildren())):
             self.printTree(currentNode.getChildAtIndex(i), currentDepth+1)
 
-        return
+    def checkTerminals(self, node):
+        """
+        Checks if the children of a node are only terminals
+        """
+        for i in range(node.getChildren().__len__()):
+            if(node.getChildren()[i].getChildren().__len__() == 0):
+                return True
+        return False
+
+    def getRandomNode(self, tree, maxDepth):
+        """
+        Gets a random node from the tree
+        """
+        currentDepth = 0
+        currentNode = tree.rootNode
+        parentNode = currentNode
+        parentsParentNode = currentNode
+        while(currentDepth <= maxDepth):
+            index = self.functionSet.index(currentNode.getVariable())
+            parentsParentNode = parentNode
+            parentNode = currentNode
+            currentNode = currentNode.getChildAtIndex(random.randint(0, self.arity[index]-1))
+            currentDepth += 1
+
+            # check if we hit a terminal node since we cant go down farther
+            if(currentNode.getChildren() == [] or self.checkTerminals(currentNode)):
+                return parentsParentNode, currentDepth-2
+
+        return currentNode, currentDepth-1
+
+    def getRandomNodeMutation(self, tree, maxDepth):
+        """
+        Gets a random node from the tree
+        """
+        currentDepth = 0
+        currentNode = tree.rootNode
+        parentNode = currentNode
+        parentsParentNode = currentNode
+        while(currentDepth <= maxDepth):
+            index = self.functionSet.index(currentNode.getVariable())
+            parentsParentNode = parentNode
+            parentNode = currentNode
+            currentNode = currentNode.getChildAtIndex(random.randint(0, self.arity[index]-1))
+            currentDepth += 1
+
+            # check if we hit a terminal node since we cant go down farther
+            if(currentNode.getChildren() == [] or self.checkTerminals(currentNode)):
+                return currentNode, currentDepth
+
+        return currentNode, currentDepth
 
     def recursivelyCopyTree(self, currentNodeToCopyFrom, currentNodeToCopyTo):
         """
         Recursively copies the node from the currentNodeToCopyFrom to the currentNodeToCopyTo
         """
-        if(currentNodeToCopyFrom.getVariable().isdigit()):
+        if(type(currentNodeToCopyFrom.getVariable()) == int):
             currentNodeToCopyTo.setVariable(currentNodeToCopyFrom.getVariable())
             return
         else:
@@ -141,15 +190,34 @@ class DecisionTree(Tree):
             while(len(currentNode.getChildren()) > 0):
                 # get the index of the function in current node and save the input value at that index
                 functionIndex = self.functionSet.index(currentNode.getVariable())
-                inputValue = i[functionIndex]
+                try:
+                    inputValue = i[functionIndex]
+                except:
+                    print('%s: %s\n' % ("Inputs:", inputs))
+                    print('%s: %s\n' % ("I", i))
+                    print('%s: %s\n' % ("Function Index:", functionIndex))
+                    print('%s: %s\n' % ("Current Node:", currentNode.getVariable()))
+                    print('%s: %s\n' % ("Function Set:", self.functionSet))
+                    print('%s: %s\n' % ("Function Set Choices:", self.functionSetChoices))
+                    print('%s: %s\n' % ("Arity:", self.arity))
+                    print('%s: %s\n' % ("Function Set Index:", self.functionSet.index(currentNode.getVariable())))
 
                 # if the value is "?" then traverse down the edges 
-                if(inputValue == "?"):
-                    currentNode = currentNode.getChildAtIndex(0)
-                else:
-                    # loop through the functionSetChoices and determin which range to pick
-                    index = self.functionSetChoices[functionIndex].index(inputValue)
+                if(type(inputValue) != str):
+                    index = 0
+                    for x in range(len(self.functionSetChoices[functionIndex])):
+                        if(inputValue <= self.functionSetChoices[functionIndex][x]):
+                            index = x
+                            break
+                        index = x
                     currentNode = currentNode.getChildAtIndex(index)
+                else:
+                    # try to find the index of the input value in the function set choices
+                    try:
+                        index = self.functionSetChoices[functionIndex].index(inputValue)
+                        currentNode = currentNode.getChildAtIndex(index)
+                    except:
+                        currentNode = currentNode.getChildAtIndex(0)  
 
             # once terminal has been found save it to outputs and repeat for next input
             outputs.append(currentNode.getVariable())
@@ -179,3 +247,16 @@ class DecisionTree(Tree):
         currentNode = self.rootNode
         self.countNodes(currentNode)
         return self.nFunctionalNodes, self.nLeaves
+
+    # GETTERS AND SETTERS
+    def getArity(self):
+        return self.arity
+
+    def setArity(self, arity):
+        self.arity = arity
+
+    def functionSetChoices(self):
+        return self.functionSetChoices
+
+    def setFunctionSetChoices(self, functionSetChoices):
+        self.functionSetChoices = functionSetChoices

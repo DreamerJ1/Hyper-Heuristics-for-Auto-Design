@@ -1,0 +1,280 @@
+Run: : 1
+ascites
+├── ascites
+│   ├── antivirals
+│   │   ├── die
+│   │   └── sex
+│   │       ├── die
+│   │       └── live
+│   └── live
+└── ascites
+    ├── antivirals
+    │   ├── die
+    │   └── sex
+    │       ├── die
+    │       └── live
+    └── live
+
+Run: : 2
+spleen_palpable
+├── ascites
+│   ├── die
+│   └── varices
+│       ├── anorexia
+│       │   ├── die
+│       │   └── live
+│       └── die
+└── live
+
+Run: : 3
+malaise
+├── live
+└── live
+
+Run: : 4
+protime
+├── bilirubin
+│   ├── albumin
+│   │   ├── ascites
+│   │   │   ├── live
+│   │   │   └── live
+│   │   ├── die
+│   │   ├── live
+│   │   ├── liver_firm
+│   │   │   ├── die
+│   │   │   └── live
+│   │   ├── liver_firm
+│   │   │   ├── live
+│   │   │   └── live
+│   │   ├── protime
+│   │   │   ├── die
+│   │   │   ├── die
+│   │   │   ├── die
+│   │   │   ├── live
+│   │   │   ├── live
+│   │   │   ├── live
+│   │   │   └── live
+│   │   └── steroid
+│   │       ├── die
+│   │       └── live
+│   ├── die
+│   ├── die
+│   ├── live
+│   ├── malaise
+│   │   ├── bilirubin
+│   │   │   ├── die
+│   │   │   ├── die
+│   │   │   ├── die
+│   │   │   ├── live
+│   │   │   ├── live
+│   │   │   ├── live
+│   │   │   └── live
+│   │   └── die
+│   ├── sex
+│   │   ├── die
+│   │   └── varices
+│   │       ├── die
+│   │       └── live
+│   └── varices
+│       ├── ascites
+│       │   ├── live
+│       │   └── live
+│       └── die
+├── die
+├── die
+├── live
+├── live
+├── steroid
+│   ├── spleen_palpable
+│   │   ├── anorexia
+│   │   │   ├── die
+│   │   │   └── live
+│   │   └── die
+│   └── spleen_palpable
+│       ├── die
+│       └── steroid
+│           ├── fatigue
+│           │   ├── die
+│           │   └── live
+│           └── steroid
+│               ├── live
+│               └── live
+└── steroid
+    ├── spleen_palpable
+    │   ├── anorexia
+    │   │   ├── die
+    │   │   └── live
+    │   └── die
+    └── spleen_palpable
+        ├── die
+        └── steroid
+            ├── fatigue
+            │   ├── die
+            │   └── live
+            └── steroid
+                ├── live
+                └── live
+
+Run: : 5
+fatigue
+├── liver_firm
+│   ├── live
+│   └── protime
+│       ├── die
+│       ├── die
+│       ├── die
+│       ├── die
+│       ├── live
+│       ├── live
+│       └── live
+└── sgot
+    ├── albumin
+    │   ├── die
+    │   ├── die
+    │   ├── die
+    │   ├── die
+    │   ├── die
+    │   ├── live
+    │   └── live
+    ├── bilirubin
+    │   ├── die
+    │   ├── die
+    │   ├── die
+    │   ├── die
+    │   ├── live
+    │   ├── live
+    │   └── live
+    ├── die
+    ├── histology
+    │   ├── die
+    │   └── live
+    ├── live
+    ├── liver_firm
+    │   ├── die
+    │   └── live
+    └── liver_firm
+        ├── die
+        └── die
+
+Run: : 6
+bilirubin
+├── die
+├── die
+├── die
+├── live
+├── live
+├── live
+└── live
+
+Run: : 7
+varices
+├── live
+└── spleen_palpable
+    ├── die
+    └── live
+
+Run: : 8
+malaise
+├── die
+└── sgot
+    ├── die
+    ├── die
+    ├── live
+    ├── live
+    ├── live
+    ├── live
+    └── live
+
+Run: : 9
+protime
+├── histology
+│   ├── ascites
+│   │   ├── die
+│   │   └── die
+│   └── die
+├── histology
+│   ├── die
+│   └── die
+├── live
+├── protime
+│   ├── ascites
+│   │   ├── die
+│   │   └── live
+│   ├── die
+│   ├── die
+│   ├── die
+│   ├── live
+│   ├── live
+│   └── steroid
+│       ├── die
+│       └── die
+├── protime
+│   ├── albumin
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── live
+│   │   └── live
+│   ├── bilirubin
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── live
+│   │   └── live
+│   ├── die
+│   ├── die
+│   ├── fatigue
+│   │   ├── die
+│   │   └── die
+│   ├── live
+│   └── spleen_palpable
+│       ├── live
+│       └── live
+├── protime
+│   ├── albumin
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── live
+│   │   └── live
+│   ├── bilirubin
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── die
+│   │   ├── live
+│   │   └── live
+│   ├── die
+│   ├── die
+│   ├── fatigue
+│   │   ├── die
+│   │   └── die
+│   ├── live
+│   └── spleen_palpable
+│       ├── live
+│       └── live
+└── protime
+    ├── ascites
+    │   ├── die
+    │   └── live
+    ├── die
+    ├── die
+    ├── die
+    ├── live
+    ├── live
+    └── steroid
+        ├── die
+        └── die
+
+Run: : 10
+steroid
+├── die
+└── live
+

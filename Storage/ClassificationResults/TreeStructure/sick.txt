@@ -1,0 +1,176 @@
+Run: : 1
+on thyroxine
+├── pregnant
+│   ├── t3 measured
+│   │   ├── sick
+│   │   └── t4u
+│   │       ├── negative
+│   │       ├── negative
+│   │       ├── sick
+│   │       ├── sick
+│   │       ├── sick
+│   │       ├── sick
+│   │       └── sick
+│   └── tbg
+│       ├── fti
+│       │   ├── negative
+│       │   ├── negative
+│       │   ├── negative
+│       │   ├── sick
+│       │   ├── sick
+│       │   ├── sick
+│       │   └── sick
+│       ├── fti measured
+│       │   ├── negative
+│       │   └── negative
+│       ├── negative
+│       ├── negative
+│       ├── sick
+│       ├── sick
+│       └── sick
+└── sick
+
+Run: : 2
+t3
+├── negative
+├── negative
+├── negative
+├── negative
+├── sick
+├── sick
+└── sick
+
+Run: : 3
+tbg
+├── negative
+├── negative
+├── negative
+├── negative
+├── sick
+├── sick
+└── sick
+
+Run: : 4
+t3
+├── negative
+├── negative
+├── negative
+├── negative
+├── negative
+├── negative
+└── sick
+
+Run: : 5
+query hyperthyroid
+├── negative
+└── referral source
+    ├── i131 treatment
+    │   ├── negative
+    │   └── sick
+    ├── negative
+    ├── sick
+    ├── sick
+    └── tt4 measured
+        ├── sick
+        └── sick
+
+Run: : 6
+on thyroxine
+├── negative
+└── sick
+
+Run: : 7
+lithium
+├── negative
+└── sick
+
+Run: : 8
+on thyroxine
+├── negative
+└── sick
+
+Run: : 9
+referral source
+├── negative
+├── query on thyroxine
+│   ├── query on thyroxine
+│   │   ├── sick
+│   │   └── tsh
+│   │       ├── negative
+│   │       ├── negative
+│   │       ├── negative
+│   │       ├── negative
+│   │       ├── sick
+│   │       ├── sick
+│   │       └── sick
+│   └── sick
+├── t4u measured
+│   ├── sick
+│   └── sick
+├── thyroid surgery
+│   ├── pregnant
+│   │   ├── t3 measured
+│   │   │   ├── sick
+│   │   │   └── sick
+│   │   └── tumor
+│   │       ├── negative
+│   │       └── sick
+│   └── sick
+│       ├── on antithyroid medication
+│       │   ├── sick
+│       │   └── sick
+│       └── tbg
+│           ├── sick
+│           ├── sick
+│           ├── sick
+│           ├── sick
+│           ├── sick
+│           ├── sick
+│           └── sick
+└── tt4
+    ├── negative
+    ├── negative
+    ├── on antithyroid medication
+    │   ├── age
+    │   │   ├── negative
+    │   │   ├── negative
+    │   │   ├── sick
+    │   │   ├── sick
+    │   │   ├── sick
+    │   │   ├── sick
+    │   │   └── sick
+    │   └── pregnant
+    │       ├── negative
+    │       └── negative
+    ├── sick
+    ├── sick
+    ├── tsh
+    │   ├── pregnant
+    │   │   ├── negative
+    │   │   └── sick
+    │   ├── sick
+    │   ├── sick
+    │   ├── sick
+    │   ├── tbg
+    │   │   ├── negative
+    │   │   ├── negative
+    │   │   ├── negative
+    │   │   ├── sick
+    │   │   ├── sick
+    │   │   ├── sick
+    │   │   └── sick
+    │   ├── tsh measured
+    │   │   ├── negative
+    │   │   └── sick
+    │   └── tumor
+    │       ├── sick
+    │       └── sick
+    └── tumor
+        ├── negative
+        └── sick
+
+Run: : 10
+psych
+├── negative
+└── negative
+

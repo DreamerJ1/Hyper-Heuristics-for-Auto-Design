@@ -1,0 +1,592 @@
+Run: : 1
+own_telephone
+├── credit_amount
+│   ├── bad
+│   ├── bad
+│   ├── employment
+│   │   ├── credit_history
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── existing_credits
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── good
+│   │   ├── good
+│   │   └── other_parties
+│   │       ├── bad
+│   │       ├── bad
+│   │       └── good
+│   ├── good
+│   ├── good
+│   ├── job
+│   │   ├── age
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── installment_commitment
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── purpose
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   └── savings_status
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── good
+│   │       ├── good
+│   │       └── good
+│   └── residence_since
+│       ├── bad
+│       ├── checking_status
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── credit_amount
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── num_dependents
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── other_parties
+│       │   ├── bad
+│       │   ├── bad
+│       │   └── good
+│       ├── other_parties
+│       │   ├── bad
+│       │   ├── bad
+│       │   └── good
+│       └── personal_status
+│           ├── bad
+│           ├── bad
+│           ├── good
+│           ├── good
+│           └── good
+└── credit_history
+    ├── checking_status
+    │   ├── bad
+    │   ├── good
+    │   ├── num_dependents
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── good
+    │   │   ├── good
+    │   │   ├── good
+    │   │   └── good
+    │   └── property_magnitude
+    │       ├── bad
+    │       ├── good
+    │       ├── good
+    │       └── good
+    ├── duration
+    │   ├── bad
+    │   ├── good
+    │   ├── good
+    │   ├── good
+    │   ├── installment_commitment
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── good
+    │   │   ├── good
+    │   │   ├── good
+    │   │   └── good
+    │   ├── personal_status
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── good
+    │   │   ├── good
+    │   │   └── good
+    │   └── savings_status
+    │       ├── bad
+    │       ├── bad
+    │       ├── bad
+    │       ├── good
+    │       └── good
+    ├── good
+    ├── housing
+    │   ├── bad
+    │   ├── good
+    │   └── good
+    └── other_payment_plans
+        ├── bad
+        ├── existing_credits
+        │   ├── bad
+        │   ├── bad
+        │   ├── bad
+        │   ├── bad
+        │   ├── good
+        │   ├── good
+        │   └── good
+        └── existing_credits
+            ├── bad
+            ├── bad
+            ├── good
+            ├── good
+            ├── good
+            ├── good
+            └── good
+
+Run: : 2
+purpose
+├── bad
+├── bad
+├── bad
+├── good
+├── good
+├── good
+├── other_payment_plans
+│   ├── bad
+│   ├── credit_amount
+│   │   ├── age
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   └── good
+│   │   ├── bad
+│   │   ├── good
+│   │   ├── good
+│   │   ├── good
+│   │   ├── property_magnitude
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   └── residence_since
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── good
+│   │       ├── good
+│   │       ├── good
+│   │       ├── good
+│   │       └── good
+│   └── personal_status
+│       ├── age
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── good
+│       ├── good
+│       ├── other_parties
+│       │   ├── bad
+│       │   ├── good
+│       │   └── good
+│       └── personal_status
+│           ├── bad
+│           ├── bad
+│           ├── good
+│           ├── good
+│           └── good
+├── other_payment_plans
+│   ├── bad
+│   ├── credit_amount
+│   │   ├── age
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   └── good
+│   │   ├── bad
+│   │   ├── good
+│   │   ├── good
+│   │   ├── good
+│   │   ├── property_magnitude
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   └── residence_since
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── good
+│   │       ├── good
+│   │       ├── good
+│   │       ├── good
+│   │       └── good
+│   └── personal_status
+│       ├── age
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── good
+│       ├── good
+│       ├── other_parties
+│       │   ├── bad
+│       │   ├── good
+│       │   └── good
+│       └── personal_status
+│           ├── bad
+│           ├── bad
+│           ├── good
+│           ├── good
+│           └── good
+├── other_payment_plans
+│   ├── bad
+│   ├── credit_amount
+│   │   ├── age
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   └── good
+│   │   ├── bad
+│   │   ├── good
+│   │   ├── good
+│   │   ├── good
+│   │   ├── property_magnitude
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   └── residence_since
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── good
+│   │       ├── good
+│   │       ├── good
+│   │       ├── good
+│   │       └── good
+│   └── personal_status
+│       ├── age
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── good
+│       ├── good
+│       ├── other_parties
+│       │   ├── bad
+│       │   ├── good
+│       │   └── good
+│       └── personal_status
+│           ├── bad
+│           ├── bad
+│           ├── good
+│           ├── good
+│           └── good
+├── property_magnitude
+│   ├── bad
+│   ├── good
+│   ├── installment_commitment
+│   │   ├── bad
+│   │   ├── credit_amount
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── credit_history
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── existing_credits
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── good
+│   │   ├── housing
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   └── good
+│   │   └── purpose
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── bad
+│   │       ├── good
+│   │       └── good
+│   └── savings_status
+│       ├── credit_history
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── employment
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── good
+│       ├── good
+│       └── installment_commitment
+│           ├── bad
+│           ├── bad
+│           ├── bad
+│           ├── bad
+│           ├── bad
+│           ├── good
+│           └── good
+└── property_magnitude
+    ├── bad
+    ├── good
+    ├── installment_commitment
+    │   ├── bad
+    │   ├── credit_amount
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── good
+    │   │   ├── good
+    │   │   ├── good
+    │   │   └── good
+    │   ├── credit_history
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── good
+    │   │   └── good
+    │   ├── existing_credits
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   ├── good
+    │   │   ├── good
+    │   │   ├── good
+    │   │   ├── good
+    │   │   └── good
+    │   ├── good
+    │   ├── housing
+    │   │   ├── bad
+    │   │   ├── bad
+    │   │   └── good
+    │   └── purpose
+    │       ├── bad
+    │       ├── bad
+    │       ├── bad
+    │       ├── bad
+    │       ├── bad
+    │       ├── bad
+    │       ├── bad
+    │       ├── bad
+    │       ├── bad
+    │       ├── good
+    │       └── good
+    └── savings_status
+        ├── credit_history
+        │   ├── bad
+        │   ├── bad
+        │   ├── good
+        │   ├── good
+        │   └── good
+        ├── employment
+        │   ├── bad
+        │   ├── bad
+        │   ├── good
+        │   ├── good
+        │   └── good
+        ├── good
+        ├── good
+        └── installment_commitment
+            ├── bad
+            ├── bad
+            ├── bad
+            ├── bad
+            ├── bad
+            ├── good
+            └── good
+
+Run: : 3
+savings_status
+├── bad
+├── checking_status
+│   ├── bad
+│   ├── good
+│   ├── good
+│   └── good
+├── good
+├── good
+└── good
+
+Run: : 4
+foreign_worker
+├── bad
+└── good
+
+Run: : 5
+installment_commitment
+├── good
+├── good
+├── good
+├── good
+├── good
+├── good
+└── good
+
+Run: : 6
+installment_commitment
+├── bad
+├── bad
+├── bad
+├── bad
+├── good
+├── good
+└── good
+
+Run: : 7
+credit_history
+├── bad
+├── bad
+├── good
+├── good
+└── good
+
+Run: : 8
+other_payment_plans
+├── existing_credits
+│   ├── bad
+│   ├── bad
+│   ├── bad
+│   ├── good
+│   ├── good
+│   ├── good
+│   └── good
+├── existing_credits
+│   ├── bad
+│   ├── bad
+│   ├── bad
+│   ├── good
+│   ├── good
+│   ├── good
+│   └── good
+└── other_parties
+    ├── bad
+    ├── bad
+    └── good
+
+Run: : 9
+other_payment_plans
+├── bad
+├── checking_status
+│   ├── bad
+│   ├── existing_credits
+│   │   ├── bad
+│   │   ├── bad
+│   │   ├── bad
+│   │   ├── credit_history
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── employment
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   └── good
+│   │   ├── existing_credits
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── bad
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   ├── good
+│   │   │   └── good
+│   │   └── good
+│   ├── good
+│   └── personal_status
+│       ├── bad
+│       ├── credit_history
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── duration
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── bad
+│       │   ├── good
+│       │   ├── good
+│       │   └── good
+│       ├── good
+│       └── purpose
+│           ├── bad
+│           ├── bad
+│           ├── bad
+│           ├── bad
+│           ├── bad
+│           ├── bad
+│           ├── good
+│           ├── good
+│           ├── good
+│           ├── good
+│           └── good
+└── good
+
+Run: : 10
+housing
+├── bad
+├── bad
+└── good
+

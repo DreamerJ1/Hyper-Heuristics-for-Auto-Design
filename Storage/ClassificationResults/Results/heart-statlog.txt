@@ -1,0 +1,295 @@
+Starting Seed:: 1120
+
+Run: 1
+
+Training Results: 
+Accuracy: 76.85185185185185
+Time: 2.20117449760437
+Complexity: 52.10131915442328
+
+Testing Results: 
+Accuracy: 27.77777777777778
+Time: 0.6363697052001953
+Complexity: 35.40087943628218
+
+Design Desisions:
+populationSize: 38
+generations: 37
+maxDepth: 3
+generationMethod: G
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'weightedF1Score max'}
+selectionMethod: {'tournament': 2}
+operators: {'mutation0': 0.03, 'mutation1': 0.18, 'mutation2': 0.14}
+terminationCondition: {'maxFitness': 0.8}
+fitnessMethodDirection: max
+
+_________________________________________________________________________________
+Run: 2
+
+Training Results: 
+Accuracy: 76.85185185185185
+Time: 0.4180295467376709
+Complexity: 18.70043971814109
+
+Testing Results: 
+Accuracy: 25.925925925925924
+Time: 0.12190461158752441
+Complexity: 18.70043971814109
+
+Design Desisions:
+populationSize: 21
+generations: 13
+maxDepth: 2
+generationMethod: G
+numberOfOperators: 2
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'accuracy max'}
+selectionMethod: {'tournament': 5}
+operators: {'mutation0': 0.12, 'mutation1': 0.03}
+terminationCondition: {'maxFitness': 0.5}
+fitnessMethodDirection: max
+
+_________________________________________________________________________________
+Run: 3
+
+Training Results: 
+Accuracy: 77.77777777777779
+Time: 1.105407953262329
+Complexity: 252.50659577211638
+
+Testing Results: 
+Accuracy: 61.111111111111114
+Time: 0.33919715881347656
+Complexity: 169.00439718141092
+
+Design Desisions:
+populationSize: 43
+generations: 15
+maxDepth: 4
+generationMethod: G
+numberOfOperators: 2
+numberOfTerminationCriterion: 2
+fitnessMethod: {'f1Score': 'normal max'}
+selectionMethod: {'tournament': 5}
+operators: {'mutation0': 0.18, 'mutation1': 0.16}
+terminationCondition: {'maxFitness': 0.6}
+fitnessMethodDirection: max
+
+_________________________________________________________________________________
+Run: 4
+
+Training Results: 
+Accuracy: 77.31481481481481
+Time: 0.795785665512085
+Complexity: 135.60351774512873
+
+Testing Results: 
+Accuracy: 77.77777777777779
+Time: 0.26323413848876953
+Complexity: 118.90307802698764
+
+Design Desisions:
+populationSize: 15
+generations: 28
+maxDepth: 3
+generationMethod: F
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'weightedF1Score max'}
+selectionMethod: {'tournament': 2}
+operators: {'mutation0': 0.01, 'crossover1': 0.62, 'mutation2': 0.03}
+terminationCondition: {'maxFitness': 0.9}
+fitnessMethodDirection: max
+
+_________________________________________________________________________________
+Run: 5
+
+Training Results: 
+Accuracy: 76.85185185185185
+Time: 0.1545860767364502
+Complexity: 18.70043971814109
+
+Testing Results: 
+Accuracy: 38.88888888888889
+Time: 0.04587721824645996
+Complexity: 18.70043971814109
+
+Design Desisions:
+populationSize: 12
+generations: 10
+maxDepth: 2
+generationMethod: G
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'normal max'}
+selectionMethod: {'tournament': 2}
+operators: {'mutation0': 0.01, 'mutation1': 0.01, 'crossover2': 0.9}
+terminationCondition: {'maxFitness': 0.7}
+fitnessMethodDirection: max
+
+_________________________________________________________________________________
+Run: 6
+
+Training Results: 
+Accuracy: 76.85185185185185
+Time: 6.586712121963501
+Complexity: 369.40967379910404
+
+Testing Results: 
+Accuracy: 74.07407407407408
+Time: 4.40055775642395
+Complexity: 1154.3303405517354
+
+Design Desisions:
+populationSize: 49
+generations: 37
+maxDepth: 5
+generationMethod: F
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'accuracy max'}
+selectionMethod: {'tournament': 5}
+operators: {'crossover0': 0.8, 'mutation1': 0.1, 'crossover2': 0.87}
+terminationCondition: {'maxFitness': 0.5}
+fitnessMethodDirection: max
+
+_________________________________________________________________________________
+Run: 7
+
+Training Results: 
+Accuracy: 76.85185185185185
+Time: 0.71907639503479
+Complexity: 786.9206667526313
+
+Testing Results: 
+Accuracy: 62.96296296296296
+Time: 0.7689440250396729
+Complexity: 1321.3347377331463
+
+Design Desisions:
+populationSize: 20
+generations: 12
+maxDepth: 5
+generationMethod: H
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'normal max'}
+selectionMethod: {'tournament': 2}
+operators: {'crossover0': 0.61, 'mutation1': 0.16, 'crossover2': 0.85}
+terminationCondition: {'maxFitness': 0.6}
+fitnessMethodDirection: max
+f1Score: accuracy max
+
+_________________________________________________________________________________
+Run: 8
+
+Training Results: 
+Accuracy: 75.0
+Time: 4.5540759563446045
+Complexity: 1304.6342980150052
+
+Testing Results: 
+Accuracy: 61.111111111111114
+Time: 6.4472496509552
+Complexity: 2824.3743123658446
+
+Design Desisions:
+populationSize: 34
+generations: 12
+maxDepth: 5
+generationMethod: F
+numberOfOperators: 4
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'normal max'}
+selectionMethod: {'tournament': 5}
+operators: {'crossover0': 0.66, 'crossover1': 0.56, 'crossover2': 0.73, 'crossover3': 0.63}
+terminationCondition: {'maxFitness': 0.8}
+fitnessMethodDirection: max
+
+_________________________________________________________________________________
+Run: 9
+
+Training Results: 
+Accuracy: 75.92592592592592
+Time: 2.4065675735473633
+Complexity: 786.9206667526313
+
+Testing Results: 
+Accuracy: 53.70370370370371
+Time: 1.0706894397735596
+Complexity: 770.2202270344902
+
+Design Desisions:
+populationSize: 16
+generations: 38
+maxDepth: 5
+generationMethod: G
+numberOfOperators: 5
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'accuracy max'}
+selectionMethod: {'tournament': 1}
+operators: {'mutation0': 0.02, 'crossover1': 0.79, 'crossover2': 0.56, 'crossover3': 0.64, 'mutation4': 0.08}
+terminationCondition: {'maxFitness': 0.8}
+fitnessMethodDirection: max
+raw: holder min
+tournament: 5
+
+_________________________________________________________________________________
+Run: 10
+
+Training Results: 
+Accuracy: 75.46296296296296
+Time: 3.7728826999664307
+Complexity: 1271.233418578723
+
+Testing Results: 
+Accuracy: 66.66666666666666
+Time: 2.4836156368255615
+Complexity: 1120.9294611154533
+
+Design Desisions:
+populationSize: 46
+generations: 30
+maxDepth: 5
+generationMethod: G
+numberOfOperators: 4
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'normal max'}
+selectionMethod: {'tournament': 2}
+operators: {'crossover0': 0.53, 'crossover1': 0.81, 'mutation2': 0.1, 'crossover3': 0.4}
+terminationCondition: {'maxFitness': 0.7}
+fitnessMethodDirection: max
+f1Score: accuracy max
+
+_________________________________________________________________________________
+Final Results: 
+Training Accuracies: [76.85185185185185, 76.85185185185185, 77.77777777777779, 77.31481481481481, 76.85185185185185, 76.85185185185185, 76.85185185185185, 75.0, 75.92592592592592, 75.46296296296296]
+Testing Accuracies: [27.77777777777778, 25.925925925925924, 61.111111111111114, 77.77777777777779, 38.88888888888889, 74.07407407407408, 62.96296296296296, 61.111111111111114, 53.70370370370371, 66.66666666666666]
+Average Training Accuracy: 76.57407407407408
+Average Testing Accuracy: 54.999999999999986
+
+Training Times: [2.20117449760437, 0.4180295467376709, 1.105407953262329, 0.795785665512085, 0.1545860767364502, 6.586712121963501, 0.71907639503479, 4.5540759563446045, 2.4065675735473633, 3.7728826999664307]
+Testing Times: [0.6363697052001953, 0.12190461158752441, 0.33919715881347656, 0.26323413848876953, 0.04587721824645996, 4.40055775642395, 0.7689440250396729, 6.4472496509552, 1.0706894397735596, 2.4836156368255615]
+Average Training Time: 2.2714298486709597
+Average Testing Time: 1.657763934135437
+
+Training Complexities: [52.10131915442328, 18.70043971814109, 252.50659577211638, 135.60351774512873, 18.70043971814109, 369.40967379910404, 786.9206667526313, 1304.6342980150052, 786.9206667526313, 1271.233418578723]
+Testing Complexities: [35.40087943628218, 18.70043971814109, 169.00439718141092, 118.90307802698764, 18.70043971814109, 1154.3303405517354, 1321.3347377331463, 2824.3743123658446, 770.2202270344902, 1120.9294611154533]
+Average Training Complexity: 499.6731036006046
+Average Testing Complexity: 755.1898312881633
+
+Best Design Decisions:
+populationSize: 15
+generations: 28
+maxDepth: 3
+generationMethod: F
+numberOfOperators: 3
+numberOfTerminationCriterion: 1
+fitnessMethod: {'f1Score': 'weightedF1Score max'}
+selectionMethod: {'tournament': 2}
+operators: {'mutation0': 0.01, 'crossover1': 0.62, 'mutation2': 0.03}
+terminationCondition: {'maxFitness': 0.9}
+fitnessMethodDirection: max
+

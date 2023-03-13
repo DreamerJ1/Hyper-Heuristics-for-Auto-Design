@@ -1,0 +1,523 @@
+Run: : 1
+irradiat
+├── 'recurrence-events'
+└── 'recurrence-events'
+
+Run: : 2
+deg-malig
+├── 'no-recurrence-events'
+├── 'no-recurrence-events'
+└── 'no-recurrence-events'
+
+Run: : 3
+menopause
+├── 'no-recurrence-events'
+├── 'recurrence-events'
+└── menopause
+    ├── 'no-recurrence-events'
+    ├── 'no-recurrence-events'
+    └── 'recurrence-events'
+
+Run: : 4
+node-caps
+├── 'recurrence-events'
+└── 'recurrence-events'
+
+Run: : 5
+inv-nodes
+├── 'no-recurrence-events'
+├── 'no-recurrence-events'
+├── 'no-recurrence-events'
+├── 'no-recurrence-events'
+├── 'recurrence-events'
+├── 'recurrence-events'
+├── 'recurrence-events'
+├── age
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── breast
+│   │   ├── deg-malig
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   └── 'recurrence-events'
+│   │   └── irradiat
+│   │       ├── 'no-recurrence-events'
+│   │       └── 'recurrence-events'
+│   ├── deg-malig
+│   │   ├── 'recurrence-events'
+│   │   ├── age
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   └── 'recurrence-events'
+│   │   └── menopause
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       └── 'recurrence-events'
+│   ├── irradiat
+│   │   ├── age
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   └── 'recurrence-events'
+│   │   └── irradiat
+│   │       ├── 'no-recurrence-events'
+│   │       └── 'recurrence-events'
+│   ├── irradiat
+│   │   ├── irradiat
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   └── 'no-recurrence-events'
+│   │   └── menopause
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       └── 'recurrence-events'
+│   ├── irradiat
+│   │   ├── 'recurrence-events'
+│   │   └── age
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       └── 'recurrence-events'
+│   └── node-caps
+│       ├── 'recurrence-events'
+│       └── tumor-size
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'recurrence-events'
+│           ├── 'recurrence-events'
+│           ├── 'recurrence-events'
+│           ├── 'recurrence-events'
+│           └── 'recurrence-events'
+├── breast
+│   ├── 'no-recurrence-events'
+│   └── tumor-size
+│       ├── 'no-recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── deg-malig
+│       │   ├── 'no-recurrence-events'
+│       │   ├── 'recurrence-events'
+│       │   └── 'recurrence-events'
+│       ├── irradiat
+│       │   ├── 'recurrence-events'
+│       │   └── 'recurrence-events'
+│       ├── irradiat
+│       │   ├── 'no-recurrence-events'
+│       │   └── 'recurrence-events'
+│       ├── menopause
+│       │   ├── 'recurrence-events'
+│       │   ├── 'recurrence-events'
+│       │   └── 'recurrence-events'
+│       ├── node-caps
+│       │   ├── 'recurrence-events'
+│       │   └── 'recurrence-events'
+│       ├── node-caps
+│       │   ├── 'no-recurrence-events'
+│       │   └── 'recurrence-events'
+│       ├── node-caps
+│       │   ├── 'recurrence-events'
+│       │   └── 'recurrence-events'
+│       └── tumor-size
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'no-recurrence-events'
+│           ├── 'recurrence-events'
+│           ├── 'recurrence-events'
+│           ├── 'recurrence-events'
+│           ├── 'recurrence-events'
+│           ├── 'recurrence-events'
+│           └── 'recurrence-events'
+├── deg-malig
+│   ├── 'recurrence-events'
+│   ├── breast
+│   │   ├── age
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   ├── 'recurrence-events'
+│   │   │   └── 'recurrence-events'
+│   │   └── tumor-size
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'no-recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       ├── 'recurrence-events'
+│   │       └── 'recurrence-events'
+│   └── deg-malig
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       └── 'recurrence-events'
+├── irradiat
+│   ├── node-caps
+│   │   ├── breast
+│   │   │   ├── 'no-recurrence-events'
+│   │   │   └── deg-malig
+│   │   │       ├── 'recurrence-events'
+│   │   │       ├── 'recurrence-events'
+│   │   │       └── 'recurrence-events'
+│   │   └── irradiat
+│   │       ├── 'no-recurrence-events'
+│   │       └── 'no-recurrence-events'
+│   └── node-caps
+│       ├── 'no-recurrence-events'
+│       └── 'no-recurrence-events'
+├── menopause
+│   ├── 'no-recurrence-events'
+│   ├── 'recurrence-events'
+│   └── 'recurrence-events'
+└── node-caps
+    ├── breast
+    │   ├── 'no-recurrence-events'
+    │   └── deg-malig
+    │       ├── 'recurrence-events'
+    │       ├── 'recurrence-events'
+    │       └── 'recurrence-events'
+    └── menopause
+        ├── 'no-recurrence-events'
+        ├── 'recurrence-events'
+        └── deg-malig
+            ├── 'no-recurrence-events'
+            ├── 'no-recurrence-events'
+            └── 'no-recurrence-events'
+
+Run: : 6
+age
+├── 'no-recurrence-events'
+├── 'no-recurrence-events'
+├── 'no-recurrence-events'
+├── 'no-recurrence-events'
+├── 'recurrence-events'
+├── inv-nodes
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── age
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── breast
+│   │   ├── 'no-recurrence-events'
+│   │   └── 'no-recurrence-events'
+│   ├── inv-nodes
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── irradiat
+│   │   ├── 'no-recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── node-caps
+│   │   ├── 'no-recurrence-events'
+│   │   └── 'recurrence-events'
+│   └── tumor-size
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── 'recurrence-events'
+│       └── 'recurrence-events'
+├── inv-nodes
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── breast-quad
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── deg-malig
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── deg-malig
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── inv-nodes
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── menopause
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── menopause
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── node-caps
+│   │   ├── 'no-recurrence-events'
+│   │   └── 'recurrence-events'
+│   └── tumor-size
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── 'recurrence-events'
+│       └── 'recurrence-events'
+├── irradiat
+│   ├── 'no-recurrence-events'
+│   └── irradiat
+│       ├── 'no-recurrence-events'
+│       └── 'no-recurrence-events'
+└── node-caps
+    ├── age
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   └── 'recurrence-events'
+    └── tumor-size
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'recurrence-events'
+        ├── 'recurrence-events'
+        ├── 'recurrence-events'
+        ├── 'recurrence-events'
+        ├── 'recurrence-events'
+        ├── 'recurrence-events'
+        ├── 'recurrence-events'
+        └── 'recurrence-events'
+
+Run: : 7
+deg-malig
+├── 'no-recurrence-events'
+├── 'no-recurrence-events'
+└── 'recurrence-events'
+
+Run: : 8
+irradiat
+├── deg-malig
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   └── 'recurrence-events'
+└── menopause
+    ├── 'no-recurrence-events'
+    ├── 'recurrence-events'
+    └── 'recurrence-events'
+
+Run: : 9
+breast-quad
+├── 'recurrence-events'
+├── breast-quad
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   └── irradiat
+│       ├── 'no-recurrence-events'
+│       └── 'recurrence-events'
+├── breast-quad
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   └── irradiat
+│       ├── 'no-recurrence-events'
+│       └── 'recurrence-events'
+├── inv-nodes
+│   ├── 'no-recurrence-events'
+│   ├── 'no-recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── 'recurrence-events'
+│   ├── age
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── deg-malig
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── deg-malig
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   └── 'recurrence-events'
+│   ├── inv-nodes
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'no-recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   ├── 'recurrence-events'
+│   │   └── 'recurrence-events'
+│   └── tumor-size
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'no-recurrence-events'
+│       ├── 'recurrence-events'
+│       ├── 'recurrence-events'
+│       └── 'recurrence-events'
+└── inv-nodes
+    ├── 'no-recurrence-events'
+    ├── 'no-recurrence-events'
+    ├── 'recurrence-events'
+    ├── 'recurrence-events'
+    ├── 'recurrence-events'
+    ├── 'recurrence-events'
+    ├── 'recurrence-events'
+    ├── 'recurrence-events'
+    ├── age
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   └── 'recurrence-events'
+    ├── deg-malig
+    │   ├── 'no-recurrence-events'
+    │   ├── 'recurrence-events'
+    │   └── 'recurrence-events'
+    ├── deg-malig
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   └── 'recurrence-events'
+    ├── inv-nodes
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'no-recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   ├── 'recurrence-events'
+    │   └── 'recurrence-events'
+    └── tumor-size
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'recurrence-events'
+        ├── 'recurrence-events'
+        └── 'recurrence-events'
+
+Run: : 10
+irradiat
+├── 'recurrence-events'
+└── breast
+    ├── 'no-recurrence-events'
+    └── breast-quad
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'no-recurrence-events'
+        ├── 'recurrence-events'
+        └── 'recurrence-events'
+

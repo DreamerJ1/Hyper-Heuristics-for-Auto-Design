@@ -1,0 +1,1486 @@
+Run: : 1
+attribute_46
+├── mine
+├── mine
+├── mine
+├── mine
+├── mine
+├── mine
+└── mine
+
+Run: : 2
+attribute_30
+├── mine
+├── mine
+├── mine
+├── mine
+├── rock
+├── rock
+└── rock
+
+Run: : 3
+attribute_14
+├── attribute_41
+│   ├── attribute_18
+│   │   ├── attribute_13
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_25
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_5
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_26
+│   │   ├── attribute_2
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_53
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_7
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_39
+│   │   ├── attribute_16
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_49
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_41
+│   │   ├── attribute_20
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_40
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_8
+│   │   ├── attribute_24
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_43
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_44
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_9
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── mine
+├── attribute_41
+│   ├── attribute_18
+│   │   ├── attribute_13
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_25
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_5
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_26
+│   │   ├── attribute_2
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_53
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_7
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_39
+│   │   ├── attribute_16
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_49
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_41
+│   │   ├── attribute_20
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_40
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_8
+│   │   ├── attribute_24
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_43
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_44
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_9
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── mine
+├── attribute_41
+│   ├── attribute_18
+│   │   ├── attribute_13
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_25
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_5
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_26
+│   │   ├── attribute_2
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_53
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_7
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_39
+│   │   ├── attribute_16
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_49
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_41
+│   │   ├── attribute_20
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_40
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_8
+│   │   ├── attribute_24
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_43
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_44
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_9
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── mine
+├── attribute_41
+│   ├── attribute_18
+│   │   ├── attribute_13
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_25
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_5
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_26
+│   │   ├── attribute_2
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_53
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_7
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_39
+│   │   ├── attribute_16
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_49
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_41
+│   │   ├── attribute_20
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_40
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_8
+│   │   ├── attribute_24
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_43
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_44
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_9
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── mine
+├── attribute_41
+│   ├── attribute_18
+│   │   ├── attribute_13
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_25
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_5
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_26
+│   │   ├── attribute_2
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_53
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_7
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_39
+│   │   ├── attribute_16
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_49
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_41
+│   │   ├── attribute_20
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_40
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_54
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_8
+│   │   ├── attribute_24
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_43
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_44
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_9
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── mine
+├── attribute_57
+│   ├── attribute_13
+│   │   ├── attribute_16
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_23
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_20
+│   │   ├── attribute_17
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_18
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_32
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_51
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_56
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   └── rock
+│   ├── attribute_22
+│   │   ├── attribute_17
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   └── rock
+│   │   ├── attribute_31
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_34
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   └── rock
+│   │   ├── attribute_42
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   └── rock
+│   ├── attribute_39
+│   │   ├── attribute_20
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_28
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── attribute_32
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── mine
+│   │   │   ├── rock
+│   │   │   ├── rock
+│   │   │   └── rock
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   ├── rock
+│   └── rock
+└── attribute_57
+    ├── attribute_13
+    │   ├── attribute_16
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── attribute_23
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── mine
+    │   ├── rock
+    │   ├── rock
+    │   ├── rock
+    │   └── rock
+    ├── attribute_20
+    │   ├── attribute_17
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── attribute_18
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── attribute_32
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── attribute_51
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── attribute_56
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── mine
+    │   └── rock
+    ├── attribute_22
+    │   ├── attribute_17
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   └── rock
+    │   ├── attribute_31
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── attribute_34
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   └── rock
+    │   ├── attribute_42
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── mine
+    │   ├── mine
+    │   └── rock
+    ├── attribute_39
+    │   ├── attribute_20
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── attribute_28
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── attribute_32
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── mine
+    │   │   ├── rock
+    │   │   ├── rock
+    │   │   └── rock
+    │   ├── mine
+    │   ├── mine
+    │   ├── rock
+    │   └── rock
+    ├── mine
+    ├── rock
+    └── rock
+
+Run: : 4
+attribute_41
+├── mine
+├── mine
+├── rock
+├── rock
+├── rock
+├── rock
+└── rock
+
+Run: : 5
+attribute_57
+├── mine
+├── mine
+├── mine
+├── mine
+├── rock
+├── rock
+└── rock
+
+Run: : 6
+attribute_23
+├── attribute_20
+│   ├── attribute_10
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_41
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_9
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   ├── mine
+│   ├── rock
+│   └── rock
+├── attribute_30
+│   ├── attribute_25
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_44
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_48
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_53
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_7
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── rock
+├── attribute_30
+│   ├── attribute_55
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── rock
+│   ├── rock
+│   └── rock
+├── mine
+├── rock
+├── rock
+└── rock
+
+Run: : 7
+attribute_30
+├── attribute_1
+│   ├── mine
+│   ├── mine
+│   ├── rock
+│   ├── rock
+│   ├── rock
+│   ├── rock
+│   └── rock
+├── attribute_2
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── rock
+│   ├── rock
+│   └── rock
+├── attribute_55
+│   ├── mine
+│   ├── mine
+│   ├── rock
+│   ├── rock
+│   ├── rock
+│   ├── rock
+│   └── rock
+├── mine
+├── mine
+├── rock
+└── rock
+
+Run: : 8
+attribute_20
+├── attribute_15
+│   ├── attribute_16
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_22
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_29
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_31
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_51
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── rock
+├── attribute_34
+│   ├── attribute_15
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_3
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   └── rock
+│   ├── attribute_3
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_39
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_48
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── rock
+├── attribute_34
+│   ├── attribute_15
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_3
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   └── rock
+│   ├── attribute_3
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_39
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_48
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── rock
+├── attribute_54
+│   ├── attribute_27
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_50
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_53
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_59
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   └── rock
+│   ├── attribute_9
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── mine
+│   └── rock
+├── attribute_60
+│   ├── attribute_28
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_31
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   └── rock
+│   ├── attribute_33
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_33
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── rock
+│   │   ├── rock
+│   │   ├── rock
+│   │   └── rock
+│   ├── attribute_35
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   ├── mine
+│   │   └── rock
+│   ├── mine
+│   └── mine
+├── mine
+└── mine
+
+Run: : 9
+attribute_37
+├── attribute_50
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   └── rock
+├── attribute_53
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   └── rock
+├── attribute_53
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   └── rock
+├── mine
+├── rock
+├── rock
+└── rock
+
+Run: : 10
+attribute_37
+├── attribute_2
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── rock
+│   ├── rock
+│   ├── rock
+│   └── rock
+├── attribute_2
+│   ├── mine
+│   ├── mine
+│   ├── mine
+│   ├── rock
+│   ├── rock
+│   ├── rock
+│   └── rock
+├── mine
+├── mine
+├── mine
+├── rock
+└── rock
+

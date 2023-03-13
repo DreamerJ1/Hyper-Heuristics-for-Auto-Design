@@ -1,0 +1,86 @@
+Run: : 1
+marginal_adhesion integer
+├── cell_shape_uniformity integer
+│   ├── malignant
+│   └── malignant
+└── normal_nucleoli integer
+    ├── benign
+    └── malignant
+
+Run: : 2
+clump_thickness integer
+├── benign
+└── marginal_adhesion integer
+    ├── benign
+    └── malignant
+
+Run: : 3
+bare_nuclei integer
+├── benign
+└── clump_thickness integer
+    ├── benign
+    └── malignant
+
+Run: : 4
+cell_size_uniformity integer
+├── benign
+└── malignant
+
+Run: : 5
+cell_shape_uniformity integer
+├── cell_size_uniformity integer
+│   ├── bare_nuclei integer
+│   │   ├── malignant
+│   │   └── normal_nucleoli integer
+│   │       ├── benign
+│   │       └── benign
+│   └── cell_shape_uniformity integer
+│       ├── benign
+│       └── single_epi_cell_size integer
+│           ├── benign
+│           └── malignant
+└── marginal_adhesion integer
+    ├── benign
+    └── malignant
+
+Run: : 6
+single_epi_cell_size integer
+├── benign
+└── benign
+
+Run: : 7
+cell_size_uniformity integer
+├── benign
+└── marginal_adhesion integer
+    ├── benign
+    └── normal_nucleoli integer
+        ├── benign
+        └── normal_nucleoli integer
+            ├── benign
+            └── benign
+
+Run: : 8
+marginal_adhesion integer
+├── malignant
+└── single_epi_cell_size integer
+    ├── cell_shape_uniformity integer
+    │   ├── mitoses integer
+    │   │   ├── benign
+    │   │   └── malignant
+    │   └── mitoses integer
+    │       ├── benign
+    │       └── benign
+    └── malignant
+
+Run: : 9
+bare_nuclei integer
+├── benign
+└── cell_shape_uniformity integer
+    ├── benign
+    └── malignant
+
+Run: : 10
+cell_size_uniformity integer
+├── benign
+└── malignant
+

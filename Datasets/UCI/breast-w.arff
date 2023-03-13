@@ -1,13 +1,13 @@
 @relation wisconsin-breast-cancer
-@attribute Clump_Thickness integer [1,10]
-@attribute Cell_Size_Uniformity integer [1,10]
-@attribute Cell_Shape_Uniformity integer [1,10]
-@attribute Marginal_Adhesion integer [1,10]
-@attribute Single_Epi_Cell_Size integer [1,10]
-@attribute Bare_Nuclei integer [1,10]
-@attribute Bland_Chromatin integer [1,10]
-@attribute Normal_Nucleoli integer [1,10]
-@attribute Mitoses integer [1,10]
+@attribute Clump_Thickness integer {1,10}
+@attribute Cell_Size_Uniformity integer {1,10}
+@attribute Cell_Shape_Uniformity integer {1,10}
+@attribute Marginal_Adhesion integer {1,10}
+@attribute Single_Epi_Cell_Size integer {1,10}
+@attribute Bare_Nuclei integer {1,10}
+@attribute Bland_Chromatin integer {1,10}
+@attribute Normal_Nucleoli integer {1,10}
+@attribute Mitoses integer {1,10}
 @attribute Class { benign, malignant}
 @data
 5,1,1,1,2,1,3,1,1,benign

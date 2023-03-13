@@ -1,0 +1,515 @@
+Run: : 1
+abdominocentesis_appearance
+├── nasogastric_reflux
+│   ├── no
+│   ├── no
+│   └── no
+├── respiratory_rate
+│   ├── no
+│   ├── no
+│   ├── peristalsis
+│   │   ├── no
+│   │   ├── no
+│   │   ├── yes
+│   │   └── yes
+│   ├── rectal_temperature
+│   │   ├── no
+│   │   ├── no
+│   │   ├── no
+│   │   ├── yes
+│   │   ├── yes
+│   │   ├── yes
+│   │   └── yes
+│   ├── surgery
+│   │   ├── no
+│   │   └── yes
+│   ├── yes
+│   └── yes
+└── respiratory_rate
+    ├── no
+    ├── no
+    ├── peristalsis
+    │   ├── no
+    │   ├── no
+    │   ├── yes
+    │   └── yes
+    ├── rectal_temperature
+    │   ├── no
+    │   ├── no
+    │   ├── no
+    │   ├── yes
+    │   ├── yes
+    │   ├── yes
+    │   └── yes
+    ├── surgery
+    │   ├── no
+    │   └── yes
+    ├── yes
+    └── yes
+
+Run: : 2
+mucous_membranes
+├── abdominal_distension
+│   ├── age
+│   │   ├── no
+│   │   └── yes
+│   ├── outcome
+│   │   ├── no
+│   │   ├── no
+│   │   └── no
+│   ├── rectal_examination
+│   │   ├── yes
+│   │   ├── yes
+│   │   ├── yes
+│   │   └── yes
+│   └── surgery
+│       ├── nasogastric_reflux_ph
+│       │   ├── no
+│       │   ├── no
+│       │   ├── no
+│       │   ├── no
+│       │   ├── yes
+│       │   ├── yes
+│       │   └── yes
+│       └── yes
+├── no
+├── no
+├── rectal_examination
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   └── yes
+├── rectal_examination
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   └── yes
+└── yes
+
+Run: : 3
+surgery
+├── no
+└── yes
+
+Run: : 4
+nasogastric_reflux_ph
+├── abdominal_distension
+│   ├── age
+│   │   ├── outcome
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   └── surgery
+│   │       ├── yes
+│   │       └── yes
+│   ├── no
+│   ├── no
+│   └── yes
+├── abdominal_distension
+│   ├── age
+│   │   ├── outcome
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   └── surgery
+│   │       ├── yes
+│   │       └── yes
+│   ├── no
+│   ├── no
+│   └── yes
+├── mucous_membranes
+│   ├── nasogastric_tube
+│   │   ├── nasogastric_reflux_ph
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── outcome
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   └── yes
+│   ├── no
+│   ├── no
+│   ├── packed_cell_volume
+│   │   ├── mucous_membranes
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── nasogastric_reflux_ph
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── nasogastric_tube
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   └── yes
+│   │   ├── nasogastric_tube
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── peripheral_pulse
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── rectal_examination
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   └── yes
+│   ├── yes
+│   └── yes
+├── nasogastric_reflux_ph
+│   ├── abdomen
+│   │   ├── mucous_membranes
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── mucous_membranes
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── nasogastric_tube
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── no
+│   │   └── outcome
+│   │       ├── no
+│   │       ├── yes
+│   │       └── yes
+│   ├── abdominocentesis_appearance
+│   │   ├── no
+│   │   ├── no
+│   │   └── peristalsis
+│   │       ├── no
+│   │       ├── yes
+│   │       ├── yes
+│   │       └── yes
+│   ├── nasogastric_reflux
+│   │   ├── age
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── no
+│   │   └── no
+│   ├── nasogastric_reflux_ph
+│   │   ├── no
+│   │   ├── peristalsis
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── pulse
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── rectal_temperature
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── surgery
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── yes
+│   │   └── yes
+│   ├── nasogastric_tube
+│   │   ├── abdomcentesis_total_protein
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   └── yes
+│   │   ├── yes
+│   │   └── yes
+│   ├── no
+│   └── surgery
+│       ├── mucous_membranes
+│       │   ├── no
+│       │   ├── no
+│       │   ├── yes
+│       │   ├── yes
+│       │   ├── yes
+│       │   └── yes
+│       └── yes
+├── nasogastric_reflux_ph
+│   ├── abdomen
+│   │   ├── mucous_membranes
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── mucous_membranes
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── nasogastric_tube
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── no
+│   │   └── outcome
+│   │       ├── no
+│   │       ├── yes
+│   │       └── yes
+│   ├── abdominocentesis_appearance
+│   │   ├── no
+│   │   ├── no
+│   │   └── peristalsis
+│   │       ├── no
+│   │       ├── yes
+│   │       ├── yes
+│   │       └── yes
+│   ├── nasogastric_reflux
+│   │   ├── age
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── no
+│   │   └── no
+│   ├── nasogastric_reflux_ph
+│   │   ├── no
+│   │   ├── peristalsis
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── pulse
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── rectal_temperature
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── surgery
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── yes
+│   │   └── yes
+│   ├── nasogastric_tube
+│   │   ├── abdomcentesis_total_protein
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   ├── no
+│   │   │   └── yes
+│   │   ├── yes
+│   │   └── yes
+│   ├── no
+│   └── surgery
+│       ├── mucous_membranes
+│       │   ├── no
+│       │   ├── no
+│       │   ├── yes
+│       │   ├── yes
+│       │   ├── yes
+│       │   └── yes
+│       └── yes
+├── no
+└── pain
+    ├── no
+    ├── no
+    ├── no
+    ├── yes
+    └── yes
+
+Run: : 5
+nasogastric_tube
+├── abdomen
+│   ├── no
+│   ├── no
+│   ├── no
+│   ├── no
+│   └── yes
+├── nasogastric_reflux
+│   ├── no
+│   ├── yes
+│   └── yes
+└── total_protein
+    ├── no
+    ├── no
+    ├── no
+    ├── no
+    ├── no
+    ├── yes
+    └── yes
+
+Run: : 6
+total_protein
+├── abdominocentesis_appearance
+│   ├── no
+│   ├── yes
+│   └── yes
+├── abdominocentesis_appearance
+│   ├── no
+│   ├── yes
+│   └── yes
+├── no
+├── no
+├── pulse
+│   ├── no
+│   ├── no
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   └── yes
+├── yes
+└── yes
+
+Run: : 7
+rectal_examination
+├── abdomcentesis_total_protein
+│   ├── no
+│   ├── no
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   └── yes
+├── abdominal_distension
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   └── yes
+├── abdominal_distension
+│   ├── no
+│   ├── no
+│   ├── yes
+│   └── yes
+└── rectal_examination
+    ├── no
+    ├── no
+    ├── yes
+    └── yes
+
+Run: : 8
+total_protein
+├── mucous_membranes
+│   ├── no
+│   ├── no
+│   ├── no
+│   ├── no
+│   ├── yes
+│   └── yes
+├── mucous_membranes
+│   ├── no
+│   ├── no
+│   ├── no
+│   ├── no
+│   ├── yes
+│   └── yes
+├── rectal_examination
+│   ├── no
+│   ├── no
+│   ├── no
+│   └── yes
+├── rectal_examination
+│   ├── no
+│   ├── no
+│   ├── no
+│   └── yes
+├── rectal_examination
+│   ├── no
+│   ├── no
+│   ├── no
+│   └── yes
+├── rectal_examination
+│   ├── no
+│   ├── no
+│   ├── no
+│   └── yes
+└── rectal_examination
+    ├── no
+    ├── no
+    ├── no
+    └── yes
+
+Run: : 9
+age
+├── capillary_refill_time
+│   ├── peristalsis
+│   │   ├── nasogastric_tube
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── nasogastric_tube
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   ├── outcome
+│   │   │   ├── no
+│   │   │   ├── yes
+│   │   │   └── yes
+│   │   └── temp_extremities
+│   │       ├── no
+│   │       ├── no
+│   │       ├── yes
+│   │       └── yes
+│   ├── yes
+│   └── yes
+└── yes
+
+Run: : 10
+abdominal_distension
+├── age
+│   ├── no
+│   └── yes
+├── mucous_membranes
+│   ├── no
+│   ├── no
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   └── yes
+├── mucous_membranes
+│   ├── no
+│   ├── no
+│   ├── yes
+│   ├── yes
+│   ├── yes
+│   └── yes
+└── no
+
